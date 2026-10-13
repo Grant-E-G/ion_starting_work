@@ -2,6 +2,8 @@
 
 October 12, 2026. Primary-literature review and proposed study design. No model scores, new variants, laboratory results, collaborator commitments or supplier quotes are claimed.
 
+**Current scope:** the [funding-stage POC correction](funding_stage_poc_scope.md) supersedes this document's electrophysiology recommendation and paid-service roadmap. The goal is a meaningful functional membrane-protein engineering result using a simple workflow supplied to a force-multiplier partner. GtACR2 should be selected for the first batch only if an accessible functional readout fits that workflow. The cost ladder below remains background for later validation, not the current proposed project.
+
 ## Partner-fit correction
 
 The user clarified that the partner is a lab-automation AI startup and challenged light-controlled patch clamp as an impractical default. **The direct pilot remains a scientifically strong test, but is no longer the recommended default task for this partner.** It is an external-validation option only if an established provider can accept the scope. Do not ask the startup to acquire a rig, train operators, or commission optically enabled automated electrophysiology for this project.

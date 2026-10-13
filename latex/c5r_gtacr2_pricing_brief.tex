@@ -1,0 +1,59 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,landscape,margin=0.45in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,booktabs,array}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\pagestyle{empty}
+\definecolor{ink}{HTML}{19354B}
+\definecolor{pale}{HTML}{EDF3F7}
+\definecolor{green}{HTML}{E6F3EA}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.16}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\begin{document}
+{\Large\bfseries\color{ink} C5R + GtACR2: readout prices and practical fit}\hfill October 12, 2026
+
+\textbf{Publicly documented:} C5R's physical-task appendices name a CLARIOstar Plus reader, Hamilton STARlet and thermocycler; small-volume temperature control/heater-shaker equipment is also listed. No new plate reader is budgeted. Optional reader configuration and functional bacterial expression remain separate conditions.
+
+\textbf{Budget basis:} control-only bacterial pilot, WT + known controls + empty vector. Shared preparation/controls \textbf{\$700--1,550 estimate}; readout-specific supplies added below. In-kind staff and existing reader/basic lab access. No new light, tax/shipping or open-ended commissioning included. Prices are whole packs, not prorated usage.
+
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{1.42in}>{\raggedright\arraybackslash}p{2.05in}>{\raggedright\arraybackslash}p{1.35in}Y@{}}
+\toprule
+\rowcolor{pale}\textbf{Option} & \textbf{Public readout purchase price} & \textbf{Control-pilot cash estimate} & \textbf{Fit / limitation} \\
+\midrule
+\rowcolor{green}HPTS fluorescent pH & \$25 / 100 mg (AbMole) & \$725--1,675 & \textbf{First choice.} Transfer the published bacterial pH phenotype to fluorescence. \\
+SNARF fluorescent pH & \$522 / 1 mg (Fisher, free acid) & \$1,272--2,222 & Shifted spectral detection; higher purchase cost. \\
+\rowcolor{green}DiSC3(5) voltage & \$55 / 25 mg (APExBIO) & \$805--1,755 & \textbf{Supporting choice.} Not chloride-specific; control viability and dye effects. \\
+MQAE chloride & \$206 / 50 mg (Dojindo) & \$956--1,906 & Reader model supports relevant UV range; loading/retention transfer needed. \\
+Iodide endpoint kit & \$846 / 10 plates (directory listing) & \$1,646--2,646 & Indicative price. Absorbance-module condition; bacterial loading/washing must work. \\
+HydroPlate pH & Quote-only: $Q_H$ & $Q_H$ + \$750--1,700 & No numerical supplier quote found. Bottom reading; response/resolution limitations. \\
+YFP bacterial reporter & \$94 academic plasmid; company source unpriced & \$1,100--2,550 & Uses construction allowance, not assumed academic access; extra reporter/calibration. \\
+ClopHensor bacterial & \$94 academic plasmid; company source unpriced & \$1,250--2,850 & More expression/calibration work; allowance, not a company supplier quote. \\
+BacLight voltage kit & \$378 / kit (Thermo US) & \$1,178--2,128 + flow access & Validated kit workflow is flow cytometry; no public C5R flow evidence located. \\
+FLIPR voltage chemistry & \$804 family storefront anchor & \$1,704--2,854 & Exact desired SKU unresolved; bacterial assay transfer unverified. \\
+ORCHID neuronal imaging & Labeling dye / imaging quote-only & Quotes + \$1--3k supplies & Partial allowance only; outside the minimal partner workflow. \\
+Liposome fluorescence & \$1,355.66 extruder set (VWR) & \$3,655.66--7,355.66 & Assumes purification access; excludes missing equipment and new light. High development effort. \\
+Electrode pH & \$420--545 meter-family anchor & \$1,400--3,000 & Total uses a \$600--1,200 setup allowance. Fast trace/probe suitability unverified. \\
+\bottomrule
+\end{tabularx}
+
+\textbf{Shared illumination:} if a compatible calibrated fixture is available, use it. Otherwise reserve \textbf{\$1,500--2,000 once}: LED listing \$261.20 + optical meter listing \$743.59 + estimated driver/power/fixture supplies. This is a bench setup, not a turnkey 96-well illuminator. Do not multiply this cost by every readout.
+
+\textbf{Recommended bounded first batch:} HPTS + DiSC3(5), \textbf{\$80 headline detector purchases}, approximately \textbf{\$830--1,880} total with existing light or \textbf{\$2,330--3,880} with budgeted new light. Detector/matrix checks first; then reproduce channel/light-dependent functional controls before adding predicted variants.
+
+\textbf{Interpretation:} budgets are planning allowances, not lab-service quotes or demonstrated assay performance. Reader possession is established; membrane expression and readout transfer are not. Quote-only entries remain incomplete. No partner follow-up is needed to identify already documented equipment.
+
+\scriptsize
+\href{https://c5r.net/sciuniverse/suites/pcr-recovery/}{C5R physical reader/robot evidence};
+\href{https://c5r.net/sciuniverse/suites/cfps-sfgfp/}{C5R preparation evidence};
+\href{https://www.abmole.com/products/8-hydroxypyrene-1-3-6-trisulfonic-acid.html}{HPTS price};
+\href{https://www.apexbt.com/disc3-5.html}{DiSC3(5) price};
+\href{https://www.dojindo.com/products/M024/}{MQAE price};
+\href{https://shop.moleculardevices.com/collections/assay-kits/products/flipr-membrane-potential-assay-kit}{FLIPR family price}.
+\par
+Detailed sources/assumptions: \texttt{notes/c5r\_gtacr2\_pricing.md}. Editable costs: \texttt{sources/c5r\_gtacr2\_prices.csv}. No orders, messages or experiments performed.
+\end{document}

@@ -1,0 +1,59 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,landscape,margin=0.45in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,booktabs,array}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\pagestyle{empty}
+\definecolor{ink}{HTML}{19354B}
+\definecolor{pale}{HTML}{EDF3F7}
+\definecolor{green}{HTML}{E6F3EA}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.17}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\begin{document}
+{\LARGE\bfseries\color{ink} GtACR2: readout options for a small functional POC}\hfill October 12, 2026
+
+\textbf{Aim:} prospectively engineer an improved functional membrane-protein phenotype using a repeatable workflow we supply to the partner. No patch-clamp dependency. A controlled transport proxy can support a bounded claim.
+
+\textbf{Evidence labels:} \textbf{Exact} = demonstrated for GtACR2 in the stated setting; \textbf{Adjacent} = demonstrated in a different target/context; \textbf{Vendor} = commercial detector or protocol. Catalog availability is not a validated GtACR2 assay.
+
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{1.2in}>{\raggedright\arraybackslash}p{1.65in}>{\raggedright\arraybackslash}p{1.65in}Y@{}}
+\toprule
+\rowcolor{pale}\textbf{Readout} & \textbf{What has been done} & \textbf{Off-the-shelf example} & \textbf{Transfer gap / decision} \\
+\midrule
+pH electrode & Exact: bacterial GtACR2 transport-associated pH response & Logging pH meter/probe + controlled blue illumination & Best biological reference; manual throughput and local setup need assessment. \\
+\rowcolor{green}Fluorescent extracellular pH & Adjacent: bacterial plate pH monitoring & HPTS/pyranine; free-acid SNARF-1; compatible fluorescence reader & \textbf{Priority transfer.} No intracellular loading or extra reporter; check matrix, scattering and actuation during reading. \\
+Immobilized pH plate & Vendor: culture pH monitoring & PreSens HydroPlate HP96U; bottom-reading fluorescence & Packaged sensing, but response $<30$ s and resolution about 0.05 pH: not a drop-in first-10-s slope detector. \\
+\rowcolor{green}Endpoint iodide transport & Vendor kit + GtACR iodide-permeability precedent & AAT Screen Quest 36350; ordinary absorbance reader & \textbf{Priority endpoint.} Separate illumination/detection. Prove bacterial loading, wash/retention and matrix compatibility; measures iodide, not chloride. \\
+MQAE chloride dye & Adjacent: chloride sensing; optical Jaws pump example & Dojindo M024: \$206 / 50 mg; UV fluorescence & Conditional on UV optics. Bacterial loading/retention and intensity artifacts unresolved. Jaws precedent is a pump, not GtACR2. \\
+\rowcolor{green}Red voltage dye & Adjacent: E. coli membrane-potential measurements & DiSC3(5), AAT 22076; red fluorescence & Supporting or competing screen. Not chloride-specific; control dye effects, viability and driving force. \\
+Genetic chloride reporters & Adjacent: CFTR/YFP screening; chloride/pH sensing & YFP \#25872 or ClopHensor \#25938; \$94 academic/nonprofit plasmids & Extra reporter expression/calibration. Catalog vectors are mammalian, not bacterial expression constructs; industry access not assumed. \\
+Packaged voltage kits & Vendor: bacterial flow or mammalian screens & BacLight B34950; FLIPR voltage reagents & BacLight is flow-oriented with E. coli quantitative limitations. FLIPR bacterial/optical transfer is unverified. \\
+ORCHID / liposomes & Exact: GtACR2 neuronal voltage imaging. Adjacent: GtACR1 vesicle fluorescence & Published methods + imaging reporters or purification/reconstitution reagents & Real non-patch precedents; too much preparation/specialist equipment for the minimal partner workflow. \\
+\bottomrule
+\end{tabularx}
+
+\textbf{Select by existing apparatus:} absorbance only $\rightarrow$ iodide endpoint; visible fluorescence $\rightarrow$ extracellular pH; red channels $\rightarrow$ voltage support; UV fluorescence $\rightarrow$ MQAE. Do not develop every route simultaneously or purchase a platform for the first batch.
+
+\textbf{Bounded pilot:} calibrate the detector in representative matrix $\rightarrow$ WT / empty vector / known functional controls, dark vs light $\rightarrow$ independent preparations $\rightarrow$ four to eight prospective designs only after reproducible discrimination. Known pH-mutant ordering need not transfer to iodide or voltage. Avoid saturated endpoints and separate transport from abundance/damage.
+
+\textbf{Claim:} improved assay-specific light-dependent transport or membrane-potential phenotype, with controls and reproducibility. These plate options do not establish intrinsic conductance, millisecond gating or better neurons. Reagent price is not full assay cost; quote required for most products. No assay has been run.
+
+\scriptsize
+\textbf{Evidence:}
+\href{https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/}{GtACR2 bacterial pH};
+\href{https://www.thermofisher.com/ca/en/home/references/molecular-probes-the-handbook/ph-indicators/probes-useful-at-near-neutral-ph.html}{pH dyes};
+\href{https://www.presens.de/products/detail/hydroplate-hp96u}{HydroPlate specs};
+\href{https://www.aatbio.com/products/screen-quest-colorimetric-chloride-channel-assay-kit}{iodide kit};
+\href{https://pmc.ncbi.nlm.nih.gov/articles/PMC4764398/}{GtACR permeability};
+\href{https://www.dojindo.com/products/M024/}{MQAE};
+\href{https://www.aatbio.com/products/disc3-5-3-3-dipropylthiadicarbocyanine-iodide}{DiSC3(5)};
+\href{https://www.nature.com/articles/s41467-024-53074-y}{ORCHID}.
+\par
+Full review: \texttt{notes/gtacr2\_readout\_options.md}; editable inventory: \texttt{sources/gtacr2\_readout\_options.csv}.
+Prices/catalogs checked October 12, 2026; stock and local compatibility unverified.
+\end{document}
