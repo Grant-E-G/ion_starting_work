@@ -39,3 +39,12 @@ Code is optional and should remain subordinate to the mathematical argument unle
 - Avoid excessive code fragmentation. Longer files are acceptable when they keep related logic together.
 - Lint code aggressively. Use Black for Python formatting.
 - Shorter code is almost always better code.
+
+
+## OmpF physics feasibility experiment
+
+The local membrane-protein benchmark is documented in
+[the decision report](notes/ompf/decision_report.md), with
+[reproduction instructions](code/experiments/ompf/README.md),
+[measurement provenance](sources/ompf/measurement_manifest.json), and
+[the physical equations](math/ompf_physics_slice.md).

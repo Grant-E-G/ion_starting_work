@@ -1,0 +1,175 @@
+[
+  {
+    "pdb": "1GFM",
+    "path": "sources/ompf/structures/1GFM_assembly1.pdb",
+    "sha256": "c1228486c9e18306e27d57e06daeb097eeef3341c0d00fc39ba342219e27ef3a",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      3.5
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "D113G"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTGMLPEFGGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1GFO",
+    "path": "sources/ompf/structures/1GFO_assembly1.pdb",
+    "sha256": "a1d7ee8186dc30dd0f15eeeb62ad0303123f0d5c357fc5cff75f584a91b1f14f",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      3.3
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "R132P"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFGGDTAYSDDFFVGPVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1GFP",
+    "path": "sources/ompf/structures/1GFP_assembly1.pdb",
+    "sha256": "66c5c3a6ef6030f5679ac67f509987dc3e0168fdbc4cc09f0dac7a2213d40dff",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      2.7
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "R42C"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYACLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFGGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1GFQ",
+    "path": "sources/ompf/structures/1GFQ_assembly1.pdb",
+    "sha256": "2193dbcb077104bbe5328b7ec69044b97e2154d9ec98186261e15d1fef1b86ef",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      2.8
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "R82C"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTCLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFGGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1HXT",
+    "path": "sources/ompf/structures/1HXT_assembly1.pdb",
+    "sha256": "06ae9a035717f30d8cd5596717775875d256250cbe2ab02b67995a2f74acbe1b",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      2.4
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "R42A",
+      "R82A",
+      "D113N",
+      "E117Q",
+      "R132A"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYAALGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTALAFAGLKYADVGSFDYGRNYGVVYDALGYTNMLPQFGGDTAYSDDFFVGAVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1HXU",
+    "path": "sources/ompf/structures/1HXU_assembly1.pdb",
+    "sha256": "050bdb57016595d38e7ce483b782470f9aa9ace24f518bdda0baf694131fa276",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      3.0
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "V18K",
+      "G131K"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAKGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFGGDTAYSDDFFVKRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1HXX",
+    "path": "sources/ompf/structures/1HXX_assembly1.pdb",
+    "sha256": "0ae1a2ae8744f140b0db90a8668eaf9436e985bd1cd641a0cc495f3117491cd5",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      2.2
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "Y106F"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVFDALGYTDMLPEFGGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "1MPF",
+    "path": "sources/ompf/structures/1MPF_assembly1.pdb",
+    "sha256": "e326ebd280e28b3936256603738bf07cec566ff55e742daf4157cf130448573e",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      3.0
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [
+      "G119D"
+    ],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFDGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  },
+  {
+    "pdb": "2OMF",
+    "path": "sources/ompf/structures/2OMF_assembly1.pdb",
+    "sha256": "a612a8c85b9f41881fd4847149627a162ce55d9f396a2bfbd0eed06416960cb3",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      2.4
+    ],
+    "unresolved_mature_residues": [],
+    "experimental_mutations": [],
+    "protein_residues_first_chain": 340,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFGGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "design_template"
+  },
+  {
+    "pdb": "2ZFG",
+    "path": "sources/ompf/structures/2ZFG_assembly1.pdb",
+    "sha256": "0b0baccea01de38d8f24603b5fc3f09c5c66748e332a3fb2b7e41887e2d9a16e",
+    "models": 3,
+    "assembly_encoding": "three MODEL records are biological symmetry copies, not independent conformations",
+    "resolution_A": [
+      1.59
+    ],
+    "unresolved_mature_residues": [
+      27
+    ],
+    "experimental_mutations": [],
+    "protein_residues_first_chain": 339,
+    "sequence": "AEIYNKDGNKVDLYGKAVGLHYFSKGGENSYGGNGDMTYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDYGRNYGVVYDALGYTDMLPEFGGDTAYSDDFFVGRVGGVATYRNSNFFGLVDGLNFAVQYLGKNERDTARRSNGDGVGGSISYEYEGFGIVGAYGAADRTNLQEAQPLGNGKKAEQWATGLKYDANNIYLAANYGETRNATPITNKFTNTSGFANKTQDVLLVAQYQFDFGLRPSIAYTKSKAKDVEGIGDVDLVNYFEVGATYYFNKNMSTYVDYIINQIDSDNKLGVGSDDTVAVGIVYQF",
+    "role": "reserved_structural_diagnostic"
+  }
+]

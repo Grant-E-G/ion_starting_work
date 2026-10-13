@@ -1,0 +1,100 @@
+{
+  "critical_table_audit": "2009 Table 1 has blank experimental conductances for NQAAA, RRRRR+EE and DEERE; Bredin2002 Table1 assigns 880pS to K16A and 800pS to K16D, contrary to a 2003 discussion calling K16D a 7% gain; trust primary table",
+  "numbering": "mature 2OMF 1-340; UniProt P02931 precursor = mature +22",
+  "sources": {
+    "miedema_d127_2006": {
+      "url": "https://doi.org/10.1007/s00249-006-0084-4",
+      "full_text_url": "https://ftp.rush.edu/users/molebio/Bob_Eisenberg/Reprints/2006/D127mutants_EurBiophysJ%20July%202006.pdf",
+      "table": "1",
+      "verified": "complete primary PDF, methods and state-resolved table",
+      "warning": "reported multiple dominant conductance populations; no scalar genotype mean chosen or pooled"
+    },
+    "pezeshki2009": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2756365/",
+      "si_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0006349509012405-mmc1.pdf",
+      "table": "1 experimental column",
+      "verified": "full text, exact empty cells and downloaded supplement",
+      "warning": "22C/1MKCl given; pH6 explicitly assigned to selectivity, conductance pH not stated; missing experimental G uncertainties; main simulations use1V vs experiments50mV"
+    },
+    "bredin2002": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1222504/",
+      "full_text_url": "https://scispace.com/pdf/alteration-of-pore-properties-of-escherichia-coli-ompf-3e6psfwu6m.pdf",
+      "doi": "10.1042/bj3630521",
+      "table": "1 p525",
+      "verified": "full eight-page PDF via browser extraction; local abstract HTML",
+      "warning": "local PDF download returned 403; finite-voltage events, no zero-voltage slope; exact n and error statistic missing"
+    },
+    "miedema2004": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1304784/",
+      "table": "2",
+      "verified": "full text and Table 2",
+      "warning": "temperature not specified; error statistic not explicitly defined"
+    },
+    "phale1997": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC21228/",
+      "table": "1",
+      "verified": "full text, caption, trace",
+      "warning": "conductance event counts; calcium and voltage differ from 2004"
+    },
+    "phale2001_si": {
+      "url": "https://ndownloader.figshare.com/files/5670807",
+      "doi": "10.1021/bi010046k.s001",
+      "table": "S1 pp1-2",
+      "verified": "scanned SI viewed and manually transcribed",
+      "warning": "main-paper condition footnotes unavailable; excluded from primary validation"
+    }
+  },
+  "hashes": {
+    "sources/ompf/raw/bredin2002.html": "d30efe0850cce20090bde6d74f6d620e5acd4098150f16f80c5ccd66dde30cd7",
+    "sources/ompf/raw/nitrocefin2015.html": "e87107996e06c398caad72f04c1cf46529c97cf905ac5649e51eb6f1adeb86b9",
+    "sources/ompf/raw/p02931.json": "2579d79d43b13c340905e07df7efed1871c19dbe5a67eb133857f2d6e4df8a50",
+    "sources/ompf/raw/phale2001_si.pdf": "64de55d9ccc0960869d5338ce0b9830111e48cd195240987a2efecc730f1cf25",
+    "sources/ompf/raw/nitrocefin2015.txt": "8cb6d1e620f36c1558d11370e84522145cf0ec9c9c5f2cd1d048fcbba6846e36",
+    "sources/ompf/raw/1HXX_metadata.json": "71dd94057088575114ad468003211c5a02db9963fd3386267d44c014400db210",
+    "sources/ompf/raw/pezeshki2009_si.pdf": "8149a6163fa95af3a472a484d948067bebbf3ba35ecc2c4b476db02a28c9dc4b",
+    "sources/ompf/raw/pezeshki2009_si.txt": "e1c34359ffc4f0638961270e42b49f41e1d880e7441cb6bd294ffaa774bd3749",
+    "sources/ompf/raw/PMC1367271.xml": "36408637a91b349c09746c700c2f8bab9e62acb30a3dd5fa7ff541ec64364fe4",
+    "sources/ompf/raw/phale1997.txt": "1451b487e68face4b8c64849a229077056a26bf5afd27d5d315d3227d77db4c2",
+    "sources/ompf/raw/phale2001_open_access_metadata.json": "27460f4a50a4cd8146e1cc8de71c1463d3bb98b17d9b7d6257b46a5091821e38",
+    "sources/ompf/raw/ionization2003.html": "135eea3f46f6a3048d94f7a0e1f97808f4ddd9d804b7eb8a23f39f5c960851ea",
+    "sources/ompf/raw/miedema2007.txt": "068b27e64f30b2ae4052a03f5623ed24d588985a2dd74ff6ae65de924364212f",
+    "sources/ompf/raw/bredin2002.txt": "6fe085e503f72c7d525c7dfd3d51fc5795b9fcfb948c8d89fcf47fa2efb95fd0",
+    "sources/ompf/raw/miedema2006.txt": "a5571368345201dde5956a23678564a74d07cd3f9151014edeae20d4be11a229",
+    "sources/ompf/raw/phale2001_si_metadata.json": "f15e4eb25036f806c931ed43376b4801fcf17f47293bea4958ce3e2fa2578c1a",
+    "sources/ompf/raw/1MPF_metadata.json": "fc478889aa0b41f9004f50605a2de7dfc3efe8639d6c3aeca3986cc46171de1c",
+    "sources/ompf/raw/si_search.json": "6072711face62b39767f6f374140f5fe9da2651ad8955c94bb45d722b487d058",
+    "sources/ompf/raw/1GFM_metadata.json": "5ed14055be9c1e657980caf8ab79cd70b4806db33b1a4fd0e67e90ed2392aa65",
+    "sources/ompf/raw/PMC2756365.xml": "73ec8fbd566e8f5f4799dabf03d097101087a7ce44fc23ccd06b2e5a6eaad61b",
+    "sources/ompf/raw/1GFQ_metadata.json": "cac9ca1aa23eb4e3dfe5bc7e18a686a3784ab4f57dda4129f48f9176fb808eb5",
+    "sources/ompf/raw/phale1997_structure_search.json": "7f4ff5b2d6e3d5cfe5a46d1af5d08c6092930a5e6fb185029bdd1ef84b2d2763",
+    "sources/ompf/raw/miedema2004.txt": "727b52d00ffac79d3e2e71138e4732d724a390b3e46aa8eacdb845ca9e0cedbd",
+    "sources/ompf/raw/ionization2003.txt": "ab9459bc420b2093af1b9d490c54ba4720d852050c23d1ffa6c05b557f86242a",
+    "sources/ompf/raw/1GFO_metadata.json": "4028071846d24f7fc5d8b00b653790afcdc6b58bdd342130755e8e9b87b94201",
+    "sources/ompf/raw/1HXU_metadata.json": "dadd3b8240205b2bda89ef00ff2745f50a79572406c389ad931811d02372b073",
+    "sources/ompf/raw/miedema_d127_2006_audit.md": "be4a2d93977af3ee1d90c2e72c2b645e7132bcd347c4f69c8ac71823ddab7ad0",
+    "sources/ompf/raw/pezeshki2009.html": "15ed3c70ecb19e74d9c7eb08a3d1b2ebebda9ccdc7e432f6d58bb20e30193a39",
+    "sources/ompf/raw/phale2001_repository.html": "2beb5a5551f30ad56caf92e26a3c873560cf2bdb460c6ac9465f4e7c05b35e4d",
+    "sources/ompf/raw/miedema2006.html": "33ac9e47b8c1578268fb37804a3f11d5384015dc7fef3e669cacdd7c72f5d7c5",
+    "sources/ompf/raw/phale1997.html": "c2ce220cfa41224bee0d5cf622aefe339555d4588373bfbc3758c066aed5a936",
+    "sources/ompf/raw/miedema2007.html": "8c57cda295ae24b5290ab71fecfa645b4337d8376d8cf54e5139c974186f9e72",
+    "sources/ompf/raw/pezeshki2009.txt": "1581fdf6214352708bdb9a64c265a16110638a1c5bc5d14be53cbf2a757b9ce8",
+    "sources/ompf/raw/1GFP_metadata.json": "cfa4aa6a2c23ad871855f8e157caaab818158ae377ee687cb8a1847f23ebbf8b",
+    "sources/ompf/raw/P02931.fasta": "83ea3ddf7edabf48bbd8e56caab157d6f0720d315241e368607a4070eec1a52d",
+    "sources/ompf/raw/conductance2009_si.txt": "d17207991003ef102342e7592cfb24fd9e647813dd7a625c7a136d1f7b0f914c",
+    "sources/ompf/raw/1HXT_metadata.json": "82ff4ad40ed9814e67e3216c0c8cfc8ed5a71fb47f3defcef6c53973da30a39d",
+    "sources/ompf/raw/2ZFG_metadata.json": "403f0700b0da536a9cc75be65772d57ed77e211f7bc5d71f0c739af1cc1eb4af",
+    "sources/ompf/raw/bredin2002_table1_audit.md": "ec3e0f2ab24b640041215c9c85e9ef5ac51f61d640169881727e3ab8b006e194",
+    "sources/ompf/raw/conductance2009_si.html": "531d36d4ed721dd65eb0b4a9d335c7c4933f8f7665c8fb69ca3c6cba07820f37",
+    "sources/ompf/raw/2OMF_metadata.json": "6a93e0a42bfae26e13780f8461dd18c0449914049fd9168843554debe46788cf",
+    "sources/ompf/raw/phale2001_si.txt": "009391559b2777d7003b4a8f2ac076416b66eee634361c208c85dae6d174cda0",
+    "sources/ompf/raw/miedema2004.html": "07b42a94efc2e78054dabc83239bb49ccdbe932e6356add71ba87131c96209ff"
+  },
+  "exclusions": [
+    "deletions",
+    "disulfide double mutants",
+    "PhoE different scaffold",
+    "SI unverified conditions",
+    "calcium/selectivity not modeled"
+  ],
+  "split_policy": "All WT calibrations; all eligible mutant labels retrospective holdout. Labels already known; not a blinded or prospective trial. Conditions repeated on same constructs are not independent targets."
+}

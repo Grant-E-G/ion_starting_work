@@ -1,0 +1,5 @@
+-r requirements.txt
+openmm-cuda-12==8.6.1
+nvidia-cuda-runtime-cu12==12.6.77
+nvidia-cuda-nvrtc-cu12==12.6.77
+nvidia-cuda-nvcc-cu12==12.9.86

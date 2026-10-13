@@ -8,3 +8,11 @@ node_modules/
 dist/
 build/
 latex/render/
+
+# OmpF downloaded/generated data stays local; retain curated inputs and reports.
+/sources/ompf/prepared/
+/sources/ompf/structures/
+/sources/ompf/raw/*
+!/sources/ompf/raw/*_audit.md
+/notes/ompf/*
+!/notes/ompf/*.md

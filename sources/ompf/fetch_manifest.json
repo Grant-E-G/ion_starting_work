@@ -1,0 +1,219 @@
+[
+  {
+    "path": "raw/miedema2004.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1304784/",
+    "status": "cached",
+    "bytes": 207545,
+    "sha256": "07b42a94efc2e78054dabc83239bb49ccdbe932e6356add71ba87131c96209ff"
+  },
+  {
+    "path": "raw/phale1997.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC21228/",
+    "status": "cached",
+    "bytes": 155717,
+    "sha256": "c2ce220cfa41224bee0d5cf622aefe339555d4588373bfbc3758c066aed5a936"
+  },
+  {
+    "path": "raw/gumbart2009.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2756365/",
+    "status": "cached",
+    "bytes": 212964,
+    "sha256": "15ed3c70ecb19e74d9c7eb08a3d1b2ebebda9ccdc7e432f6d58bb20e30193a39"
+  },
+  {
+    "path": "raw/miedema2006.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1367271/",
+    "status": "cached",
+    "bytes": 210350,
+    "sha256": "33ac9e47b8c1578268fb37804a3f11d5384015dc7fef3e669cacdd7c72f5d7c5"
+  },
+  {
+    "path": "raw/bredin2002.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1222504/",
+    "status": "cached",
+    "bytes": 142549,
+    "sha256": "d30efe0850cce20090bde6d74f6d620e5acd4098150f16f80c5ccd66dde30cd7"
+  },
+  {
+    "path": "raw/nitrocefin2015.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4518837/",
+    "status": "cached",
+    "bytes": 226418,
+    "sha256": "e87107996e06c398caad72f04c1cf46529c97cf905ac5649e51eb6f1adeb86b9"
+  },
+  {
+    "path": "raw/ionization2003.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1303675/",
+    "status": "cached",
+    "bytes": 219714,
+    "sha256": "135eea3f46f6a3048d94f7a0e1f97808f4ddd9d804b7eb8a23f39f5c960851ea"
+  },
+  {
+    "path": "raw/phale2001_si.pdf",
+    "url": "https://ndownloader.figshare.com/files/5670807",
+    "status": "cached",
+    "bytes": 115941,
+    "sha256": "64de55d9ccc0960869d5338ce0b9830111e48cd195240987a2efecc730f1cf25"
+  },
+  {
+    "path": "raw/p02931.json",
+    "url": "https://rest.uniprot.org/uniprotkb/P02931.json",
+    "status": "cached",
+    "bytes": 54408,
+    "sha256": "2579d79d43b13c340905e07df7efed1871c19dbe5a67eb133857f2d6e4df8a50"
+  },
+  {
+    "path": "raw/P02931.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/P02931.fasta",
+    "status": "cached",
+    "bytes": 474,
+    "sha256": "83ea3ddf7edabf48bbd8e56caab157d6f0720d315241e368607a4070eec1a52d"
+  },
+  {
+    "path": "raw/phale2001_si_metadata.json",
+    "url": "https://api.figshare.com/v2/articles/3584901",
+    "status": "cached",
+    "bytes": 6614,
+    "sha256": "f15e4eb25036f806c931ed43376b4801fcf17f47293bea4958ce3e2fa2578c1a"
+  },
+  {
+    "path": "structures/2OMF_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/2OMF.pdb1",
+    "status": "cached",
+    "bytes": 695466,
+    "sha256": "a612a8c85b9f41881fd4847149627a162ce55d9f396a2bfbd0eed06416960cb3"
+  },
+  {
+    "path": "raw/2OMF_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/2OMF",
+    "status": "cached",
+    "bytes": 12070,
+    "sha256": "6a93e0a42bfae26e13780f8461dd18c0449914049fd9168843554debe46788cf"
+  },
+  {
+    "path": "structures/2ZFG_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/2ZFG.pdb1",
+    "status": "cached",
+    "bytes": 738477,
+    "sha256": "0b0baccea01de38d8f24603b5fc3f09c5c66748e332a3fb2b7e41887e2d9a16e"
+  },
+  {
+    "path": "raw/2ZFG_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/2ZFG",
+    "status": "cached",
+    "bytes": 14952,
+    "sha256": "403f0700b0da536a9cc75be65772d57ed77e211f7bc5d71f0c739af1cc1eb4af"
+  },
+  {
+    "path": "structures/1GFM_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1GFM.pdb1",
+    "status": "cached",
+    "bytes": 696519,
+    "sha256": "c1228486c9e18306e27d57e06daeb097eeef3341c0d00fc39ba342219e27ef3a"
+  },
+  {
+    "path": "raw/1GFM_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1GFM",
+    "status": "cached",
+    "bytes": 13103,
+    "sha256": "5ed14055be9c1e657980caf8ab79cd70b4806db33b1a4fd0e67e90ed2392aa65"
+  },
+  {
+    "path": "structures/1GFO_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1GFO.pdb1",
+    "status": "cached",
+    "bytes": 696843,
+    "sha256": "a1d7ee8186dc30dd0f15eeeb62ad0303123f0d5c357fc5cff75f584a91b1f14f"
+  },
+  {
+    "path": "raw/1GFO_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1GFO",
+    "status": "cached",
+    "bytes": 13761,
+    "sha256": "4028071846d24f7fc5d8b00b653790afcdc6b58bdd342130755e8e9b87b94201"
+  },
+  {
+    "path": "structures/1GFP_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1GFP.pdb1",
+    "status": "cached",
+    "bytes": 699840,
+    "sha256": "66c5c3a6ef6030f5679ac67f509987dc3e0168fdbc4cc09f0dac7a2213d40dff"
+  },
+  {
+    "path": "raw/1GFP_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1GFP",
+    "status": "cached",
+    "bytes": 13722,
+    "sha256": "cfa4aa6a2c23ad871855f8e157caaab818158ae377ee687cb8a1847f23ebbf8b"
+  },
+  {
+    "path": "structures/1GFQ_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1GFQ.pdb1",
+    "status": "cached",
+    "bytes": 698787,
+    "sha256": "2193dbcb077104bbe5328b7ec69044b97e2154d9ec98186261e15d1fef1b86ef"
+  },
+  {
+    "path": "raw/1GFQ_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1GFQ",
+    "status": "cached",
+    "bytes": 12612,
+    "sha256": "cac9ca1aa23eb4e3dfe5bc7e18a686a3784ab4f57dda4129f48f9176fb808eb5"
+  },
+  {
+    "path": "structures/1HXT_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1HXT.pdb1",
+    "status": "cached",
+    "bytes": 670923,
+    "sha256": "06ae9a035717f30d8cd5596717775875d256250cbe2ab02b67995a2f74acbe1b"
+  },
+  {
+    "path": "raw/1HXT_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1HXT",
+    "status": "cached",
+    "bytes": 12560,
+    "sha256": "82ff4ad40ed9814e67e3216c0c8cfc8ed5a71fb47f3defcef6c53973da30a39d"
+  },
+  {
+    "path": "structures/1HXU_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1HXU.pdb1",
+    "status": "cached",
+    "bytes": 648324,
+    "sha256": "050bdb57016595d38e7ce483b782470f9aa9ace24f518bdda0baf694131fa276"
+  },
+  {
+    "path": "raw/1HXU_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1HXU",
+    "status": "cached",
+    "bytes": 11323,
+    "sha256": "dadd3b8240205b2bda89ef00ff2745f50a79572406c389ad931811d02372b073"
+  },
+  {
+    "path": "structures/1HXX_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1HXX.pdb1",
+    "status": "cached",
+    "bytes": 685584,
+    "sha256": "0ae1a2ae8744f140b0db90a8668eaf9436e985bd1cd641a0cc495f3117491cd5"
+  },
+  {
+    "path": "raw/1HXX_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1HXX",
+    "status": "cached",
+    "bytes": 12372,
+    "sha256": "71dd94057088575114ad468003211c5a02db9963fd3386267d44c014400db210"
+  },
+  {
+    "path": "structures/1MPF_assembly1.pdb",
+    "url": "https://files.rcsb.org/download/1MPF.pdb1",
+    "status": "cached",
+    "bytes": 697653,
+    "sha256": "e326ebd280e28b3936256603738bf07cec566ff55e742daf4157cf130448573e"
+  },
+  {
+    "path": "raw/1MPF_metadata.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/1MPF",
+    "status": "cached",
+    "bytes": 11039,
+    "sha256": "fc478889aa0b41f9004f50605a2de7dfc3efe8639d6c3aeca3986cc46171de1c"
+  }
+]
