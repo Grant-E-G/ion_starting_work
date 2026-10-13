@@ -1,0 +1,52 @@
+[
+  {
+    "file": "bedbrook2019_data1.csv",
+    "bytes": 46718,
+    "sha256": "0daf395472494adf2bc583ded60f02f7937dfdc1f5da309233d7d3ada01afc4f"
+  },
+  {
+    "file": "bedbrook2019_data2.csv",
+    "bytes": 117862,
+    "sha256": "82c63c6a877e536ecb37761de5256fa75798532bf92aedbf5f17b3a838b414f6"
+  },
+  {
+    "file": "bedbrook2019_data3.csv",
+    "bytes": 1683165,
+    "sha256": "f7ff46a89e4c4443c469b1d17df2d6576dc2698460c5fd446979a832fe551cc6"
+  },
+  {
+    "file": "bedbrook2019_data4.csv",
+    "bytes": 37130,
+    "sha256": "386c60a76f625ce72208d33dff5f075ad6e1fe2d9ac8d7a1480d93b58de0decd"
+  },
+  {
+    "file": "kir2_function_mod.csv",
+    "bytes": 283405,
+    "sha256": "542e72281c5e80d41160419f28054809dad86142c9b6aac280aed28f919fee53"
+  },
+  {
+    "file": "kir2_surface_mod.csv",
+    "bytes": 286675,
+    "sha256": "9da3059871cb3a0f0d2e9c8afecf9aee7e172b3b2aafa3b5fc676c3f9b283567"
+  },
+  {
+    "file": "proteingym_reference.csv",
+    "bytes": 208734,
+    "sha256": "a8f498011532a74aa9fe556a50555a75e928c5837d19c06a87592ae04049b308"
+  },
+  {
+    "file": "proteingym_supervised_contiguous_spearman.csv",
+    "bytes": 20506,
+    "sha256": "94f0c739b3dd55a83513929ec0aa9ab039bb69dadc53772df419bee6807b2bd8"
+  },
+  {
+    "file": "proteingym_zero_shot_spearman.csv",
+    "bytes": 141235,
+    "sha256": "f432423b87f79ac9778dfac86e3d95be041d246bc618dc0a406b35b0b7466437"
+  },
+  {
+    "file": "rhomax_by_wild_type.csv.gz",
+    "bytes": 18449,
+    "sha256": "7c6d2f02cb89310378ac9897c321fbbd909fb0757ac88803dcce84f5f6b05ce3"
+  }
+]

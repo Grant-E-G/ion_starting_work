@@ -1,0 +1,11 @@
+DMS_id,DMS_total_number_mutants,seq_len,selection_assay,region_mutated,title
+ENVZ_ECOLI_Ghose_2023,1121,60,fluorescent reporter,1-60,Marginal specificity in protein interactions constrains evolution of a paralogous family
+KCNE1_HUMAN_Muhammad_2023_expression,2339,129,cell surface expression,1-128,"High-throughput functional mapping of variants in an arrhythmia gene, KCNE1, reveals novel biology"
+KCNE1_HUMAN_Muhammad_2023_function,2315,129,potassium channel function,1-128,"High-throughput functional mapping of variants in an arrhythmia gene, KCNE1, reveals novel biology"
+KCNH2_HUMAN_Kozek_2020,200,1159,Voltage,545-555,High-throughput discovery of trafficking-deficient variants in the cardiac potassium channel KCNH2: Deep mutational scan of KCNH2 trafficking
+KCNJ2_MOUSE_Coyote-Maestas_2022_function,6963,428,Ion conduction,2-392,"Determinants of trafficking, conduction, and disease within a K+ channel revealed through multiparametric deep mutational scanning"
+KCNJ2_MOUSE_Coyote-Maestas_2022_surface,6917,428,Surface trafficking,2-392,"Determinants of trafficking, conduction, and disease within a K+ channel revealed through multiparametric deep mutational scanning"
+OPSD_HUMAN_Wan_2019,165,348,Expression,4-347,Characterizing variants of unknown significance in rhodopsin: A functional genomics approach
+S22A1_HUMAN_Yee_2023_abundance,9803,553,abundance,1-549,The full spectrum of OCT1 (SLC22A1) mutations bridges transporter biophysics to drug pharmacogenomics
+S22A1_HUMAN_Yee_2023_activity,10094,553,uptake of cytotoxic substrate,1-549,The full spectrum of OCT1 (SLC22A1) mutations bridges transporter biophysics to drug pharmacogenomics
+SCN5A_HUMAN_Glazer_2019,224,2016,"drug resistance (triple-drug assay: veratridine + brevetoxin + ouabain; surrogate for sodium channel dysfunction, select against function)",1621-1632,Deep Mutational Scan of an SCN5A Voltage Sensor

@@ -1,0 +1,7 @@
+variant,phenotype_class,rounded_activity_ratio_to_wt,ratio_status,source
+E9Q,wt_like,,not numerically transcribed,https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/
+E56Q,wt_like,,not numerically transcribed,https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/
+E64Q,wt_like,,not numerically transcribed,https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/
+E159Q,lower,0.08333333333333333,derived from rounded 12-fold decrease in text,https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/
+E219Q,higher,1.9,rounded ratio in text,https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/
+D230N,lower,0.29411764705882354,derived from rounded 3.4-fold decrease in text,https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/

@@ -1,0 +1,20 @@
+{
+  "model": "facebook/esm2_t33_650M_UR50D",
+  "revision": "08e4846e537177426273712802403f7ba8261b6c",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "torch": "2.6.0+cu126",
+  "python": "3.10.9",
+  "precision": "float32",
+  "sequence_sha256": "7029c17b660bcfae44bbe48d4c4cdcc18a9d4074eac7ef2bfa2a628933a3b21d",
+  "length": 266,
+  "batch_size": 1,
+  "load_seconds": 1.75332408700001,
+  "parameters": 651043254,
+  "forward_median_seconds": 0.09078738650009655,
+  "forward_min_seconds": 0.09004600399998708,
+  "inference_peak_allocated_gib": 2.5237975120544434,
+  "inference_peak_reserved_gib": 2.59765625,
+  "scan_seconds": 0.548541570999987,
+  "scored_variants": 114,
+  "lora_smoke_status": "not requested"
+}

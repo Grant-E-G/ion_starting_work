@@ -1,0 +1,323 @@
+{
+  "bedbrook2019": {
+    "measured_records": 154,
+    "unique_sequences": 154,
+    "finite_peak_current_records": 154,
+    "finite_off_kinetics_records": 128,
+    "literature_records_data1": 61,
+    "predicted_not_measured_records_data3": 1133,
+    "feature_weights_not_variants_records_data4": 323
+  },
+  "rhomax": {
+    "rows": 884,
+    "unique_sequences": 878,
+    "train_excluding_validation": 584,
+    "validation": 116,
+    "test": 184,
+    "phenotype": "peak absorption wavelength, not ion transport",
+    "duplicate_sequences": [
+      {
+        "sequence_sha256": "bb35eb34d8035b06b22b0f43a53c4add097c15bc462302fd1fc7d66befa755c0",
+        "records": [
+          {
+            "target": "498",
+            "split": "train"
+          },
+          {
+            "target": "517",
+            "split": "train"
+          }
+        ]
+      },
+      {
+        "sequence_sha256": "37b98f5e1e0a9188683fa8ed10f45085d14cf0430f795b9a894a711b45131f51",
+        "records": [
+          {
+            "target": "525",
+            "split": "train"
+          },
+          {
+            "target": "524",
+            "split": "train"
+          }
+        ]
+      },
+      {
+        "sequence_sha256": "58dc236a71e94768599ab130d4b99ba9a62f50c4d1628714b430cc99ce951e45",
+        "records": [
+          {
+            "target": "525",
+            "split": "train"
+          },
+          {
+            "target": "525",
+            "split": "train"
+          }
+        ]
+      },
+      {
+        "sequence_sha256": "6d2ef8c2c3581b923b3e1c752f3df286579f8b05f51146cd71f3c92536309acb",
+        "records": [
+          {
+            "target": "523",
+            "split": "train"
+          },
+          {
+            "target": "523",
+            "split": "train"
+          }
+        ]
+      },
+      {
+        "sequence_sha256": "5e7135e152c88d268f33a1e500a817f7049e6969044b17d3f02e5d43ea55b6f6",
+        "records": [
+          {
+            "target": "525",
+            "split": "train"
+          },
+          {
+            "target": "525",
+            "split": "train"
+          }
+        ]
+      },
+      {
+        "sequence_sha256": "a7ecd94841198e3126de7f3c7987c78d291d5de25b2731c765d0c4e30648120e",
+        "records": [
+          {
+            "target": "530",
+            "split": "train"
+          },
+          {
+            "target": "530",
+            "split": "train"
+          }
+        ]
+      }
+    ]
+  },
+  "kir2_original_tables": {
+    "kir2_function_mod.csv": {
+      "rows": 7033,
+      "columns": [
+        "position",
+        "mutation",
+        "function_score",
+        "function_SE",
+        "function_epsilon"
+      ]
+    },
+    "kir2_surface_mod.csv": {
+      "rows": 6987,
+      "columns": [
+        "position",
+        "mutation",
+        "surface_score",
+        "surface_SE",
+        "surface_epsilon"
+      ]
+    }
+  },
+  "published_results_not_local_runs": [
+    {
+      "assay": "ENVZ_ECOLI_Ghose_2023",
+      "records_in_reference": 1121,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.172,
+        "ESM2 (3B)": 0.154,
+        "ESM2 (15B)": 0.113,
+        "ESM-C (600M)": 0.161,
+        "TranceptEVE L": 0.199,
+        "SaProt (650M)": 0.148,
+        "xTrimoPGLM-100B-int4": 0.021,
+        "AIDO Protein-RAG (16B)": 0.234
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": -0.007,
+        "ESM-1v Embeddings": 0.209,
+        "Kermut": 0.301,
+        "ProteinNPT": 0.278
+      }
+    },
+    {
+      "assay": "KCNE1_HUMAN_Muhammad_2023_expression",
+      "records_in_reference": 2339,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.106,
+        "ESM2 (3B)": 0.062,
+        "ESM2 (15B)": 0.073,
+        "ESM-C (600M)": 0.077,
+        "TranceptEVE L": 0.121,
+        "SaProt (650M)": 0.11,
+        "xTrimoPGLM-100B-int4": 0.065,
+        "AIDO Protein-RAG (16B)": 0.188
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": 0.129,
+        "ESM-1v Embeddings": 0.271,
+        "Kermut": 0.225,
+        "ProteinNPT": 0.167
+      }
+    },
+    {
+      "assay": "KCNE1_HUMAN_Muhammad_2023_function",
+      "records_in_reference": 2315,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.525,
+        "ESM2 (3B)": 0.465,
+        "ESM2 (15B)": 0.38,
+        "ESM-C (600M)": 0.564,
+        "TranceptEVE L": 0.634,
+        "SaProt (650M)": 0.642,
+        "xTrimoPGLM-100B-int4": 0.514,
+        "AIDO Protein-RAG (16B)": 0.443
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": 0.407,
+        "ESM-1v Embeddings": 0.658,
+        "Kermut": 0.683,
+        "ProteinNPT": 0.689
+      }
+    },
+    {
+      "assay": "KCNH2_HUMAN_Kozek_2020",
+      "records_in_reference": 200,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.28,
+        "ESM2 (3B)": 0.258,
+        "ESM2 (15B)": 0.248,
+        "ESM-C (600M)": 0.401,
+        "TranceptEVE L": 0.509,
+        "SaProt (650M)": 0.271,
+        "xTrimoPGLM-100B-int4": 0.159,
+        "AIDO Protein-RAG (16B)": 0.383
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": 0.456,
+        "ESM-1v Embeddings": 0.497,
+        "Kermut": 0.509,
+        "ProteinNPT": 0.504
+      }
+    },
+    {
+      "assay": "KCNJ2_MOUSE_Coyote-Maestas_2022_function",
+      "records_in_reference": 6963,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.382,
+        "ESM2 (3B)": 0.385,
+        "ESM2 (15B)": 0.388,
+        "ESM-C (600M)": 0.383,
+        "TranceptEVE L": 0.335,
+        "SaProt (650M)": 0.371,
+        "xTrimoPGLM-100B-int4": 0.334,
+        "AIDO Protein-RAG (16B)": 0.336
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": -0.004,
+        "ESM-1v Embeddings": 0.375,
+        "Kermut": 0.447,
+        "ProteinNPT": 0.365
+      }
+    },
+    {
+      "assay": "KCNJ2_MOUSE_Coyote-Maestas_2022_surface",
+      "records_in_reference": 6917,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.352,
+        "ESM2 (3B)": 0.343,
+        "ESM2 (15B)": 0.354,
+        "ESM-C (600M)": 0.31,
+        "TranceptEVE L": 0.34,
+        "SaProt (650M)": 0.351,
+        "xTrimoPGLM-100B-int4": 0.265,
+        "AIDO Protein-RAG (16B)": 0.392
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": -0.148,
+        "ESM-1v Embeddings": 0.298,
+        "Kermut": 0.455,
+        "ProteinNPT": 0.389
+      }
+    },
+    {
+      "assay": "OPSD_HUMAN_Wan_2019",
+      "records_in_reference": 165,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.552,
+        "ESM2 (3B)": 0.449,
+        "ESM2 (15B)": 0.482,
+        "ESM-C (600M)": 0.465,
+        "TranceptEVE L": 0.488,
+        "SaProt (650M)": 0.582,
+        "xTrimoPGLM-100B-int4": 0.535,
+        "AIDO Protein-RAG (16B)": 0.578
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": 0.616,
+        "ESM-1v Embeddings": 0.6,
+        "Kermut": 0.696,
+        "ProteinNPT": 0.606
+      }
+    },
+    {
+      "assay": "S22A1_HUMAN_Yee_2023_abundance",
+      "records_in_reference": 9803,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.626,
+        "ESM2 (3B)": 0.599,
+        "ESM2 (15B)": 0.566,
+        "ESM-C (600M)": 0.621,
+        "TranceptEVE L": 0.633,
+        "SaProt (650M)": 0.63,
+        "xTrimoPGLM-100B-int4": 0.55,
+        "AIDO Protein-RAG (16B)": 0.618
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": -0.066,
+        "ESM-1v Embeddings": 0.653,
+        "Kermut": 0.708,
+        "ProteinNPT": 0.647
+      }
+    },
+    {
+      "assay": "S22A1_HUMAN_Yee_2023_activity",
+      "records_in_reference": 10094,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.575,
+        "ESM2 (3B)": 0.547,
+        "ESM2 (15B)": 0.525,
+        "ESM-C (600M)": 0.558,
+        "TranceptEVE L": 0.601,
+        "SaProt (650M)": 0.542,
+        "xTrimoPGLM-100B-int4": 0.492,
+        "AIDO Protein-RAG (16B)": 0.621
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": -0.036,
+        "ESM-1v Embeddings": 0.617,
+        "Kermut": 0.693,
+        "ProteinNPT": 0.63
+      }
+    },
+    {
+      "assay": "SCN5A_HUMAN_Glazer_2019",
+      "records_in_reference": 224,
+      "zero_shot_spearman": {
+        "ESM2 (650M)": 0.183,
+        "ESM2 (3B)": 0.152,
+        "ESM2 (15B)": 0.125,
+        "ESM-C (600M)": 0.115,
+        "TranceptEVE L": 0.152,
+        "SaProt (650M)": 0.232,
+        "xTrimoPGLM-100B-int4": 0.19,
+        "AIDO Protein-RAG (16B)": 0.137
+      },
+      "supervised_contiguous_spearman": {
+        "One-Hot Encodings": 0.123,
+        "ESM-1v Embeddings": 0.053,
+        "Kermut": 0.193,
+        "ProteinNPT": 0.117
+      }
+    }
+  ]
+}

@@ -1,8 +1,16 @@
 # Ion-channel optimization proof of concept
 
-Updated October 12, 2026. Current phase: feasibility and novelty; modeling follows.
+Updated October 13, 2026. Current phase: modeling feasibility before revisiting target/readout choice.
+
+The [local protein-model benchmark](protein_model_benchmark.md) compares ESM-2 650M, ESM C 600M and AMPLIFY 350M on the user's RTX 3080 16 GB. All pass local inference and adapter optimization. None provides convincing direct likelihood-to-transport ranking on the six-mutant diagnostic. Next determine whether compatible phenotype data supports directional prediction and fine-tuning; model choice and GtACR2 selection remain open. The original feasibility-first statement below describes the prior phase.
 
 ## Question and current decision
+
+The [physics-based membrane-function search](physics_based_membrane_function.md) evaluates the user's fold → physical function → optimizer architecture. Direct MD has functional precedents; reduced transport/kinetic objectives and differentiable force fields are potential components. Differentiability of parameters is distinct from validated gradients of mutant function. Assess a bounded reference functional simulation and reduced-objective gradients before building a sequence optimizer; no physical simulation has yet run.
+
+The [model taxonomy and evidence requirements](protein_model_taxonomy_and_evidence.md) qualifies all model comparisons: coordinate prediction, evolutionary sequence plausibility and assay-specific phenotype prediction are different tasks. Published correlations are screening evidence, not validated engineering capability. Require grouped evaluation, realistic label budgets and above-reference selection before model/target acceptance.
+
+The [nearby dataset/model audit](nearby_modeling_datasets.md) now governs the computational gate: GtACR2 has not passed useful-design feasibility. Retrieved channelrhodopsin and Kir2.1 data support larger tests; published assay-level results include heavier models and supervised alternatives. Demonstrate modeling signal on relevant larger datasets and test transfer before returning to the physical target/readout decision. Do not accept an unsupported GtACR2 experiment merely because its assay can be made inexpensive.
 
 The [funding-stage scope correction](funding_stage_poc_scope.md) governs this project: demonstrate meaningful engineering of a biologically relevant membrane protein with a simple supplied workflow. The partner is a force multiplier, not a CRO. Patch clamp and external specialist validation are outside the current milestone. Choose the target/readout pair to fit actual routine capabilities; a controlled functional proxy can be sufficient for a correctly bounded POC claim.
 
