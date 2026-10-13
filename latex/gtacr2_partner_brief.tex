@@ -1,0 +1,55 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,landscape,margin=0.42in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,booktabs,array}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\pagestyle{empty}
+\definecolor{ink}{HTML}{19354B}
+\definecolor{pale}{HTML}{EDF3F7}
+\definecolor{green}{HTML}{E6F3EA}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.2}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\begin{document}
+{\LARGE\bfseries\color{ink} GtACR2: choose the experiment by the claim}\hfill October 12, 2026
+
+\textbf{Conclusion:} GtACR2 is scientifically feasible, but not yet a low-setup project for a lab-automation startup. Use existing bacterial transport capability if available; otherwise defer wet-lab work or outsource functional validation. Do not build a patch-clamp capability for this pilot.
+
+\textbf{Recommended objective:} faster current shutoff while retaining useful low-light current. Freeze the tradeoff and analysis before choosing variants. Greater expression, current and intrinsic conductance are different claims.
+
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{1.12in}>{\raggedright\arraybackslash}p{1.58in}>{\raggedright\arraybackslash}p{0.82in}>{\raggedright\arraybackslash}p{0.86in}>{\raggedright\arraybackslash}p{1.25in}Y@{}}
+\toprule
+\rowcolor{pale}\textbf{Scope} & \textbf{Panel / method} & \textbf{Materials only} & \textbf{Paid project} & \textbf{Human effort / time} & \textbf{What we can establish} \\
+\midrule
+0. Define and audit & Exact construct, labels, objective and baselines & \$0--300 & \$0--300 cash & 12--24 research h; 2--5 days & Ready specification or evidence of a data gap; no new biology. \\
+1. Bacterial readiness & WT + published high/low controls + empty vector & \$0.5--1.5k & \$2.5--6k & 20--40 h; 2--4 weeks & Reproducible local pH transport proxy. No new designs. \\
+2. Bacterial design pilot & Controls + four future designs; pH and abundance & \$1.5--3.5k & \$6--12k & 40--80 h; 3--6 weeks & Predicted variants alter a controlled proxy; neural effects remain open. \\
+\rowcolor{green}3. Direct pilot\newline\textbf{External option} & HEK patch clamp: WT + two designs + mock; about 24 usable cells & \$1--2.5k & \$5--10k & 28--56 h; 3--6 weeks & Initial direct current/kinetic signal at an existing qualified facility. \\
+4. Stronger channel POC & Six designs + reference/controls; about 108 usable cells incl. fresh confirmation & \$2--5k & \$13--26k & 76--144 h; 6--10 weeks & Replicated functional improvement in specified conditions. \\
+5. Ideal neural POC & Two rounds, 12--24 designs; HEK confirmation then 2--3 neuron finalists & \$6--16k & \$40--80k & 240--440 h; 12--24 weeks & Prospective design-loop evidence and improved inhibition in defined neurons. \\
+\bottomrule
+\end{tabularx}
+
+\textbf{Partner-fit gate:} start at 0. Go to 1 only if existing bacterial apparatus supports the transport assay; proceed to 2 only if controls pass. Use 3--5 through an established external electrophysiology facility. Without either route, defer GtACR2 experiments. A new fluorescent plate assay is development work, not a shortcut.
+
+\textbf{Budget assumptions:} USD estimates, not quotes. Each row is a standalone scope, not an add-on price. Materials-only assumes staff/equipment in kind. Paid projects assume \$75/h preparation/analysis, \$150/h electrophysiology and 25\% contingency; do not double-count a recording technician. Level 0 research effort is in kind. Existing trained workflows required; no new rig/lab, procurement delays or computing-task validation included. Missing bacterial measurement/lighting: separately quote a provisional \$1--4k equipment allowance plus commissioning.
+
+\textbf{Decision gates:} reproduce controls $\rightarrow$ confirm direct function $\rightarrow$ repeat hits independently $\rightarrow$ test neuronal inhibition against stGtACR2. Pilot cell counts are planning targets, not power guarantees. Voltages, light dose, abundance and preparation-day variation must be controlled.
+
+\textbf{Ask the partner:} Which apparatus already exists? Who supplies verified constructs? What cash/in-kind ceiling fits? Request a capped pilot quote with usable recordings, optical calibration, raw data and repeat/stop rules. Academic-only catalog access is not assumed for a company.
+
+\scriptsize
+\textbf{Evidence / price anchors:}
+\href{https://pmc.ncbi.nlm.nih.gov/articles/PMC6194965/}{Kojima 2018: bacterial proxy};
+\href{https://pubmed.ncbi.nlm.nih.gov/42139291/}{Sineshchekov 2026: voltage-dependent closing};
+\href{https://pubmed.ncbi.nlm.nih.gov/30297821/}{Mahn 2018: soma targeting};
+\href{https://www.nature.com/articles/s41592-019-0583-8}{Bedbrook 2019: ML prior art};
+\href{https://www.addgene.org/67877/}{Addgene \#67877: \$94, academic/nonprofit only};
+\href{https://www.twistbioscience.com/products/genes?tab=overview}{Twist: fragments from \$0.07/bp};
+\href{https://research.gatech.edu/bio/research/core-facilities/neuroscience-core/service-fees}{Georgia Tech: external patch \$150/h}.
+Details: \texttt{notes/gtacr2\_decision\_and\_budget.md}; editable inputs: \texttt{sources/gtacr2\_budget\_scenarios.csv}. Planning only; no new variants or experiments completed.
+\end{document}

@@ -1,45 +1,26 @@
-# Research Plan: Project Name
+# Ion-channel optimization proof of concept
 
-## 1. Core Question
+Updated October 12, 2026. Current phase: feasibility and novelty; modeling follows.
 
-What mathematical question is this project trying to answer?
+## Question and current decision
 
-## 2. Thesis
+Can a small reproducible design process predict a useful ion-channel functional change beyond established engineering heuristics, with a practical experimental burden?
 
-What is the main claim, expected theorem, or conceptual contribution?
+See [the initial sourced assessment](ion_channel_feasibility_novelty.md) and the more detailed [GtACR2 decision and budget](gtacr2_decision_and_budget.md). GtACR2 is the leading neural-relevance research track. E. coli MscL is a conditional workflow benchmark. The partner is a lab-automation AI startup: direct optical electrophysiology is an external-validation option, not a default partner task. Consider a bacterial control-only pilot only if its existing apparatus fits; otherwise defer GtACR2 wet-lab work. Obtain a capped scope/quote before assuming lab readiness.
 
-## 3. Mathematical Setting
+The [inherited handoff](membrane_protein_computational_viability_agent_brief.md) is background. Organizational capabilities, conversations, financing and commitments in it remain unverified. The user's feasibility-first instruction takes precedence over its immediate modeling requirements.
 
-Specify the objects, assumptions, categories, spaces, equations, or structures involved.
+## Intended contribution
 
-## 4. Definitions Needed
+Limited-data prediction of a specified functional phenotype, demonstrated prospectively against frozen literature/structure heuristics at equal candidate budget. Agent orchestration alone is not the contribution. Eventual neuronal utility needs a defined task and comparison with existing actuators.
 
-List definitions that must be made precise before the main result can be stated.
+## Next phase, before model selection
 
-## 5. Candidate Theorems
+1. Select one endpoint and assay context.
+2. Retrieve exact source sequences, construct definitions and numerical phenotype tables; audit numbering and abundance controls.
+3. Count independent residues/constructs/studies and determine whether meaningful held-out validation is possible.
+4. Freeze naive and literature/structure baselines before scoring.
+5. Evaluate a manageable pretrained model only after defining the prediction target; sequence plausibility is not automatically directional function.
+6. Advance to candidate hypotheses only if data quality and retrospective signal justify them; preserve negative findings.
 
-State theorem targets, even if provisional.
-
-## 6. Proof Strategy
-
-Describe the intended proof route, major lemmas, reductions, and technical bottlenecks.
-
-## 7. Examples and Non-Examples
-
-Track examples, counterexamples, sanity checks, and edge cases.
-
-## 8. Related Literature
-
-Record papers, books, and adjacent results.
-
-## 9. Risks and Unknowns
-
-Name weak points, missing hypotheses, unclear definitions, and possible failure modes.
-
-## 10. Paper Structure
-
-Sketch the eventual manuscript organization.
-
-## 11. Optional Computation
-
-List any symbolic checks, toy examples, numerical probes, or figure-generation tasks.
+No models were run or optimized variants proposed during the feasibility phase.

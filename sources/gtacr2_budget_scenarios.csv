@@ -1,0 +1,7 @@
+tier,scope,materials_low_usd,materials_high_usd,prep_analysis_hours_low,prep_analysis_hours_high,recording_hours_low,recording_hours_high,prep_rate_usd_hour,recording_rate_usd_hour,contingency_fraction,calculated_paid_low_usd,calculated_paid_high_usd,communication_range_usd,elapsed_weeks_low,elapsed_weeks_high,assumptions
+0,Specification and data audit,0,300,0,0,0,0,75,150,0,0,300,0-300 cash,0.4,1,Assessor contributes 12-24 research hours in kind; no lab work; no models run yet
+1,Bacterial control-only readiness,500,1500,20,40,0,0,75,150,0.25,2500,5625,2500-6000,2,4,Existing basic bacterial lab plus compatible optical pH apparatus; equipment acquisition excluded
+2,Bacterial design pilot with four new designs,1500,3500,40,80,0,0,75,150,0.25,5625,11875,6000-12000,3,6,Standalone scope includes control readiness and small design batch; existing apparatus required
+3,Direct HEK pilot with WT two designs and mock,1000,2500,20,40,8,16,75,150,0.25,4625,9875,5000-10000,3,6,Existing HEK and optically enabled manual patch setup; about 24 usable cells; rate is public anchor not quote
+4,Stronger HEK POC with six designs and confirmation,2000,5000,40,80,36,64,75,150,0.25,13000,25750,13000-26000,6,10,Existing setup; 72 initial usable recordings plus 36 fresh confirmation recordings; sample sizes provisional
+5,Two-round design loop plus neuronal validation,6000,16000,120,240,120,200,75,150,0.25,41250,80000,40000-80000,12,24,Standalone complete scope with existing neuronal culture and optogenetic electrophysiology; computing task excluded
