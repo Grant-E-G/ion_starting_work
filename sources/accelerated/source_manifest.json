@@ -1,0 +1,171 @@
+{
+  "repositories": {
+    "Graylab/Implicit-Membrane-Energy-Function-Benchmark": "2fd2ae77dd7ebeb4bf698e3c1dec2771ac4e4e0a",
+    "dauparas/LigandMPNN": "26ec57ac976ade5379920dbd43c7f97a91cf82de",
+    "brianhie/efficient-evolution": "e9e8f610a5b4b3f48515741323209232faaf5039",
+    "dauparas/ProteinMPNN": "8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+    "ShufflerBardOnTheEdge/MemPrO": "c8a1f6488833163dd3e58c8b4d19254bddc920b5",
+    "enordquist/bkpred": "2a176386ac4658e10c42d8cd234c710950b288fb"
+  },
+  "resources": [
+    {
+      "name": "mpnn_utils.py",
+      "url": "https://raw.githubusercontent.com/dauparas/ProteinMPNN/8907e6671bfbfc92303b5f79c4b5e6ce47cdef57/protein_mpnn_utils.py",
+      "sha256": "74c8f9b7553422a7a0bbd705874844ee103c8926c2c96f154a87e0b824071e1b",
+      "bytes": 63491
+    },
+    {
+      "name": "mpnn.pt",
+      "url": "https://raw.githubusercontent.com/dauparas/ProteinMPNN/8907e6671bfbfc92303b5f79c4b5e6ce47cdef57/vanilla_model_weights/v_48_020.pt",
+      "sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+      "bytes": 6681301
+    },
+    {
+      "name": "ompla.pdb",
+      "url": "https://raw.githubusercontent.com/Graylab/Implicit-Membrane-Energy-Function-Benchmark/2fd2ae77dd7ebeb4bf698e3c1dec2771ac4e4e0a/targets/stability/C1_OmpLA_canonical_ddGs/1qd6.pdb",
+      "sha256": "92010107536cd6986a0730a2bc29b90145b12e0af7fed032d7d17746b8f3bb79",
+      "bytes": 155160
+    },
+    {
+      "name": "pagp.pdb",
+      "url": "https://raw.githubusercontent.com/Graylab/Implicit-Membrane-Energy-Function-Benchmark/2fd2ae77dd7ebeb4bf698e3c1dec2771ac4e4e0a/targets/stability/C2_PagP_canonical_ddGs/3gp6_A.pdb",
+      "sha256": "027cbed532b540eceabfd5d28c9e209bba1df08258dfdde21edc6671c6c6f40f",
+      "bytes": 101902
+    },
+    {
+      "name": "OmpLA_Moon_Fleming_set.dat",
+      "url": "https://raw.githubusercontent.com/Graylab/Implicit-Membrane-Energy-Function-Benchmark/2fd2ae77dd7ebeb4bf698e3c1dec2771ac4e4e0a/targets/stability/C1_OmpLA_canonical_ddGs/OmpLA_Moon_Fleming_set.dat",
+      "sha256": "70708e704658521238b8d2e3b48511a83d95004f1639ba826733d5a260c8bc35",
+      "bytes": 5084
+    },
+    {
+      "name": "PagP_Marx_Fleming_set.dat",
+      "url": "https://raw.githubusercontent.com/Graylab/Implicit-Membrane-Energy-Function-Benchmark/2fd2ae77dd7ebeb4bf698e3c1dec2771ac4e4e0a/targets/stability/C2_PagP_canonical_ddGs/PagP_Marx_Fleming_set.dat",
+      "sha256": "091a6bcb64143bd153133a66537193fc2d6ca8d2bc004301285dc1c72ae39eef",
+      "bytes": 3868
+    },
+    {
+      "name": "5ZIH.pdb",
+      "url": "https://files.rcsb.org/download/5ZIH.pdb",
+      "sha256": "521ebb72ca172ec4e1d92c838e1ca7c7d2d90f809bacfb59b463b52dd5809117",
+      "bytes": 484299
+    },
+    {
+      "name": "5ZIH.fasta",
+      "url": "https://www.rcsb.org/fasta/entry/5ZIH/display",
+      "sha256": "43120a0d35c14d32995b2dfcaac9a4567222ccd6bdd0f89e5f4eaa038f4dfe83",
+      "bytes": 426
+    },
+    {
+      "name": "chrimson.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13192664/fullTextXML",
+      "sha256": "339fff0275a42b0d2fb27d1061f5c2cca6aabc55b8f6caf1445698744d806ef3",
+      "bytes": 87252
+    },
+    {
+      "name": "chrimson_supp.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13192664/supplementaryFiles",
+      "sha256": "faaf8927cfacb35199944a7df4db339a6b587dd1b07ffedeff24d6cd560dd7a9",
+      "bytes": 892486
+    },
+    {
+      "name": "kcne1_article.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11138074/fullTextXML",
+      "sha256": "5828e9998fdcc4373b8e9b2b0bfa4236553555d096742fc819723315131827bf",
+      "bytes": 177193
+    },
+    {
+      "name": "kcne1_supp.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11138074/supplementaryFiles",
+      "sha256": "d181999727cbecb3d41e2fb8cba8003faa4f94dbd4ec1a5708b92331b99d10b9",
+      "bytes": 15793252
+    },
+    {
+      "name": "ligand_data_utils.py",
+      "url": "https://raw.githubusercontent.com/dauparas/LigandMPNN/26ec57ac976ade5379920dbd43c7f97a91cf82de/data_utils.py",
+      "sha256": "a39c4674977786f9fa697f962d4e91ec79989ede30a79ad389d698291d0484c8",
+      "bytes": 23352
+    },
+    {
+      "name": "ligand_model_utils.py",
+      "url": "https://raw.githubusercontent.com/dauparas/LigandMPNN/26ec57ac976ade5379920dbd43c7f97a91cf82de/model_utils.py",
+      "sha256": "5ad8f6992f83cdd1c97103e19c80833afff2bff201662a23bcb06eae669f0f95",
+      "bytes": 65727
+    },
+    {
+      "name": "global_label_membrane_mpnn_v_48_020.pt",
+      "url": "https://files.ipd.uw.edu/pub/ligandmpnn/global_label_membrane_mpnn_v_48_020.pt",
+      "sha256": "89ef0abddbfb956c4c7c02dcba6523c0b5152733055f7509292365eaecc38b21",
+      "bytes": 6751499
+    },
+    {
+      "name": "ligandmpnn_v_32_010_25.pt",
+      "url": "https://files.ipd.uw.edu/pub/ligandmpnn/ligandmpnn_v_32_010_25.pt",
+      "sha256": "161cd264061fda9680cbb940255522ae42f2966c552d045d87913d9452a80970",
+      "bytes": 10541943
+    },
+    {
+      "name": "proteinmpnn_v_48_020.pt",
+      "url": "https://files.ipd.uw.edu/pub/ligandmpnn/proteinmpnn_v_48_020.pt",
+      "sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+      "bytes": 6681301
+    },
+    {
+      "name": "MemPrO.py",
+      "url": "https://raw.githubusercontent.com/ShufflerBardOnTheEdge/MemPrO/c8a1f6488833163dd3e58c8b4d19254bddc920b5/mempro/MemPrO.py",
+      "sha256": "fdce4792d4fa6595edcf665f958a4e78d627e4e12f4931a86cd9e88ac51f0eeb",
+      "bytes": 154497
+    },
+    {
+      "name": "martini_v3.itp",
+      "url": "https://raw.githubusercontent.com/ShufflerBardOnTheEdge/MemPrO/c8a1f6488833163dd3e58c8b4d19254bddc920b5/mempro/martini_v3.itp",
+      "sha256": "e40f711c27725b3d2eb5325d637b0b421805d0604747ffa0cff05dfeb9b20193",
+      "bytes": 16636449
+    },
+    {
+      "name": "bk_README",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/README",
+      "sha256": "908d5a3caf49da50e9469ba2fe81b5d458a8995145855b5b6c6d67b36ddb31c5",
+      "bytes": 2109
+    },
+    {
+      "name": "bk_data_BK_mutations.xlsx",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/BK_mutations.xlsx",
+      "sha256": "e06e05d469f282712b0e4986bfd0f8266a50ff47a612d6805da1c485475d4488",
+      "bytes": 98793
+    },
+    {
+      "name": "bk_data_scores.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scores.csv",
+      "sha256": "f4894a989f0abe5a27c553dd5f137e632452b8a8a5bf16a37f1ad3b150f7a8fb",
+      "bytes": 122098
+    },
+    {
+      "name": "bk_py_kfoldCI_plot_testCV.py",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/py/kfoldCI_plot_testCV.py",
+      "sha256": "d2c4e5dfec83838035ccf13989777669a73f1dad83a10638f2b39bee5a9f2dfd",
+      "bytes": 2906
+    },
+    {
+      "name": "bk_py_kfoldCI_write_preds.py",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/py/kfoldCI_write_preds.py",
+      "sha256": "046251ff4ec295b554b92310d39fd591025c597fec2c37ca700ef4c14c4a00ce",
+      "bytes": 3742
+    },
+    {
+      "name": "bk_py_scan-CI.py",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/py/scan-CI.py",
+      "sha256": "aaf27d11af5a232b448ca59bc22d0a3adf22aefcb35e71bef9d62ad44d1d2668",
+      "bytes": 4170
+    }
+  ],
+  "scope": "Retrieved primary source and official implementation inputs. Hash verification required before execution. Models are checkpoint-pinned separately. Published labels are retrospective; experimental construct caveats in report.",
+  "documents": [
+    {
+      "name": "bk_paper.html",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011460",
+      "sha256": "704956b0ac6e6e30b1281591a36005c47fcd4b6c830b11fa72add6597068313d",
+      "bytes": 417320
+    }
+  ]
+}

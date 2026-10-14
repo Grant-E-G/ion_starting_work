@@ -1,0 +1,7 @@
+{
+  "reason": "Primary methods audit discovered numeric extreme values are censoring flags for unmeasurably high/low activation, not exact voltage shifts.",
+  "rule": "Keep original immutable partitions and fixed learners; exclude all y<=-370 or y>=300 from fitting and continuous evaluation. Report original raw run separately as a label-audit diagnostic, not a valid exact-value regression benchmark.",
+  "timing": "Source-driven correction after initial run; no hyperparameter or score-direction changes. Retrospective exploratory benchmark, not new confirmation.",
+  "publication_protocol_warning": "Historical protocol name publication groups full source strings, not connected publications. References can overlap across different strings. Only the site holdout is a strict primary transfer test here; proper publication-component grouping remains next work.",
+  "utility": "Signed voltage shifts are not automatically beneficial; basal leak, current amplitude and physiological utility are unmeasured."
+}

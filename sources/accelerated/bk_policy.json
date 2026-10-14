@@ -1,0 +1,56 @@
+{
+  "energy_columns": [
+    "score",
+    "fa_atr",
+    "fa_rep",
+    "fa_sol",
+    "fa_intra_rep",
+    "fa_intra_sol_xover4",
+    "lk_ball_wtd",
+    "fa_elec",
+    "pro_close",
+    "hbond_sr_bb",
+    "hbond_lr_bb",
+    "hbond_bb_sc",
+    "hbond_sc",
+    "dslf_fa13",
+    "omega",
+    "fa_dun",
+    "p_aa_pp",
+    "yhh_planarity",
+    "ref",
+    "fa_water_to_bilayer",
+    "rama_prepro"
+  ],
+  "geometry_columns": [
+    "rmsf",
+    "psasa",
+    "SECS",
+    "WATX",
+    "MEMBX",
+    "POREX",
+    "BURIED",
+    "BORDER"
+  ],
+  "cheap_columns": [
+    "WT",
+    "MT",
+    "resN",
+    "WThyd",
+    "MThyd",
+    "dHyd",
+    "SIFT"
+  ],
+  "excluded_label_informed_covariance": [
+    "cov271",
+    "cov316",
+    "cov389",
+    "cov271-n",
+    "cov316-n",
+    "cov389-n"
+  ],
+  "rf": "300 trees, minleaf3, max_features=1.0, seed1729; fixed before predictions",
+  "objectives": "negative shift <=-50mV and positive shift >=50mV; not therapeutic benefit",
+  "partition_sha256": "b7540d1936843010403d0227116c3457a6c84a987610a830ec251c9db98981ed",
+  "scope": "Precomputed upstream features; new retrospective grouped splits, not a prospective reproduction"
+}

@@ -1,0 +1,22 @@
+{
+  "purpose": "Fixed zero-shot component checks before computing new-model predictions; retrospective datasets, not prospective experiments.",
+  "frozen_methods": ["ESM-2 8M masked marginal", "ESM-1v 650M member 1 masked marginal", "ProteinMPNN v48_020 unconditional backbone log odds", "negative Wimley-White octanol delta"],
+  "stability": {
+    "datasets": ["OmpLA A181 scan", "PagP V104 scan with A104 experimental reference"],
+    "benefit": "experimental mutant-minus-A free energy < -0.5 kcal/mol",
+    "ranking": "higher predicted compatibility or more favorable transfer is predicted stabilizing; no sign selection using outcomes",
+    "exclusions": "A reference; OmpLA P zero value unverified placeholder excluded, PagP P retained",
+    "limits": "Only two sites. Stability is a mechanistic auxiliary endpoint, never a channel-function improvement. OmpLA values inspected during source audit, no parameter fitting. PagP values subsequently inspected; no model tuning."
+  },
+  "chrimson": {
+    "panel": ["E132A","E143A","C160Y","C160W","C170L","R176L","N179L","C198D","P246E","Y261T","H291Y","E300P","E300G","E300V","E300L","H307L","F341E"],
+    "current_gains": ["E300G", "E300P"],
+    "unpatchable_exclude": ["R176L", "Y261T"],
+    "controls": "WT 66pA, tau_off 0.06s; E300G 305pA/0.19s; E300P 255pA/0.40s; E300V 0.22s; main-text values at study conditions",
+    "utility": "current gain with tau_off <= WT: both reported current-gain mutants fail; other kinetics not imputed",
+    "input": "PDB5ZIH deposited sequence, map author residue numbers via resolved coordinates, K176R applied. Surrogate input, exact experimental fusion construct not verified.",
+    "ranking": "P5 and ROC AUC among 15 patchable previously model-selected variants; no inference of enrichment vs random mutagenesis",
+    "limits": "Qualitative current-gain labels, no individual per-cell table supplied; only 2 positive mutations at same site; previously inspected successful mutations. Single ESM-1v member is not six-model consensus reproduction."
+  },
+  "prior_panels": "Any Bedbrook/Kir comparison is explicitly exploratory on already inspected tests, not a new independent confirmation."
+}

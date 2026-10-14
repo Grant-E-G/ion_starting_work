@@ -1,0 +1,8 @@
+{
+  "hypothesis": "The observed ESM-1v vs 8M Chrimson gain ranking persists across removal of unresolved terminal context and masked vs original-style WT-marginal scoring.",
+  "timing": "Follow-up sensitivity specified after inspecting primary result; exploratory, not independent confirmation.",
+  "contexts": ["full deposited surrogate + K176R", "span between first/last resolved residue, retaining all internal deposited sequence + K176R"],
+  "models": ["ESM-2 8M", "ESM-1v 650M member1"],
+  "endpoints": ["P5 among 15 patchable selected constructs", "AUC", "all rankings"],
+  "rule": "Report all combinations. Do not select the best scoring/context strategy on these labels. Exact experimental fusion sequence remains unverified."
+}

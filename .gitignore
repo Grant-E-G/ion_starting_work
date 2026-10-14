@@ -22,3 +22,8 @@ latex/render/
 /sources/predictive/features/
 /notes/predictive/*
 !/notes/predictive/*.md
+
+# Accelerated method survey: downloaded tools/weights and generated benchmarks.
+/sources/accelerated/raw/
+/notes/accelerated/*
+!/notes/accelerated/*.md
