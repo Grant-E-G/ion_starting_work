@@ -1,0 +1,7 @@
+held_site,variant,split
+22,V23T,train
+22,V23D,train
+22,G22N,test
+23,V23T,test
+23,V23D,test
+23,G22N,train

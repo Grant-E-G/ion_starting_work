@@ -16,3 +16,9 @@ latex/render/
 !/sources/ompf/raw/*_audit.md
 /notes/ompf/*
 !/notes/ompf/*.md
+
+# Predictive benchmarks: keep partitions/code/reports, ignore caches and runs.
+/sources/predictive/raw/
+/sources/predictive/features/
+/notes/predictive/*
+!/notes/predictive/*.md

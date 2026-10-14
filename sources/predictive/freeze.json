@@ -1,0 +1,36 @@
+{
+  "timestamp_UTC": "2026-10-14T06:23:43.249867+00:00",
+  "partition_sha256": "c17b85eb086957d8e7e4030525ce6326f45adcbeb2ab1826ae1f8e817432e014",
+  "policy": "Retrospective computational holdout frozen before model tuning; not new prospective experiments. All repeated construct observations stay together.",
+  "kir_gain": "Score minus pooled same-AA reference median >0.3; conservative label additionally score-1.96*reportedSE>0.3. Assay-score improvement, not necessarily therapeutic benefit.",
+  "bedbrook_gain": "Max measured peak photocurrent >1.2 times best measured parent; recombination variants, not isolated point mutations.",
+  "label_policy": "Measured surface score never used as function input; paired surface labels for post-evaluation confound diagnostics only.",
+  "model_plan": {
+    "ridge_alpha": [
+      1.0,
+      10.0,
+      100.0
+    ],
+    "gp_length": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "gp_noise": [
+      0.03,
+      0.15
+    ],
+    "selection": "Validation MAE; no test-label hyperparameter selection",
+    "uncertainty": "Validation residual intervals and GP variance are assessed empirically; selection/refit effects mean no automatic calibrated confidence guarantee"
+  },
+  "primary_metrics": [
+    "ratio_or_score_MAE",
+    "Spearman",
+    "precision_at_10",
+    "precision_at_20",
+    "gain_enrichment",
+    "robust_gain_precision",
+    "gain_recall"
+  ],
+  "reference_policy": "Same-AA Kir controls and three Bedbrook parents are reserved reference/calibration observations, never split as different independent mutants."
+}

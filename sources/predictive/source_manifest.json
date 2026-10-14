@@ -1,0 +1,173 @@
+{
+  "resources": [
+    {
+      "name": "kir_dna.fa",
+      "url": "https://raw.githubusercontent.com/schmidt-lab/KirDMS/76cab17b04e2041b3818bcadfc225cd58c9f231f/NGS_pipeline/kir_dna.fa",
+      "status": "cached",
+      "bytes": 1308,
+      "sha256": "554b1cc54a262a350b1d093c9625a624d97a0324c8898735d4d60deeb1ef54dd",
+      "required_for_execution": true
+    },
+    {
+      "name": "kir_mutations.fa",
+      "url": "https://raw.githubusercontent.com/schmidt-lab/KirDMS/76cab17b04e2041b3818bcadfc225cd58c9f231f/NGS_pipeline/mutations_trimmed.fa",
+      "status": "cached",
+      "bytes": 211878,
+      "sha256": "9d5b2b35922b16f1303fa98fb8666f7731e25cca728ab43741bb5b350ad75bdc",
+      "required_for_execution": true
+    },
+    {
+      "name": "kir_alignment.fas",
+      "url": "https://raw.githubusercontent.com/schmidt-lab/KirDMS/76cab17b04e2041b3818bcadfc225cd58c9f231f/Manuscript_SourceData/input_data/human_kirs_v2.fas",
+      "status": "cached",
+      "bytes": 9431,
+      "sha256": "043d0b0902048fbaed9da5e8e59dac75780faf9fbb8e509e377013c18cdb5a2a",
+      "required_for_execution": true
+    },
+    {
+      "name": "bedbrook_ephys.csv",
+      "url": "https://raw.githubusercontent.com/fhalab/channels/da2f6651a760be6b8daec06467272b0ac2d8aeeb/regression/inputs/Ephys_data_formatted.csv",
+      "status": "cached",
+      "bytes": 62297,
+      "sha256": "0cac34048c20192e91fc31b06f1a48d98a2ebb95254cc966a4584bd0eaef35d6",
+      "required_for_execution": true
+    },
+    {
+      "name": "6M84.pdb",
+      "url": "https://files.rcsb.org/download/6M84.pdb",
+      "status": "cached",
+      "bytes": 271107,
+      "sha256": "6437782ad0e600a0b7e09d68d5b87d25985fdaa5a69de820e09538ae23b643e9",
+      "required_for_execution": true
+    },
+    {
+      "name": "3UG9.pdb",
+      "url": "https://files.rcsb.org/download/3UG9.pdb",
+      "status": "cached",
+      "bytes": 418203,
+      "sha256": "9ccfa27596eb190c4434e39f62593066ff58a3f6426d9823a03b5a12c725c8e2",
+      "required_for_execution": true
+    },
+    {
+      "name": "bedbrook_readme.md",
+      "url": "https://raw.githubusercontent.com/fhalab/channels/da2f6651a760be6b8daec06467272b0ac2d8aeeb/README.md",
+      "status": "cached",
+      "bytes": 761,
+      "sha256": "b9bebd208345be513d3f12038fd24d8a3c6f32c0c49948868e9f7385c407cb72",
+      "required_for_execution": false
+    },
+    {
+      "name": "mscl2003.pdf",
+      "url": "https://authors.library.caltech.edu/records/rhzqq-3sp82/files/MAUjbc03.pdf?download=1",
+      "status": "not_retrieved",
+      "bytes": null,
+      "sha256": null,
+      "required_for_execution": false,
+      "retrieval_error": "HTTP403 on correct public author PDF; main metadata accessible through search"
+    },
+    {
+      "name": "mscl2015.html",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137994",
+      "status": "cached",
+      "bytes": 249509,
+      "sha256": "5db7a55ff7fa632eded0d521cd74a376c11e5a8f2d41eb7ba0dc595ad1d547f8",
+      "required_for_execution": false
+    },
+    {
+      "name": "kir_P35561.fasta",
+      "url": "https://rest.uniprot.org/uniprotkb/P35561.fasta",
+      "status": "cached",
+      "bytes": 540,
+      "sha256": "c730ba6cb0e70ec32e0a7296d722418f384e800756f4c7478f9c42f4b75a2cfa",
+      "required_for_execution": true
+    },
+    {
+      "name": "kir_tree.json",
+      "url": "https://api.github.com/repos/schmidt-lab/KirDMS/git/trees/76cab17b04e2041b3818bcadfc225cd58c9f231f?recursive=1",
+      "status": "cached",
+      "bytes": 32581,
+      "sha256": "701b68b8895fb91ec28ea4ffc430588d53375b17df03b69e8180f3b0b285b612",
+      "required_for_execution": false
+    },
+    {
+      "name": "bedbrook_tree.json",
+      "url": "https://api.github.com/repos/fhalab/channels/git/trees/da2f6651a760be6b8daec06467272b0ac2d8aeeb?recursive=1",
+      "status": "cached",
+      "bytes": 13606,
+      "sha256": "fe465400fc6995a7ec34642c95546fa9ed22dcf8c1cd2e83c0b1c55ac48e103d",
+      "required_for_execution": false
+    },
+    {
+      "name": "kir_paper.pdf",
+      "url": "https://www.wcoyotelab.com/static/papers/2022_Coyote-Maestas.pdf",
+      "status": "cached",
+      "bytes": 8419388,
+      "sha256": "7688796e7a73305c8a24c331942aa26ac055fd34657303009fa6fdc9a6e23238",
+      "required_for_execution": false
+    },
+    {
+      "name": "mscl2005.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2217497/",
+      "status": "cached",
+      "bytes": 209493,
+      "sha256": "1afc09356a784bcb4a74fdf3081fbf6ecb0d52b20f62c9342b65390c0f358425",
+      "required_for_execution": false
+    },
+    {
+      "name": "bedbrook2019.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6858556/",
+      "status": "cached",
+      "bytes": 238080,
+      "sha256": "f765a375f1876412eb67ad05591cf4c9ea1407c56b7b1f63f94ac08c43b390f3",
+      "required_for_execution": false
+    },
+    {
+      "name": "mscl1999.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1300477/",
+      "status": "cached",
+      "bytes": 129581,
+      "sha256": "20973c04bb8e01b599ceb75c65034822b09daa4b9c6a197384339be0dee773b7",
+      "required_for_execution": false
+    },
+    {
+      "name": "mscl2004.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1304062/",
+      "status": "cached",
+      "bytes": 159387,
+      "sha256": "0b818f6f96c7b27eef7eb3aaefbb98c254bb0e4c589567fc5b56dec01607b6d7",
+      "required_for_execution": false
+    },
+    {
+      "name": "kir_external2026.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12775956/",
+      "status": "cached",
+      "bytes": 239000,
+      "sha256": "cc12d8ed198e5543f853ac359e84dd6fb66cef0feee5691912e882223ba42576",
+      "required_for_execution": false
+    },
+    {
+      "name": "mscl2013.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3593973/",
+      "status": "cached",
+      "bytes": 173941,
+      "sha256": "407e5f625ed51546f2d6aa4692355dddeea0a08848343d61e07b22944a431b5b",
+      "required_for_execution": false
+    }
+  ],
+  "pretrained": {
+    "name": "facebook/esm2_t6_8M_UR50D",
+    "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+    "parameters": 7840794,
+    "device": "cpu"
+  },
+  "source_labels": {
+    "sources/nearby_modeling/bedbrook2019_data4.csv": "386c60a76f625ce72208d33dff5f075ad6e1fe2d9ac8d7a1480d93b58de0decd",
+    "sources/nearby_modeling/bedbrook2019_data2.csv": "82c63c6a877e536ecb37761de5256fa75798532bf92aedbf5f17b3a838b414f6",
+    "sources/nearby_modeling/bedbrook2019_data3.csv": "f7ff46a89e4c4443c469b1d17df2d6576dc2698460c5fd446979a832fe551cc6",
+    "sources/nearby_modeling/bedbrook2019_data1.csv": "0daf395472494adf2bc583ded60f02f7937dfdc1f5da309233d7d3ada01afc4f",
+    "sources/nearby_modeling/kir2_function_mod.csv": "542e72281c5e80d41160419f28054809dad86142c9b6aac280aed28f919fee53",
+    "sources/nearby_modeling/kir2_surface_mod.csv": "9da3059871cb3a0f0d2e9c8afecf9aee7e172b3b2aafa3b5fc676c3f9b283567"
+  },
+  "audit": "Publisher Data2 is measured; author Ephys supplies unrounded means and explicit generation IDs. Data3 is predicted, Data4 label-selected weights and not used. Kir tag/header coordinates verified against mutation headers and translated construct.",
+  "source_failures": "MscL2003 correct author PDF403; original guessed route404 is superseded by the correct metadata. Scanned1999/2004 graphs not numerically invented; 2013 full main paper obtained but exact SI table not retrieved. No author contact."
+}
