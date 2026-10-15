@@ -1,0 +1,17 @@
+{
+  "vep_group_partitions.csv": {
+    "sha256": "45686916f2760f25b669194699362f9132ad70fd3b2667b3c092a38551a61294",
+    "rows": 47575,
+    "bytes": 1367764
+  },
+  "bk_partitions.csv": {
+    "sha256": "b2ab90e246cb371c73512b42bbcd9d639652c5bffb69cd82b0766e21e3a254cf",
+    "rows": 4730,
+    "bytes": 190171
+  },
+  "bk_published_partitions.csv": {
+    "sha256": "70673c4d39914baee44913d2cd5cc5e15298ff4cc9568ab1a5a108fccda11a06",
+    "rows": 2365,
+    "bytes": 72788
+  }
+}

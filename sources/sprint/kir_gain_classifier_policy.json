@@ -1,0 +1,8 @@
+{
+  "hypothesis": "Utility-specific classification may improve joint-gain ranking where bulk regression does not; test incremental physics on the same frozen partitions",
+  "label": "Pointfunction>.3 and surface>=-.3; secondary score-1.96SEboth constraints, not simultaneous calibratedconfidence",
+  "models": "Class-balancedLogisticC.01/.1/1/10; ExtraTrees300leaf2/8 when<=200features",
+  "selection": "ValidationAP then logloss; no test/hyperparameter reuse from regression",
+  "budgets": "Same full versus1000train+256val prefixes as regression, seed1729",
+  "scope": "Exploratory modeling on previously inspected Kir corpus; never a prospective result"
+}

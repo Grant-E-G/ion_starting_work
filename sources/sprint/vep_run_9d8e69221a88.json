@@ -1,0 +1,31 @@
+{
+  "datasets": [
+    "pab1",
+    "avgfp"
+  ],
+  "architectures": [
+    "cnn",
+    "gcn"
+  ],
+  "features": [
+    "rosetta_aa_mean",
+    "rosetta_site_residual",
+    "rosetta_aa_residual"
+  ],
+  "protocols": [
+    "site",
+    "mutation"
+  ],
+  "seeds": [
+    10,
+    24,
+    36,
+    42,
+    56
+  ],
+  "train_limit": 1000,
+  "epochs": 60,
+  "batch_size": 128,
+  "published": false,
+  "aaindex_mode": "mutation"
+}

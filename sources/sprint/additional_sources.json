@@ -1,0 +1,64 @@
+{
+  "resources": [
+    {
+      "path": "raw/evoef_source.tar.gz",
+      "url": "https://api.github.com/repos/tommyhuangthu/EvoEF2/tarball/38df01d305ed728ef067c3e0d22072058f33e255",
+      "sha256": "61a8058806f3c3afdb5be18fb98b568cd5f45b5f42c4cbd853de0878e98fe138",
+      "bytes": 18220537
+    },
+    {
+      "path": "raw/barethiya.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13048498/fullTextXML",
+      "sha256": "460b210a134111c96629b702d1425d35e999065fdc2e857f9e4f62a39d345bc3",
+      "bytes": 231661
+    },
+    {
+      "path": "raw/6V3G.pdb",
+      "url": "https://files.rcsb.org/download/6V3G.pdb",
+      "sha256": "7aa5bcd2e02955cdc42d9cad68dfc25829596733f1a2440829a1ec8eb9f052c9",
+      "bytes": 2435346
+    },
+    {
+      "path": "raw/6V3G.fasta",
+      "url": "https://www.rcsb.org/fasta/entry/6V3G/display",
+      "sha256": "2e90162b2172fa5ca79e642db6670459698b983ee567a172ba6b3993a3554e41",
+      "bytes": 1164
+    },
+    {
+      "path": "raw/6V38.pdb",
+      "url": "https://files.rcsb.org/download/6V38.pdb",
+      "sha256": "064e947b824902ff1efff358183a599a94a8869d9656bb0eaa57e0ab98518bc5",
+      "bytes": 2637684
+    },
+    {
+      "path": "raw/6V38.fasta",
+      "url": "https://www.rcsb.org/fasta/entry/6V38/display",
+      "sha256": "1e9ef680c69bb9356b798e45795f2446cad449f655878ecd197ff3567d15ceb4",
+      "bytes": 1164
+    },
+    {
+      "path": "raw/nn4dms_code_parse_aaindex.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/code/parse_aaindex.py",
+      "sha256": "610b266c1ed1d17c75c2408a59af2a0e086bdea3bfe53f915d19eccf32b40e87",
+      "bytes": 2887
+    },
+    {
+      "path": "raw/nn4dms_source_data_aaindex_README.md",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/source_data/aaindex/README.md",
+      "sha256": "598f4c6f8e61e966c23d20e86ff4a0d8b958177b3938488e940e729ff8dc2b3f",
+      "bytes": 125
+    },
+    {
+      "path": "raw/nn4dms_code_constants.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/code/constants.py",
+      "sha256": "71ed2cea57cf26d7e5d8d7e766695e6dc44765bf2ba8aef0e5113985b7620757",
+      "bytes": 3755
+    },
+    {
+      "path": "raw/nn4dms_README.md",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/README.md",
+      "sha256": "3bd5fe904a6f3eebefcbc4bffdf79433ac73900626950869c7ec93c48fb5c490",
+      "bytes": 5935
+    }
+  ]
+}

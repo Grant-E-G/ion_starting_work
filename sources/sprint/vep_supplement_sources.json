@@ -1,0 +1,22 @@
+{
+  "resources": [
+    {
+      "path": "raw/vep_features.xlsx",
+      "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1013728.s017",
+      "sha256": "0cf19804c37e5bca084c82cef5c07866bb80276bd6038d4e47a9969301a56273",
+      "bytes": 11238
+    },
+    {
+      "path": "raw/vep_hyperparameters.xlsx",
+      "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1013728.s018",
+      "sha256": "c971ff56f0d1df5c870cc5b5f5604d2d20eafb189b0628a0955bb1f88b945da6",
+      "bytes": 27177
+    },
+    {
+      "path": "raw/vep_high_order.xlsx",
+      "url": "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1013728.s019",
+      "sha256": "435fdb61d5d8a68675ce34aa3da445ba04ce6d3da27598cf39f5ab105039e0a0",
+      "bytes": 24750
+    }
+  ]
+}

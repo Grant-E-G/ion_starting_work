@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "path": "raw/adrb2/paper.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7707821/fullTextXML",
+      "sha256": "c75a79e265b2eaf9783bfdcbf588653fc4cdc0b0b447376e97aaa55eab8a0b26",
+      "bytes": 292377
+    },
+    {
+      "path": "raw/adrb2/supplement.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7707821/supplementaryFiles",
+      "sha256": "7e6372d56e8cc5d5049efa3c58c937b5ab661a4eeb65f18b5c955b5861034449",
+      "bytes": 4794616
+    },
+    {
+      "path": "raw/adrb2/P07550.fasta",
+      "url": "https://rest.uniprot.org/uniprotkb/P07550.fasta",
+      "sha256": "1891e8bb239fdf226999095969c779ba169ddd2f36b2acb4af451bec4263c3c5",
+      "bytes": 513
+    },
+    {
+      "path": "raw/adrb2/proteingym.csv",
+      "url": "https://huggingface.co/datasets/ICML2022/ProteinGym/resolve/4332ac0da1e7ed4664f2283b2ad8b16cbbb57b0a/ProteinGym_substitutions/ADRB2_HUMAN_Jones_2020.csv",
+      "sha256": "b24b97d5dc5e311e4fb14ebe58b163977bd90178814e91049fb821d0177b9518",
+      "bytes": 195874
+    },
+    {
+      "path": "raw/adrb2/2RH1.pdb",
+      "url": "https://files.rcsb.org/download/2RH1.pdb",
+      "sha256": "4e993acc81ac58b2cd1a18f84060c98a9742c308cd69687323a0417308a14144",
+      "bytes": 376488
+    },
+    {
+      "path": "raw/adrb2/3SN6.pdb",
+      "url": "https://files.rcsb.org/download/3SN6.pdb",
+      "sha256": "7ce108259ab14c5168ab17250b91229db8fb3fac8d0f34ada74acce128f5e6dc",
+      "bytes": 1773495
+    }
+  ]
+}

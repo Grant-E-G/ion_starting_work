@@ -1,0 +1,8 @@
+{
+  "hypothesis": "Unmodelled assay controls or mixed WT species may limit the physical/sequence benchmark",
+  "inputs": "Only WT controlVhalf, nominalcalcium, species; no MT controlVhalf, mutant labels or publication identifier as input",
+  "warning": "WT control is mathematically part of the delta label; context gains can include mathematical coupling and do not establish a causal physical model. Most auxiliary/splice/temperature/lipid conditions remain unknown.",
+  "cohorts": "All numeric445 and human-only numeric subset; same immutable tests, no new splits",
+  "model_selection": "Same Ridge/RF candidates, validationMSE; human-only cohort matches structural species but is not assumed homogeneous in assay conditions",
+  "status": "Exploratory diagnosis following a confirmed source-context discrepancy; not new independent validation"
+}

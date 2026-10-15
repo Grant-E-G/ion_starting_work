@@ -1,0 +1,13 @@
+{
+  "hypothesis": "Physical features may help useful-gain selection when the learner optimizes that objective rather than damage-dominated regression MSE",
+  "target": "GFP WT-normalizedlog10fluorescence>=.1 (>=25.9%gain), point labels not confidence bounds",
+  "budget": {
+    "train_limit": 64,
+    "validation_limit": 32
+  },
+  "models": "Class-balancedLogisticC.01/.1/1/10; ExtraTrees300leaf1/3 when<=500features",
+  "selection": "Validation AP then logloss; when validation has no positive, only logloss. Train with zero positives uses a prior and is flagged.",
+  "features": "Chemical/count controls; exactRosetta and matchedEvoEF2;35/650Mactual-mutant-minusWT; source-onlylocalMETLattributes/latent",
+  "partition": "Existing five-seed site/mutation groups; original full-pool train prefixes and label-blind cappedvalidation, no reassignment",
+  "status": "Exploratory objective test on inspected soluble data, not a new independent confirmation or membrane target choice"
+}

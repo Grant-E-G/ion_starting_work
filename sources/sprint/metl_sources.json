@@ -1,0 +1,126 @@
+{
+  "repository": "gitter-lab/metl-pretrained",
+  "revision": "396f8911f6123c1da9aad338ee0a627a35a4240d",
+  "resources": [
+    {
+      "path": "raw/metl/metl/__init__.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/__init__.py",
+      "sha256": "6206421f29ac506151a7050b43bf8b96d25841a927de40dc1a708862d4066958",
+      "bytes": 40
+    },
+    {
+      "path": "raw/metl/metl/encode.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/encode.py",
+      "sha256": "cc2207809c48c41ee35c551fce779ef2953eea7d10748e44659ce5e7858d4cb7",
+      "bytes": 2046
+    },
+    {
+      "path": "raw/metl/metl/main.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/main.py",
+      "sha256": "e6882afba7d0313008a9037415800c9a10b98be7c2ded07252dfb9b73de93458",
+      "bytes": 10877
+    },
+    {
+      "path": "raw/metl/metl/models.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/models.py",
+      "sha256": "10696e2896a1c851e79cfb6d57c8e4366388682ae477c50138a09d2ae1ac3626",
+      "bytes": 53117
+    },
+    {
+      "path": "raw/metl/metl/relative_attention.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/relative_attention.py",
+      "sha256": "b798cf3d94463d45bfe806dea906f5c10ca87165d9f1a09787a23b36d4bab57e",
+      "bytes": 28315
+    },
+    {
+      "path": "raw/metl/metl/structure.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/structure.py",
+      "sha256": "2bb82852438baa78218617364b99dcb79e6f3bad6481843a3912e4a2e3f8a2a6",
+      "bytes": 6261
+    },
+    {
+      "path": "raw/metl/metl/test.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/test.py",
+      "sha256": "40f015aa7a8ab10d6e93d2c41c021e6575d1ea0b689ee82cdfc63eb925855820",
+      "bytes": 516
+    },
+    {
+      "path": "raw/metl/metl/test2.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/test2.py",
+      "sha256": "1f6a08b9d88361e3ae5e243e73d4f49d895aeba29ca81302cdfce7227f555a06",
+      "bytes": 1001
+    },
+    {
+      "path": "raw/metl/metl/test3.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/test3.py",
+      "sha256": "40da88a875a04abaef18df77d1cf53d2b5e9be0b2e376044db5b30c98bb32fb4",
+      "bytes": 997
+    },
+    {
+      "path": "raw/metl/metl/test4.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/metl/test4.py",
+      "sha256": "db124d123f6ea1cad3b1488fc540732ad844f4c754c2a8fc71f1025b6f8a3d37",
+      "bytes": 1636
+    },
+    {
+      "path": "raw/metl/pdbs/1gfl_cm.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/1gfl_cm.pdb",
+      "sha256": "3cd3130552d58bc7a1a6bf5cbbf321b6a412b1d1898af531934caca0a720f29a",
+      "bytes": 335838
+    },
+    {
+      "path": "raw/metl/pdbs/2qmt_p.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/2qmt_p.pdb",
+      "sha256": "1d90c9b9c8b5b03b617c2e41a7f4a48e2e4889b82be05aae310851a26ea3cc6a",
+      "bytes": 78764
+    },
+    {
+      "path": "raw/metl/pdbs/6qji_p_trunc_2022.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/6qji_p_trunc_2022.pdb",
+      "sha256": "89a32085429c9e11b086a8eebeecbc316386482222b39b12517144a576d3779d",
+      "bytes": 98592
+    },
+    {
+      "path": "raw/metl/pdbs/AF-P60484-F1-model_v4_p.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/AF-P60484-F1-model_v4_p.pdb",
+      "sha256": "124e5c76a11eb41157cd6efdfddc54fc5623acb189286737c29758e76991da54",
+      "bytes": 586932
+    },
+    {
+      "path": "raw/metl/pdbs/AF-P62993-F1-model_v4_trunc_p.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/AF-P62993-F1-model_v4_trunc_p.pdb",
+      "sha256": "04ed4289d1a5590eb5b2de99d005dcf780acbeb600d6e962a3a7845ca4dbea41",
+      "bytes": 79515
+    },
+    {
+      "path": "raw/metl/pdbs/AF-Q6SJ61-F1-model_v4_p.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/AF-Q6SJ61-F1-model_v4_p.pdb",
+      "sha256": "29cd4010c244610ea5bb9609a32c3b68739b7b1e397b3076c804a555efaea8c1",
+      "bytes": 400928
+    },
+    {
+      "path": "raw/metl/pdbs/pab1_cm.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/pab1_cm.pdb",
+      "sha256": "45d6a591b050e4e42da357a086273879877ed3be2b22a78cf10fc5b235974843",
+      "bytes": 46655
+    },
+    {
+      "path": "raw/metl/pdbs/ube4b_cm.pdb",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/pdbs/ube4b_cm.pdb",
+      "sha256": "d2245f6d7cef3e57ab4646e714295fe92fa208ff6e543b16e7a3912555c387e3",
+      "bytes": 153734
+    },
+    {
+      "path": "raw/metl/requirements.txt",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/requirements.txt",
+      "sha256": "b34a10d52a917c84154f4275b49cdfacbda56ff71640ad564f94ecf28d2da826",
+      "bytes": 84
+    },
+    {
+      "path": "raw/metl/setup.cfg",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl-pretrained/396f8911f6123c1da9aad338ee0a627a35a4240d/setup.cfg",
+      "sha256": "bd41143afa444598fa8bd2cb5968824cf320f71f92b339eade0f6d4a7bf76908",
+      "bytes": 337
+    }
+  ]
+}

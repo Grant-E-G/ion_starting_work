@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Mutation-sensitive collective-mode information should beat cheap geometry\u00d7AAIndex and site-preserving shuffled dynamics",
+  "physical_parameters": "Published defaults, no function tuning",
+  "cohort": "Numeric source variants whose sites are in common273residue TM model and successfully computed; identical cohort for all methods",
+  "controls": "Zero-preserving chemistry; WT8Acontactdegrees and aligned-state-motion magnitude\u00d7chemicaldelta; EvoEF2; actual650Mmutant-minusWT; within-siteENCoMshuffle seed1729",
+  "learner": "Existing Ridge/RF grids, immutable group partitions, validationMSE only",
+  "status": "Exploratory new physical family on inspected source corpus; not prospective confirmation or an absolute free-energy model",
+  "numerical_filter": "Train-onlyVarianceThreshold1e-10 beforeRidgeStandardScaler; remove floating-point noise/nearconstant columns beforeWTzeroanchor"
+}

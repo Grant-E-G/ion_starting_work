@@ -1,0 +1,40 @@
+{
+  "hypothesis": "Physical source-pretrained packing descriptors should improve function-gain selection while retaining trafficking beyond larger actual-mutant sequence models",
+  "labels": "Existing audited Coyote-Maestas2022 pairedmouseKir2.1 function/surface Enrich2 proxies; same-AAreference medians; not intrinsic conductance/current",
+  "training": "Existing public labels only; all budget variants share frozen test partitions. Full development or train1000+val256 label-blind prefixes seed1729. No new biological data",
+  "partition_sha256": "c17b85eb086957d8e7e4030525ce6326f45adcbeb2ab1826ae1f8e817432e014",
+  "source_label_audit": {
+    "function": {
+      "raw_rows": 7033,
+      "excluded_flag_rows": 48,
+      "same_amino_acid_controls": 22,
+      "control_median": 0.07113869049999999,
+      "control_score_sd": 0.24410860557856934,
+      "nonsynonymous_rows": 6963,
+      "independent_mutation_sites": 391,
+      "source_sha256": "542e72281c5e80d41160419f28054809dad86142c9b6aac280aed28f919fee53",
+      "native_sequence_length": 428,
+      "tagged_sequence_length": 436
+    },
+    "surface": {
+      "raw_rows": 6987,
+      "excluded_flag_rows": 48,
+      "same_amino_acid_controls": 22,
+      "control_median": -0.10468967600000001,
+      "control_score_sd": 0.40335118161850586,
+      "nonsynonymous_rows": 6917,
+      "independent_mutation_sites": 391,
+      "source_sha256": "9da3059871cb3a0f0d2e9c8afecf9aee7e172b3b2aafa3b5fc676c3f9b283567",
+      "native_sequence_length": 428,
+      "tagged_sequence_length": 436
+    }
+  },
+  "function_gain": ">.3 relative assay-score margin, not percentage current",
+  "surface_constraint": ">=-.3 relative score; secondary both lower score-1.96SEbounds satisfy. Approximate filters, not joint/multiplicity-adjusted biological confidence",
+  "WT_structure": "AF-P35561-F1-model_v6 monomer, exactnative428AA, no experimental mutant structure; no membrane, lipids, tetramer or explicit open/closed energy",
+  "construct": "Experimental FLAG insertion removed for native modeling; constanttag effects/interactions unmodeled",
+  "models": "Frozen source-only globalMETL1D/3D physical checkpoints; ESM35/650 actual-mutant-minusWT mean embeddings; train-onlyRidgealpha1/10/100/1000 or ExtraTrees300leaf2/8; validationMSEsum of two standardized endpoint errors",
+  "physics_controls": "WT predicted-confidence/contactdensity/radialdepth plus chemistry; within-site shuffled3Dphysicalattributes seed1729; concatenations with actual650sequence",
+  "rankings": "Function-only; joint score=min((predfunc-.3)/valresidualSDfunc,(predsurface+.3)/valresidualSDsurface)",
+  "status": "New model family on previously inspected Kir benchmark, exploratory; no target/assay/panel selected"
+}

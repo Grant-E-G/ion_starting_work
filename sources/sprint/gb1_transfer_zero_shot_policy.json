@@ -1,0 +1,13 @@
+{
+  "hypothesis": "Function-matched source-only binding energy should select gains without any experimental readout fitting",
+  "scores": [
+    "gb1_binding_negative_total_score",
+    "gb1_binding_negative_dG_cross",
+    "gb1_binding_negative_dG_separated",
+    "gb1_binding_negative_dG_separated_per_area",
+    "gb1_binding_control_negative_total_score"
+  ],
+  "signs": "Negative normalized energy, fixed from mechanistic direction and previous readout definitions; never selected using newWu labels",
+  "units": "Within-one-PDB normalized surrogate outputs, rank only; no kcal, affinity or enrichment calibration",
+  "scope": "Independent higher-order assay transfer, same protein; physical pretraining can include related mutants"
+}

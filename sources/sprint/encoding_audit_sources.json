@@ -1,0 +1,10 @@
+{
+  "resources": [
+    {
+      "path": "raw/nn4dms_encode.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/code/encode.py",
+      "sha256": "fe1d97f666c56fe1d988c627e2214ce1a033d97e182524fcaeb2a20bd97b8f1e",
+      "bytes": 5892
+    }
+  ]
+}

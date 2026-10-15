@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "path": "raw/bk_external2024.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11309983/",
+      "sha256": "1abe0378bfb91c0fd678f705a2766c0840bea4e0cb6f2f80f21b931f1d8b5b5c",
+      "bytes": 225177
+    },
+    {
+      "path": "raw/bk_external_AAB65837.fasta",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=AAB65837&rettype=fasta&retmode=text",
+      "sha256": "ce53ecc0503773bfd9e5f488a3122c4fb6deec2304b2c57704d2e1413958e075",
+      "bytes": 1238
+    }
+  ]
+}

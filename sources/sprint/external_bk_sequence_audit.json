@@ -1,0 +1,13 @@
+{
+  "experimental_accession": "AAB65837",
+  "experimental_length": 1113,
+  "structural_length": 1065,
+  "identical_prefix": 1056,
+  "identical_suffix": 0,
+  "exact_single_insert_only": false,
+  "experimental_intervening_sequence": "HNAGQSRASLSHSSHSSQSSSKKSSSVHSIPSTANRQNRPKSRESRDKQKYVQEERL",
+  "structural_intervening_sequence": "SNSLEVLFQ",
+  "all_variant_sites_in_identical_TM_prefix": true,
+  "limitation": "The first1056residues are identical. Sequence predictions for this pore panel use an identical1022aa window; the resolved physical core also matches. The experimental C-terminal tail differs and is not represented by these inputs; its functional contribution remains untested.",
+  "identical_pore_model_window1022": true
+}

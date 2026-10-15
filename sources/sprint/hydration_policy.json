@@ -1,0 +1,13 @@
+{
+  "hypothesis": "Mutation-specific pore hydration, rather than generic folding energy, predicts pore-functional changes",
+  "controls": [
+    "A316D",
+    "A316V"
+  ],
+  "source": "Published Jia2018 contrasting wet/dry mutants; these controls are not independent validation",
+  "threshold": "Fixed published grid and original WW interface scale, no gating-label fitting in feature generation",
+  "symmetry": "C4 transforms fitted to WT TM backbones; only sidechains copied, native backbone and true termini preserved",
+  "domain": "Union of native pore-facing-proxy sites from WT open/closed profiles; remote mutations not assigned invented hydration effects",
+  "primary_comparison": "Exclude A316D/V calibration controls; compare with the identical WW hydrophobicity delta and geometry baselines; site/publication holdouts remain fixed",
+  "limitations": "Approximate profile extraction, fixed WT backbone, independent-ring rotamer replication, no explicit water/lipid/cofactor/sensor coupling; not a thermodynamic gating free energy"
+}

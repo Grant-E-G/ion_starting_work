@@ -4,6 +4,11 @@ Read [the checkpoint report](../../../notes/accelerated/checkpoint.md) and
 [method/source audit](../../../notes/accelerated/method_survey.md) first. OmpF is
 frozen. No prospective panel, experimental target or hybrid platform is selected.
 
+GPU execution is now verified: see [the measured GPU check](../../../notes/accelerated/gpu_access.md)
+and [root agent instructions](../../../AGENTS.md) for the sandbox workaround,
+isolated CUDA environment and `gpu_check.py` reproduction command. The CPU
+environment below remains unchanged.
+
 Python is used here to invoke published Python models and scientific libraries.
 The code extends the existing audited loaders and immutable partitions from
 `../predictive`; it does not change that benchmark's inputs or results.

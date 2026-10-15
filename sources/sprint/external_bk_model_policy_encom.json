@@ -1,0 +1,23 @@
+{
+  "families": [
+    "chemical_delta",
+    "chemical_published_energy",
+    "sequence_delta",
+    "sequence_published_energy",
+    "chemical_EvoEF2_joint",
+    "chemical_EvoEF2_matched_additive",
+    "sequence_EvoEF2_joint",
+    "sequence_EvoEF2_matched_additive",
+    "chemical_ENCoM",
+    "sequence_ENCoM"
+  ],
+  "WT_constraint": "Readout(mutant)-readout(zero mutation features)",
+  "hyperparameters": "Ridgealpha1/10/100/1000, selected using only old-source5-fold siteGroupKFoldMSE; then refit259numeric records",
+  "physical": "Published atomic16term sums; EvoEF2 actual multi-mutant states versus additive constituents in the same crop/repacking mask",
+  "sequence": "650M actual-mutant-minus-WT mean and mutated-site representation; no new language-model training",
+  "baseline": "Known-parent-only uses numeric pre2023constituents; does not invent neutral measurements for unknown constituents",
+  "primary_test": "10new zeroCa genotypes; 2overlapcontrols and25uM measurements excluded",
+  "utility": "P3/P5 for leftward shift>=50mV and optional apparent-slope retention; ranking only predicts voltage, not slope",
+  "interpretation": "Four positives inheritL312A. Also score the new modifications relative to matchedL312A control. Missing standalone constituent functions prevent identifying experimental epistasis.",
+  "training_cohort_n": 259
+}

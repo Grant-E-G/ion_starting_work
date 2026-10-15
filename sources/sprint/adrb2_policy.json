@@ -1,0 +1,18 @@
+{
+  "phenotype": "Forskolin-normalized CRE/cAMP signaling proxy, not direct receptor current/affinity; cannot separate expression and signaling potency",
+  "reference": "Authors' synonymous-control means for each condition and biological repeat; no assumption DMS_score=1 is WT",
+  "conditions_uM": [
+    0.0,
+    0.15,
+    0.625,
+    5.0
+  ],
+  "primary": ">=20% higher response at 0.15uM isoproterenol in BOTH biological repeats",
+  "joint": "Primary gain AND basal signal <=120% WT AND 5uM saturated response >=80% WT in both repeats",
+  "quality": "At least3 barcodes in both repeats for all4 conditions and finite relative propagated SD<1 in published supplement",
+  "split": "All variants/conditions/barcodes at one native site kept together; SHA256(ADRB2-20261014:site) mod10:0-5 train,6-7 validation,8-9 test",
+  "ranking": "Current-only predicted log2 EC50 response; joint score=min(activity-log2(1.2),log2(1.2)-basal,emax-log2(0.8))",
+  "primary_comparison": "Common native residue sites resolved identically in both WT structural templates; no fusion or non-WT residue used",
+  "interpretation": "Point-estimate replicate-consistent gains; not a biological-replicate significance certificate. Only two biological replicates; synonymous controls have compositional caveats noted by original authors.",
+  "model_selection": "Validation only, test partitions unchanged; no tuning cutoff to observed gains"
+}

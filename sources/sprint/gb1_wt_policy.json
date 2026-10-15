@@ -1,0 +1,10 @@
+{
+  "WT_input_count": 1759616,
+  "WT_selected_count": 3041819,
+  "normalization": "ln((sel+0.5)/(inp+0.5))-ln((WTsel+0.5)/(WTinp+0.5))",
+  "max_abs_difference": 4.440892098500626e-15,
+  "rows": 536084,
+  "benefit_threshold": 0.1823215567939546,
+  "benefit": "At least 20% higher enrichment than WT; assay measures binding enrichment, not direct affinity or membrane function",
+  "scope": "Secondary benefit analysis after verifying normalization; frozen models/partitions and previous percentile metrics remain unchanged"
+}

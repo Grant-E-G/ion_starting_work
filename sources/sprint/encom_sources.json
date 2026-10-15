@@ -1,0 +1,19 @@
+{
+  "resources": [
+    {
+      "path": "raw/nrgten-1.2.9.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/41/5b/dfb57122bc5b30b9632c56d8328a705a63ddae81bf9e4ea763da6b56ab3a/nrgten-1.2.9.tar.gz",
+      "sha256": "78e45e3d98dcff093b8ccdb9be6f164d6ca4ed4b4cc33f90ea5ad6c8fc888195",
+      "bytes": 37318
+    },
+    {
+      "path": "raw/pyvcon-1.0.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/94/f2/cb18a6a8a48ff8704942d82b09d9cc81eab7a722cde1d2682c606167dd91/pyvcon-1.0.2.tar.gz",
+      "sha256": "d546ed60388d618297c90e1baa1bdf9ce917f94a87957e9f26b19ff555927775",
+      "bytes": 20667
+    }
+  ],
+  "method_doi": "10.1371/journal.pcbi.1003569",
+  "documentation": "https://nrgten.readthedocs.io/en/latest/svib_mutations.html",
+  "implementation_paper": "https://academic.oup.com/bioinformatics/article/37/19/3369/6179106"
+}

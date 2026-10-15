@@ -1,0 +1,84 @@
+{
+  "repository": "channotation/chap",
+  "revision": "5c5e9d00350a75a40b4ec918492646c9aeb64153",
+  "resources": [
+    {
+      "path": "raw/chap/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/CMakeLists.txt",
+      "sha256": "71e5fc1e21a5b9f4e9701516af4d9f08bc437957fa5479f1b62926b26adff100",
+      "bytes": 6966
+    },
+    {
+      "path": "raw/chap/README.md",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/README.md",
+      "sha256": "079e2688c0b8947c00fb52bc88391a51554964e62196cf4c908ecb94215744d3",
+      "bytes": 3939
+    },
+    {
+      "path": "raw/chap/docs/_docs/data-sources/hydrophobicity_scales.md",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/docs/_docs/data-sources/hydrophobicity_scales.md",
+      "sha256": "23f09382dcf5f3a08376a2e4659c17775868b0df4369866475f4d54f1fc98684",
+      "bytes": 5718
+    },
+    {
+      "path": "raw/chap/scripts/heuristic/heuristic_grid.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/scripts/heuristic/heuristic_grid.json",
+      "sha256": "bb29c21e1339e71e7a877d5095a4d72c4ac3ab06ce04c863fbcfb407e567c4f0",
+      "bytes": 587457
+    },
+    {
+      "path": "raw/chap/scripts/heuristic/heuristic_prediction.R",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/scripts/heuristic/heuristic_prediction.R",
+      "sha256": "ab1c94cecf66de5df539f05afe56d3a83c69737572a2b2a05f4e195bb2d8b8a6",
+      "bytes": 7783
+    },
+    {
+      "path": "raw/chap/scripts/heuristic/heuristic_score.py",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/scripts/heuristic/heuristic_score.py",
+      "sha256": "8446ecd8867db9be50a6ab510eabb75e7dbb88a98b4466a68b938b321a5d3dd1",
+      "bytes": 9145
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/hessa_2005.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/hessa_2005.json",
+      "sha256": "1fbbb66c3d4ddb8b56f57b7103dc5594cc40507261c9742f7b7468e2f6d39134",
+      "bytes": 2714
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/kyte_doolittle_1982.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/kyte_doolittle_1982.json",
+      "sha256": "236c3e2925ece521b0521b91ad596a4fcfbb15cf21309c4f73aed1a53e3ff900",
+      "bytes": 2734
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/memprotmd.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/memprotmd.json",
+      "sha256": "c56987e0a49435c0b65be842caf4aa6e8c38a7a425d4665f7a34fb0d3dfc35f5",
+      "bytes": 2505
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/monera_1995.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/monera_1995.json",
+      "sha256": "71766d8dc3e3e656295269c1761719de0cccb323e6e2036099aff89bbc77a37e",
+      "bytes": 2555
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/moon_2011.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/moon_2011.json",
+      "sha256": "dc10de5ea8e78fad479184c0a20bafdd235787fc3fba75e2703d82a95f8fed8b",
+      "bytes": 2681
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/wimley_white_1996.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/wimley_white_1996.json",
+      "sha256": "d898884281bf666074ea8c2a5629896b31b9bea6bed4d4389a736ef355542b5c",
+      "bytes": 2598
+    },
+    {
+      "path": "raw/chap/share/data/hydrophobicity/zhu_2016.json",
+      "url": "https://raw.githubusercontent.com/channotation/chap/5c5e9d00350a75a40b4ec918492646c9aeb64153/share/data/hydrophobicity/zhu_2016.json",
+      "sha256": "482ca5fe0f601ec995243215fbe17152050353f81150f2c27120c6903daaa819",
+      "bytes": 2724
+    }
+  ]
+}

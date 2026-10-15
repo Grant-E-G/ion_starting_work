@@ -1,0 +1,10 @@
+{
+  "hypothesis": "Hydration-grid features must beat the full underlying hydrophobicity/radius profiles, not merely a global minimum radius that is unchanged by these mutations",
+  "baseline": "51-point closed/open profile changes, raw radius plus hydrophobicity; fixed Ridge10 and ExtraTrees300leaf2, same31-mutant/8-site grouped partitions",
+  "quality": "No new interchain heavy-atom clash below1.5A versus matched self; peak energy must be in the published grid domain; report all-sample diagnostic separately",
+  "calibration_controls_excluded": [
+    "A316D",
+    "A316V"
+  ],
+  "scope": "One bounded follow-up after finding global minimum-radius changes are zero; no tuning simulation parameters to gating labels"
+}

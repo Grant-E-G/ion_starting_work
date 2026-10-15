@@ -1,0 +1,8 @@
+{
+  "source": "gitter-lab/metl f9bfca5c6853c03adfdd2d699e297cd35693a13e, code/compute_rosetta_standardization.py and code/datasets.py",
+  "verified": "Source targets standardized by mean and standard deviation separately for each PDB, using training synthetic data",
+  "consequence": "Subtracting WT removes a per-PDB mean but not its unknown energy scale. Open-minus-closed normalized outputs are descriptors, not a common-unit physical energy difference. Reference-energy invariance cannot be tested in these normalized units without target scaling.",
+  "test": "Compare closed, arbitrary normalized state contrast, and independently weighted concatenated closed/open attributes on identical frozen splits",
+  "interpretation": "Failure of the simple normalized contrast is not failure of absolute state-energy prediction or of the physics family; that interpretation was never established",
+  "scope": "One bounded normalization/representation hypothesis; no new simulator or experimental training data"
+}

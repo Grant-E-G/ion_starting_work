@@ -1,0 +1,36 @@
+{
+  "mutants": [
+    "I215E",
+    "R201Q",
+    "R167A",
+    "Y332A",
+    "G327D",
+    "A313Q",
+    "S183A",
+    "L312N",
+    "A316L",
+    "M314A",
+    "S240W",
+    "M285L",
+    "K392N",
+    "M513L",
+    "H365R",
+    "M1009L",
+    "D367R",
+    "H379R",
+    "D362A",
+    "H394A",
+    "M442L",
+    "E399R",
+    "K361N",
+    "E354A"
+  ],
+  "selection": "First12 distinct sites per TM/CTD region after label-blind SHA256 order, no functional label consulted",
+  "radii_A": [
+    12,
+    20,
+    28
+  ],
+  "hypothesis": "Matched local open-minus-closed mutation energies should remain reasonably stable as the artificial environment boundary moves",
+  "interpretation": "Numerical sensitivity, not a new functional test or permission to tune radius against held-out mutants"
+}

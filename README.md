@@ -48,3 +48,12 @@ The local membrane-protein benchmark is documented in
 [reproduction instructions](code/experiments/ompf/README.md),
 [measurement provenance](sources/ompf/measurement_manifest.json), and
 [the physical equations](math/ompf_physics_slice.md).
+
+## Accelerated mutation-modeling sprint
+
+The interrupted predictive-physics sprint is frozen for external review. See the
+[external-review brief](notes/sprint/external_review.md),
+[decision report](notes/sprint/decision_report.md),
+[quantitative appendix](notes/sprint/quantitative_results.md), and
+[execution instructions](code/experiments/sprint/README.md).
+Downloaded weights, raw caches and generated predictions remain ignored by Git.

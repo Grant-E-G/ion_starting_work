@@ -1,0 +1,36 @@
+{
+  "repository": "gitter-lab/metl",
+  "revision": "f9bfca5c6853c03adfdd2d699e297cd35693a13e",
+  "resources": [
+    {
+      "path": "raw/metl/training/compute_rosetta_standardization.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl/f9bfca5c6853c03adfdd2d699e297cd35693a13e/code/compute_rosetta_standardization.py",
+      "sha256": "0fa563d2aa43aaf3beee3ad539f4ecd3c883ba480a32726f82ccfee2f43d6cd8",
+      "bytes": 4098
+    },
+    {
+      "path": "raw/metl/training/datamodules.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl/f9bfca5c6853c03adfdd2d699e297cd35693a13e/code/datamodules.py",
+      "sha256": "d881d73722dca055b100d04afad278675abe218cdf6831348a5ffcbeb1afcc26",
+      "bytes": 51391
+    },
+    {
+      "path": "raw/metl/training/datasets.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl/f9bfca5c6853c03adfdd2d699e297cd35693a13e/code/datasets.py",
+      "sha256": "2bb33059c6d7e011921e5fb997846fa42f9f37abab8c2b539ee268beccfcb61d",
+      "bytes": 11088
+    },
+    {
+      "path": "raw/metl/training/parse_rosetta_data.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl/f9bfca5c6853c03adfdd2d699e297cd35693a13e/code/parse_rosetta_data.py",
+      "sha256": "2493def964d536f493b6200ea199cc2dc46f147b2133ac7412200c55883c5c84",
+      "bytes": 24841
+    },
+    {
+      "path": "raw/metl/training/rosetta_data_utils.py",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl/f9bfca5c6853c03adfdd2d699e297cd35693a13e/code/rosetta_data_utils.py",
+      "sha256": "461847319509fe4f9778e7566e765a598d27e2addb95689721283c3e6c5696ba",
+      "bytes": 3977
+    }
+  ]
+}

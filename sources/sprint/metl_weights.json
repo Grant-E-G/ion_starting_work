@@ -1,0 +1,47 @@
+{
+  "resources": [
+    {
+      "path": "raw/metl/weights/METL-G-20M-1D-D72M9aEp.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-G-20M-1D-D72M9aEp.pt?download=1",
+      "sha256": "bef145d192a4aa9e75ddc1f8222bd18de8ae572718b9dd72d53d8cabfae24662",
+      "bytes": 76977355
+    },
+    {
+      "path": "raw/metl/weights/METL-G-20M-3D-Nr9zCKpR.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-G-20M-3D-Nr9zCKpR.pt?download=1",
+      "sha256": "f67945f84d0dfa453f49af4dcbcfaf00d3abcdb505372ef59bf0a5d64dbb9bdf",
+      "bytes": 76937419
+    },
+    {
+      "path": "raw/metl/weights/METL-L-2M-3D-GFP-Hr4GNHws.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-L-2M-3D-GFP-Hr4GNHws.pt?download=1",
+      "sha256": "29089f6fbc5918efc0ad86ef1bdb8d01123b233d37f316714f0e1c4d5a3bb450",
+      "bytes": 9859615
+    },
+    {
+      "path": "raw/metl/weights/METL-L-2M-3D-Pab1-2rr8V4th.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-L-2M-3D-Pab1-2rr8V4th.pt?download=1",
+      "sha256": "9ee3fe9642f34066a893e2febae43e0a53863a3a0b5048b02f793af66f218b99",
+      "bytes": 9859615
+    },
+    {
+      "path": "raw/metl/weights/METL-L-2M-3D-GB1-epegcFiH.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-L-2M-3D-GB1-epegcFiH.pt?download=1",
+      "sha256": "e2ef45a4cfa30ee43d09539d593157c03c35cd570df2f8264367b99ff1500bfe",
+      "bytes": 9859615
+    },
+    {
+      "path": "raw/metl/weights/METL-BIND-2M-3D-GB1-BINDING-Bo5wn2SG.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-BIND-2M-3D-GB1-BINDING-Bo5wn2SG.pt?download=1",
+      "sha256": "fa9dbfa26a94f0fb6cc5b05a77432778b62e34e2d11ba61adf57578a54353e04",
+      "bytes": 9877919
+    },
+    {
+      "path": "raw/metl/weights/METL-BIND-2M-3D-GB1-STANDARD-K6mw24Rg.pt",
+      "url": "https://zenodo.org/records/14908509/files/METL-BIND-2M-3D-GB1-STANDARD-K6mw24Rg.pt?download=1",
+      "sha256": "7e155be08be0f998836728af829fe8de6eef855428fc173d2fc3d706b9303c9b",
+      "bytes": 9859551
+    }
+  ],
+  "scope": "Source models trained to physical Rosetta attributes; no published experimentally fine-tuned checkpoints used"
+}

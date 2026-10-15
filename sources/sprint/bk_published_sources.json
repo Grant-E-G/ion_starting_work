@@ -1,0 +1,1314 @@
+{
+  "repository": "enordquist/bkpred",
+  "revision": "2a176386ac4658e10c42d8cd234c710950b288fb",
+  "resources": [
+    {
+      "path": "raw/bkpred/LICENSE",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/LICENSE",
+      "sha256": "64358c9db1d10c3ce7fec84395de110f9092f7fd016a1863067c159f7c194773",
+      "bytes": 1071
+    },
+    {
+      "path": "raw/bkpred/data/split0/X0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X0_test.npy",
+      "sha256": "f0593103382c953e0d4f409a2319390c7a3993a78eeb8ea909dbc97f5effcd97",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split0/X0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X0_train.npy",
+      "sha256": "a34b61431b74891d7470a83b38b852a7340408d5e24c5f5d55256459d380c4d7",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split0/X1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X1_test.npy",
+      "sha256": "ff30fd74d21273bf034cec0e475befa1a04ecca81cde5c1e61a62fb607c547e7",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split0/X1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X1_train.npy",
+      "sha256": "79e185bf4c9bfd4040688d03d314854e6138adf3458428c0a7e847001728a6ae",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split0/X2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X2_test.npy",
+      "sha256": "c4dc6a6444e25226791028d18395abbb265c10b5a5f9db28c74cd86cb4b48662",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split0/X2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X2_train.npy",
+      "sha256": "895618ebdb278ddd317541f9fde64c369013dfabdb2f10b193e5823d365fc46b",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split0/X3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X3_test.npy",
+      "sha256": "66dae35872d5dc65b5b70129f0c3c31c58357fe2d6dc97ec657db355307c0c15",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split0/X3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X3_train.npy",
+      "sha256": "5262b62eca7edd730d04e84eda5e60b36d76877e605a51baeade7ee0187be3cb",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split0/X4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X4_test.npy",
+      "sha256": "11b29ceea3cca846aa621c74acb5a3555c61b019acfa443539f650a706344509",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split0/X4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X4_train.npy",
+      "sha256": "c9bcf9cef7425940aa92f2f68c2cf6957de8092d4eeb32c3e600ed4496ac979c",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split0/X5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/X5_train.npy",
+      "sha256": "31c1b71f2954c53d3cfce34a4899340994b7d14c1e344b65d8edf35d0931fd87",
+      "bytes": 90848
+    },
+    {
+      "path": "raw/bkpred/data/split0/py0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py0_test.npy",
+      "sha256": "90cdf98edb1bb5834436f227194c7bd84b68a99554f8f75cd5c3cc513afb5d0c",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py0_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py0_test_error.npy",
+      "sha256": "c1a7d2d51600c6dbf54161d1d57cc64a3ad8ffe3f7a06e815a6163110b668940",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py0_train.npy",
+      "sha256": "a181e25399201d025711a08fb296160df081f1dfa74554ce1cb0463c2d03d138",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/py1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py1_test.npy",
+      "sha256": "cb66976cc0a7d5a9e6bd358b5afec6c62ff423775a14a37e1bbbfe6bf8721ea6",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py1_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py1_test_error.npy",
+      "sha256": "0580a31e54c09a194ef5ab8d34228a1b5d627aa2138739592f6ea6f9b7b8cf32",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py1_train.npy",
+      "sha256": "9e898355343da6d63c19ce90b7ff20c7ef4b34fc94657f5706af2e526797158a",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/py2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py2_test.npy",
+      "sha256": "f976fc25825e8fc4b2a2f90a062b57fcd1bf683d983153597c761c0f8521c21c",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py2_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py2_test_error.npy",
+      "sha256": "0593ba0edc501d53e8431eb911b2d1672a4638272e9d33ffb228e04ac7759bf0",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py2_train.npy",
+      "sha256": "da5ba1dd6871002195813c90690e3a85ea3cc66ce71a25510f53d0fd008ca5b4",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/py3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py3_test.npy",
+      "sha256": "248501102003f9d69bbdcf0d140daf1048374747f84e3e3fbcfd6a77df9e6d0f",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py3_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py3_test_error.npy",
+      "sha256": "61acd9f827c792e90a559d3e60ab51a0aa22449904ec8a6280270001c7729aa8",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py3_train.npy",
+      "sha256": "f19802578565310f28f40922db16609c4977e721df52b1cf724a71c6c179662e",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/py4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py4_test.npy",
+      "sha256": "7826d743df6be1ba406726ed8659bfa70ae1d549ead1ce761799f3e9da1010ff",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py4_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py4_test_error.npy",
+      "sha256": "45b9f643286b0679506cb1ccec921216ec3951c542af31fc1ea945e172c01cc4",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/py4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py4_train.npy",
+      "sha256": "18605ccc12145dd5e9bffaa728e755dd48cd9de9f3a73ff7d13ae02012f5a155",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/py5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/py5_train.npy",
+      "sha256": "5cfcfea197af26d2538f50940b2f06fee74172f672bb785ceb4c1428b1e5ba52",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split0/validation/X_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/validation/X_test.npy",
+      "sha256": "e80323a4f5d315bc603d4ef4e5a2d8d66ff8895b7c6e5c2ea10d024e11c40426",
+      "bytes": 22928
+    },
+    {
+      "path": "raw/bkpred/data/split0/validation/py_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/validation/py_test.npy",
+      "sha256": "c5dfb396910f57c18f601a4e6267151b34eb22e3d72633e819e046cc629aa825",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split0/validation/py_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/validation/py_test_error.npy",
+      "sha256": "fd7f76c7ff64d0c67ee5dd59ee32a67130d24191b44a8d9ff75fda4d16d6a367",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split0/validation/py_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/validation/py_train.npy",
+      "sha256": "d98d8992eee52c6e2e0c911720dedfa9dc4466e5a5277c85affa30a7d904c295",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split0/validation/y_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/validation/y_test.npy",
+      "sha256": "950d06ed9f1db84027b61bb4ac1b6fa2ecbf42d071ee62fb5663880484124edb",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split0/y0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y0_test.npy",
+      "sha256": "3d23d6ef9e30f41d4075f91e4dd3f57e20c2ebaf1aa5196a3ba4f9f96bd10311",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/y0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y0_train.npy",
+      "sha256": "6e2b349fc7e7c39fc6614b48109feec06f07aa43f299602fd4e086fb25f6dd5c",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/y1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y1_test.npy",
+      "sha256": "ccfb7ff2bc19448f5676dc67c3211f846e10c075e2260d25f7333894eaf6e9c9",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/y1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y1_train.npy",
+      "sha256": "a8be53c55f3b64747c3920dfc9959a1245a9b8c514b8dd855f4ff772a16021d9",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/y2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y2_test.npy",
+      "sha256": "6ea78e1bb5967f647ce8ab54b8e2e16f602eefd7cd732ce1039223e250944435",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/y2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y2_train.npy",
+      "sha256": "f8b8f29e53d270f962ced5f05409c526f2022ed5207144d869bc9100d26b67cf",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/y3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y3_test.npy",
+      "sha256": "23abdce47abf2d56e62ee895a50b981903e05fcd81978a0e42468d9e567656f7",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/y3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y3_train.npy",
+      "sha256": "3461c1d457432a47e70eb5eef21eccfb73079dac259a9a3af18a3a47045ad6ae",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/y4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y4_test.npy",
+      "sha256": "757dcbec7d6d3b53c8a6e31dbd7dbf15324f6b4f6e8cdff706180564d2eaa7d5",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split0/y4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y4_train.npy",
+      "sha256": "6e6513e9658ecb0be983dddf5ab97d75d0e74f9c0523f81fc4cd0827832705fe",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split0/y5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split0/y5_train.npy",
+      "sha256": "8468b6891f574be30cbad7d274dc4d48795a2ea8285b70659619d717c66d3d7c",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split1/X0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X0_test.npy",
+      "sha256": "d68087d490298bb7e80cbf218cd0e1434009e162211c60978a1a3c0975b55069",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split1/X0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X0_train.npy",
+      "sha256": "bf0d3c20d09c37ec3216014a9844778b122120e3ffd1b95f6dddc50a335261e4",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split1/X1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X1_test.npy",
+      "sha256": "f44f7a7d82ae0198b1fe04559dd483b475295e51e455935d8505879b49a9475b",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split1/X1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X1_train.npy",
+      "sha256": "6c284b7cac1710df0a1b557f433ee158f4255cf83fc4496743da14b07d9e4949",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split1/X2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X2_test.npy",
+      "sha256": "a7776a97251a4c81af3ce612712a614c57c9db726bbb5fd3754f8d465cb8f1f7",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split1/X2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X2_train.npy",
+      "sha256": "b1b68dc59902e8c2f6c8a7541f1d90582363b46883870ffd2963d1d95badcc02",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split1/X3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X3_test.npy",
+      "sha256": "075ed8d11f9e7c9fa9cf0da36354d0641a5556fa2bb8f8df774867debf2d1235",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split1/X3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X3_train.npy",
+      "sha256": "954cb74e8de6e93fa228c04f9a7c1197c7e446f62bd978cd1f4c69b212e8a748",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split1/X4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X4_test.npy",
+      "sha256": "a237d9c6f335546a617202b7e508254a88c1129fdee5b065ee042e7a2a4c063d",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split1/X4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X4_train.npy",
+      "sha256": "42bbcac7f2a1d1aecd6ffaf827ee73b378e6922d23c893e65dea383eda541ab7",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split1/X5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/X5_train.npy",
+      "sha256": "3c04f23edf58c2e9a1ed32ef4310454454c2182bc6b7004d983b66536e587840",
+      "bytes": 90848
+    },
+    {
+      "path": "raw/bkpred/data/split1/py0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py0_test.npy",
+      "sha256": "072e82b2793c51713bc013f4573daa68d7dc1ec93e921d6fb98f34e41f89e7de",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py0_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py0_test_error.npy",
+      "sha256": "97e7b83cb11bfa64c8c8c77541dd4be77010947b09e2d18277afa28e22bf080f",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py0_train.npy",
+      "sha256": "91cf4bb590b1fd1e3b9a9d601645383beced3f725e16be1a4b3a62b21cc4b2e2",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/py1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py1_test.npy",
+      "sha256": "2664a3df931dd3b7affb8251a67ae1dff9d05689c0ce538a2e042007eb94f8d9",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py1_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py1_test_error.npy",
+      "sha256": "01dbda6534bc18615d57261fc3afcf44ce1fd06c7eb5601aec3dfb2a3a3bd72d",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py1_train.npy",
+      "sha256": "915831ab438042a4b198ddeea0cf8ce46ea1c93a5fdb989be7a3e4b89eb997a7",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/py2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py2_test.npy",
+      "sha256": "1199673c2dd0cd9870b8b278703d95530977b211091a4969825ae7164052c659",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py2_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py2_test_error.npy",
+      "sha256": "010888802d4dcfb6eb7ca716de0aef1cba399083e48c2829c2e9a29e72736edf",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py2_train.npy",
+      "sha256": "d7a2bb83202e61f2df5d3d011293c5c7ef15b615c2008de58d3311a7a7461890",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/py3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py3_test.npy",
+      "sha256": "408264bc38bb66967916c9774bd3b1574ebd5098a04240d920aa5b2b95766de9",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py3_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py3_test_error.npy",
+      "sha256": "d0b909a769b2dd2686a2d1bf8051d67494a718d57c01ded7e45f08c20fe50890",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py3_train.npy",
+      "sha256": "4a3ed2ba67383ba16bc269e7c2417d951510be388506e74c749b560e2f0e7e65",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/py4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py4_test.npy",
+      "sha256": "928a3a667d986f7d830dfa91a2575bb0e2db3f34efcabc950585f5a4cdf74e8e",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py4_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py4_test_error.npy",
+      "sha256": "08dca0cd731e2db50042f92c60a983d7a0ea109bf3fb31d7110deae2338630e9",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/py4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py4_train.npy",
+      "sha256": "6c9f7c2448adb3d692646111a0871099c84d15fbc68671d7949993b3b1444752",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/py5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/py5_train.npy",
+      "sha256": "98183d19203934a0bf05d0b76d64fe992b0fa160270109d8087662fc546c9f63",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split1/validation/X_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/validation/X_test.npy",
+      "sha256": "b61cde9c6642e879646a03399692e04e4b066e62cf78b528d9df4fc4bbba7b4b",
+      "bytes": 22928
+    },
+    {
+      "path": "raw/bkpred/data/split1/validation/py_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/validation/py_test.npy",
+      "sha256": "0d51c5cb2e59e09d81731f42082e01f322d04848058d848ea0198be992cecc69",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split1/validation/py_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/validation/py_test_error.npy",
+      "sha256": "cf9dad1e51f93a2d5031ad96cd81f9ee06fb2df70bbe5a5ae002b9044da169e7",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split1/validation/py_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/validation/py_train.npy",
+      "sha256": "551f901dde8f422f5c358fcaecc81765252d8ae4b188e35b91ef9a7a97516073",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split1/validation/y_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/validation/y_test.npy",
+      "sha256": "341be5672c37bd97a58e0ce78e4608106133d8275dd694fc0151ae249ed97d95",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split1/y0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y0_test.npy",
+      "sha256": "ae4c06ffa1627bb72be100774939b61743cc64c7cbaa2892a91850d707a56131",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/y0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y0_train.npy",
+      "sha256": "992ce31c9c825b314dee65261e80ec43027185f7b5b07fbd242e017e326bc929",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/y1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y1_test.npy",
+      "sha256": "1067305aeb30a315c9dd76427fab19bd2ee8c96288b9dd767d509b789183cacc",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/y1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y1_train.npy",
+      "sha256": "81c98f6bc7ea75747d7ba014ba404b44472490c73a5daf3e5ec0599c64559ae2",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/y2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y2_test.npy",
+      "sha256": "b53e7a8fb17cf133bc01998beba0c43205be09d1e0c41b359e377efe8962dff1",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/y2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y2_train.npy",
+      "sha256": "623690c5b3edcaad5ae5043cd5d9daeffb523bb859fdf3a67176225c6d60aa0d",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/y3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y3_test.npy",
+      "sha256": "e3f615728eddc90c9dbd576b6cf04d6a1b3f019a46b1341a46f2f7732004aa3a",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/y3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y3_train.npy",
+      "sha256": "827f2b22acff5e19042d3263a98505be515b17e99aedefddef204b62e192891e",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/y4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y4_test.npy",
+      "sha256": "fc9f9eb81921bc1db8832e582895ed1b7745774135f50e7c45a18bdbb6a1ae17",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split1/y4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y4_train.npy",
+      "sha256": "fbb9c8788fbbb8889b5334ab0cf7acb2c2ee58ea723578a7d82d33306b68e40e",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split1/y5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split1/y5_train.npy",
+      "sha256": "1ff6de341057d372aec08b943d45c09e7f859429be54315d4de619b561481217",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split2/X0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X0_test.npy",
+      "sha256": "ee01577f04d461e8fc80dfb50af25e400cdba0537d807c8a9b49ba1493bbe90d",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split2/X0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X0_train.npy",
+      "sha256": "5c33cab0f5be4ee73331363a35653baeea8c46a63e4f4117ddf6e1c87236774a",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split2/X1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X1_test.npy",
+      "sha256": "85aa835c93407f5f474371b6159844bcce0b174128aceded6ae947f4d2620a6c",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split2/X1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X1_train.npy",
+      "sha256": "bb979549a81263cd5195adf0a35f31dfb6b84faf6d9048d6d0d59902be66d4e3",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split2/X2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X2_test.npy",
+      "sha256": "b60510be2f0fb9aa257d83ff02550d7d533eca9630ced1ea624ddac76a1643fe",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split2/X2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X2_train.npy",
+      "sha256": "5e35bb94d5ca08dc2cbd99de5fb2729d68a3751aa403aa80a7164a470c92f036",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split2/X3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X3_test.npy",
+      "sha256": "61bc6bbc637878934507e4d22f0422982fc122f81ca76aa1a62737aaf94fa8f7",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split2/X3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X3_train.npy",
+      "sha256": "958c4846bf191985740bff07521fbbab9ec8debd0a02ca2d68427f24ee69b2e5",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split2/X4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X4_test.npy",
+      "sha256": "d3653525af8aca8f868e0a5fd8c679a0d69e3279cd3783e61773a16b084fe127",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split2/X4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X4_train.npy",
+      "sha256": "3e190a6feff83667aac45855894062efa11d7792ce5a3f7913b727a44629633e",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split2/X5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/X5_train.npy",
+      "sha256": "cdaf1d4eaf3466fa748f15a05d3311c589a2ef1ca9dd1e3fce0ecf6b164a2f9b",
+      "bytes": 90848
+    },
+    {
+      "path": "raw/bkpred/data/split2/py0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py0_test.npy",
+      "sha256": "cb837420649e266201dd37917c4484ee9a73fe65136030512db2309d50670dc8",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py0_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py0_test_error.npy",
+      "sha256": "7aa3965f93c45727dbcbd05aa3ff842d414da64886d73167f9fc7f68685e392d",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py0_train.npy",
+      "sha256": "cca75f7b18e7210f71e4dddb79c512f6281d4851d6bd0c34a4e767975c6fef6a",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/py1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py1_test.npy",
+      "sha256": "32f260fbefc4bd3b0cc2654610fe657ff4d926768466a7e5cbbe7b8d2dd5b915",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py1_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py1_test_error.npy",
+      "sha256": "77335a9d7842ad8f1de8ddf0a72525f5a258c48ac007ee2d9861e5212bee6551",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py1_train.npy",
+      "sha256": "2730c6141257e4bff4cfb060fe2c5a08b66e3b8dd2ea96bb059c5f28d22b5d2a",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/py2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py2_test.npy",
+      "sha256": "1df306026f43bee8fe12086b5020d97f1f93771ef91cb9111af23619eb950b01",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py2_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py2_test_error.npy",
+      "sha256": "fcb1f07f01fe88991c9f86c43a517c8b0892d9e67f5c9e5af091374b617b49a0",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py2_train.npy",
+      "sha256": "0397372faa4176c41127ef0e6f6d23223d4203ac9b7dae7602f701642552c1a8",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/py3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py3_test.npy",
+      "sha256": "d5e84d9b28b9afe7211b8299df7ae18e122bad1b703d18ec0cb2b840e08cbf73",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py3_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py3_test_error.npy",
+      "sha256": "5dd1c5a39d5b504b4e3461ab157156e3b033c5d270df570e8229a800b39c9216",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py3_train.npy",
+      "sha256": "c8f5eecb7474e7b9d4d065ad0183a6c058eb763011bf7a5b0654098d57868223",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/py4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py4_test.npy",
+      "sha256": "5a171df1c013aa8acfe711088bc545daa3ee8fe0f9478fe5ca2f2ca2accbbe2b",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py4_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py4_test_error.npy",
+      "sha256": "40807f5c05e6d24ebc08e2a0877f3dcd484a56335173017eff28f6ff49d96519",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/py4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py4_train.npy",
+      "sha256": "c14faa59371ec22241490572fabf1a657906f3409f815d720b1edaf25b017087",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/py5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/py5_train.npy",
+      "sha256": "d43f63352fc7ea27108dcf1e6ad67650c9197dff6ed4beb6d34a9091d59d7472",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split2/validation/X_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/validation/X_test.npy",
+      "sha256": "56bc20ffcbb54798e517b73eaa430a8e4bd20aacfdf6c14225eadf27327b6355",
+      "bytes": 22928
+    },
+    {
+      "path": "raw/bkpred/data/split2/validation/py_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/validation/py_test.npy",
+      "sha256": "2bbe4382dd8e87a0349bd98de37ec522ea0216792ff0b2eafd80aaf33baa8ac5",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split2/validation/py_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/validation/py_test_error.npy",
+      "sha256": "4683625eacc9d6a13e68148636cb2e4ea2221f11d0b79a08ab44de67536fb182",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split2/validation/py_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/validation/py_train.npy",
+      "sha256": "17d6cbb131fe804924e888f44230cc5406b28e36f915ad6893682cea94354209",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split2/validation/y_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/validation/y_test.npy",
+      "sha256": "c7ad2ba2ce646f87accc65da41d85a564060a443171b3126bf973fab06fcc3fd",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split2/y0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y0_test.npy",
+      "sha256": "3706659b3b431f8e560495ce7f8964961a462c3409aaa16732989ea5a255bdfd",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/y0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y0_train.npy",
+      "sha256": "533280580bc45ca548316c9c97d99e09dfffc863e38a65d86f821831c59fd79c",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/y1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y1_test.npy",
+      "sha256": "b3e56695bd306675d8d3043b95979f68f61cd417d676a1ad2ecc41968d7b0ed6",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/y1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y1_train.npy",
+      "sha256": "fe8e4160509f25b27538619789775107f49e0c538fa961d72c72de83dd0694eb",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/y2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y2_test.npy",
+      "sha256": "f80d63c8b53ed0ff4a766effbed6ed25648c1980d809c6c4ba43fdda520e12ec",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/y2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y2_train.npy",
+      "sha256": "a00d4fb26e9a6d14cc7834cf84836c547673940d6784fd395c6ef0bdbeac658f",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/y3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y3_test.npy",
+      "sha256": "71c4ae331bed3a0375915c829d0556c9959b48541ffac3717fe467cd8ad13d98",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/y3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y3_train.npy",
+      "sha256": "3b1df512a8205e7c699ede88395b48f5afe96e47551d5a7137048b89b42fe156",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/y4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y4_test.npy",
+      "sha256": "efa4133d28ee058c6fb507ea3284a551e4896944ea6f484153b16315fe0e8d2b",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split2/y4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y4_train.npy",
+      "sha256": "4107b4c3190ac53bbce9c912b26f71c762f7bc9b5f9f5f3cdc709e33c6a4b496",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split2/y5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split2/y5_train.npy",
+      "sha256": "b160655dffac1bbd7a28a7dc0bf83234c6dab7e49b44f8615f7faa9dca01a149",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split3/X0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X0_test.npy",
+      "sha256": "c3af18cf2e1ff22b741b5582c00bc31abbee150690667f066cc55f3e49c85b2b",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split3/X0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X0_train.npy",
+      "sha256": "7592da6643ae3204a6d862e1d122d1e8051873f61f2255723740dc75b0357378",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split3/X1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X1_test.npy",
+      "sha256": "8824e2d55660a1b45baa4cf9699cf036ef8a6da70501d020a5f6ea2b0c5ec8fa",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split3/X1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X1_train.npy",
+      "sha256": "cdb6f80aeb7ff5308c93938a2a7b47532ee7807023a9ecb07c1260b2ad982b18",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split3/X2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X2_test.npy",
+      "sha256": "9183f308ca77ecb8f1862a2fce2ca9a90611634954b956ea60319d25e4719374",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split3/X2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X2_train.npy",
+      "sha256": "f9c1d5330ff1ec34681e143fbe56402a017ec5126d5e05c21debf6db72e89b4a",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split3/X3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X3_test.npy",
+      "sha256": "a67ddcb3e76dcdfc586eceada6c001f70d69c79e6ee09e65a32b08c1224dcfd9",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split3/X3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X3_train.npy",
+      "sha256": "4f63ad0235366fda0cdee659692b833f7c9c0ccde45a0efed32682e0200563a5",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split3/X4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X4_test.npy",
+      "sha256": "aeaf0935ffee414c958fe81f8a10bb39d0a7c51b110695d9cc6a270b70c9cb83",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split3/X4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X4_train.npy",
+      "sha256": "ef9290a7614d131a6048efd6912b0d315902c46674a1d6fa99c504441705aa0e",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split3/X5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/X5_train.npy",
+      "sha256": "a954995afb95a9f2db934aeac7d41dbcebcae4ba71a77946a36a300950931716",
+      "bytes": 90848
+    },
+    {
+      "path": "raw/bkpred/data/split3/py0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py0_test.npy",
+      "sha256": "6abebba1488bd8a9d4203a7f3bf5308d1f4ed52162a010d83809abce7f3b9517",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py0_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py0_test_error.npy",
+      "sha256": "3f07b77be690c7172d0b62ce4905bac447394cfc782a3c816214ed065420491a",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py0_train.npy",
+      "sha256": "c13ea0f3e6bb34fbe8a937b971c3b54ad71cc252e63ec63d98f827e63c48896f",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/py1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py1_test.npy",
+      "sha256": "59efc6e953363e4686521e607503592ba047877f40dd44779373be5b3bf7575b",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py1_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py1_test_error.npy",
+      "sha256": "6c6cf54be733d9a2fce147a82ccd16b20d52878aeb702a52f32b97d482e34a7c",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py1_train.npy",
+      "sha256": "12e5ae66f5a460674fe6e7d2847962986b66704f9c41ef17103f22349a31815d",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/py2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py2_test.npy",
+      "sha256": "9831b890d3d103bf0014131a2c60b9179016206b0a4f273f48339b879a9ed084",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py2_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py2_test_error.npy",
+      "sha256": "373ee733089caaba4ec3f3bff403335cf135147f8fa311fc6f204c021be6ca4c",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py2_train.npy",
+      "sha256": "5bd645c8e42ea84ac51095a94507a333e03db0fcc2841f527cc5c21eb4438c2c",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/py3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py3_test.npy",
+      "sha256": "1046491086e8b4d4d1841b47a9145937bd2e0d615ef06d030c1f96bc130aad4e",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py3_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py3_test_error.npy",
+      "sha256": "8f5eee1b8bb71b39d9a215d7dc50bf6c7737a42456ea19800e4341270a36c508",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py3_train.npy",
+      "sha256": "3f50ccfbc5ddbf6f731be68bccaccfa075e94014afa1f2bf57363061c9dbb87d",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/py4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py4_test.npy",
+      "sha256": "1facb10554c9f9805028ea45fcbe3c84e24a2e8f263e2f0b6b0f64adff9e0749",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py4_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py4_test_error.npy",
+      "sha256": "bf494e6a8f0ecfa6223a43cc8122068ad748695dd54b9cddeddee65db6da9c3b",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/py4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py4_train.npy",
+      "sha256": "315539685c0bf8236fd01387972f2849caaa7d75d195c55db749987eced78608",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/py5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/py5_train.npy",
+      "sha256": "6b220fd589b16936827a031011f10c1d94f69c4647c2986ba921aa1ae430d456",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split3/validation/X_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/validation/X_test.npy",
+      "sha256": "77e00665514310fad73276a0d20cb3a2878d8a606e37fec7f4a5827eba2738fb",
+      "bytes": 22928
+    },
+    {
+      "path": "raw/bkpred/data/split3/validation/py_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/validation/py_test.npy",
+      "sha256": "e8c7c51055e705fb934b87d5bedbf0d1a60b48ab436e60865b65199225250458",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split3/validation/py_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/validation/py_test_error.npy",
+      "sha256": "742611983814c8cd8fc7b564731a6e2ccd1739578719150bdcc0d5e7cdbb8ad9",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split3/validation/py_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/validation/py_train.npy",
+      "sha256": "83c940dfbe972e095b71ca631a6db5ce4d9e79608e378616632fbf19975e9ba1",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split3/validation/y_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/validation/y_test.npy",
+      "sha256": "ffa1f7c567deda054fc45d65b58a6f0222430cb779ad6be411b0cde7168939b6",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split3/y0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y0_test.npy",
+      "sha256": "c26a2e811070eba40692897934c02bea2627fa4f7a52b7afd9eedecdf4337a86",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/y0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y0_train.npy",
+      "sha256": "3a81cea6df52bd7312783c6ac8817844077ad65593f6077621e7ffd4020371a9",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/y1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y1_test.npy",
+      "sha256": "b92ef3dba14db2ff45436f95d4becc1ef01fdabd955434b778a42c6f80411374",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/y1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y1_train.npy",
+      "sha256": "56c62e63e8125b4938245955dafe55855ea03ae2b0141cfa0a74fd980f365d81",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/y2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y2_test.npy",
+      "sha256": "cb4b15ce236b1b88a966771eb863a7aea56fec2320186885e0610031ce45b6a1",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/y2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y2_train.npy",
+      "sha256": "4cc37d974b49c6c33ecf0a706a57f789b48ebbcb3b4f239dcf930b66bfbe0ba5",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/y3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y3_test.npy",
+      "sha256": "a86d384b346d4e48fbfc1f3c943f5d5cb7043b8a774a293472d87a9c945c3ab0",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/y3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y3_train.npy",
+      "sha256": "f2423d1c6fd78947430a3a50f0c78988e59b726b1ed5580d7991fae3bee38311",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/y4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y4_test.npy",
+      "sha256": "dd13b50de721296685c31aa94994eda839d08f9cfa56a604f2817b5b7111104f",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split3/y4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y4_train.npy",
+      "sha256": "ac4a73b97d5b1b74e5eeed6e8432314e7f7864b625e928a6e311e0d33d949f4b",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split3/y5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split3/y5_train.npy",
+      "sha256": "4cc1ec29ececf08ffac036c737f26bb17186cb837a71f0d67e6da8766e04f787",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split4/X0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X0_test.npy",
+      "sha256": "7f54334180148c8c10d19b19de1f38b2b0c3554f1dadda37141c2d664fdf380d",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split4/X0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X0_train.npy",
+      "sha256": "5d83d49911e5308799b32a988ace87f5cae2547e2643ea08f3ef78da874daaf2",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split4/X1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X1_test.npy",
+      "sha256": "3976091304a89e3e8365361997d5c58bf72da58cd8e6fd7e2db473a7fddd7773",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split4/X1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X1_train.npy",
+      "sha256": "7ff08bb4c68f1e7ce79bee0378d48cac3f7986fb3f741b9cff082bc162323566",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split4/X2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X2_test.npy",
+      "sha256": "497ac59efca2b20a59e5cd07eb88703dc9e4d005ed5a48a64d22601e2ddf0796",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split4/X2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X2_train.npy",
+      "sha256": "13b6a8cc12f36aff8daf0a2be34256e82a262dbe3f6daf19e399d6ac407a55d1",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split4/X3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X3_test.npy",
+      "sha256": "e9c2b9ff3b4a6d6ee320692bf590d1fbc7e46a7affe582f22ae8625346fd6a33",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split4/X3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X3_train.npy",
+      "sha256": "76644a23bc520311804fdf1a66e07397e13318af0186698a5702c239d24ebe04",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split4/X4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X4_test.npy",
+      "sha256": "3b580ad67d5ae5c57b6b6ed00ffb1da0f86fd0680715fa96f55a4ac2d6e6e1bf",
+      "bytes": 18368
+    },
+    {
+      "path": "raw/bkpred/data/split4/X4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X4_train.npy",
+      "sha256": "3fc4973cf7c88ce5256c5b02c1f259646ae28982e65f042412b136b8a4ccb126",
+      "bytes": 72608
+    },
+    {
+      "path": "raw/bkpred/data/split4/X5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/X5_train.npy",
+      "sha256": "e8bba72db7dfd0dea011d9cfe0a75e581e610a3b0b32e6d968cbcac799bd1067",
+      "bytes": 90848
+    },
+    {
+      "path": "raw/bkpred/data/split4/py0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py0_test.npy",
+      "sha256": "a3bc556df11ca3f3524dad3dee569861e2847f979e77bd357746cc6b9c401687",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py0_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py0_test_error.npy",
+      "sha256": "55e60a891678d93af48820312aee96aca6ff4ea82ba33e07dd28cfbfca5bc8ec",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py0_train.npy",
+      "sha256": "52d337743613992f5481db6a33aca730f0c2ccc16200da0ec70f7e7ecf56bbc1",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/py1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py1_test.npy",
+      "sha256": "06b532d3468e17924f5a059db52aa85530fdf67d2721545e0c486e5d89385088",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py1_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py1_test_error.npy",
+      "sha256": "83bef7ec379e035ddc73760a22cc008e74b294316c24c7827c42944e54890dfa",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py1_train.npy",
+      "sha256": "4c36f61afaf9237c4c77820209b633456e18b6c667a6c0ca203e0892add2b049",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/py2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py2_test.npy",
+      "sha256": "76ca54919cc5b9360e8ce3a1ebeeda4fc90cb6d0c401f4c8fa8784a523f6f0ee",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py2_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py2_test_error.npy",
+      "sha256": "d4ea70f99423c4226351ae9fe98f4c92596d67401f70bd87a98dcc3ad7ffc0ac",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py2_train.npy",
+      "sha256": "c3880752710582a907ff5d62f29883a206cd29251b5f9a466af89bc62961756c",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/py3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py3_test.npy",
+      "sha256": "cc1bff4a98b66a1b5718e721cbf4be2ce409f43a8922647c0963398ad7357859",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py3_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py3_test_error.npy",
+      "sha256": "7d619cfd2a13ab5d8fedaab8e7745eca9c858bfc58eda35cd7752b1df2cb6526",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py3_train.npy",
+      "sha256": "a5d2fcfdf86b8c8b8bd04f5b4fc3fb0ae45a6ffe4fd69d7068ea551cbde0160f",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/py4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py4_test.npy",
+      "sha256": "5f0cc03070d46bf0edee9b9984a8bb35eab7a958a38426b8e6ccbccd3215b389",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py4_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py4_test_error.npy",
+      "sha256": "f9ebd2a373132d6c24fedccdea8efec58dc9d2db0f1ff2462f2218cfec564fe2",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/py4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py4_train.npy",
+      "sha256": "1246faa4c6de78d0bc647f03ab3964152cadddb0fe068236e37c798cd0240363",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/py5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/py5_train.npy",
+      "sha256": "0c6c619ffff1bcd12898571beb3b254eb64ba03d59bd8257365bd79b9b885677",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split4/validation/X_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/validation/X_test.npy",
+      "sha256": "7e0bf6f9c99c7e4851c9e7c150c29552a2033d23347657bb94ab553d9b15ca2a",
+      "bytes": 22928
+    },
+    {
+      "path": "raw/bkpred/data/split4/validation/py_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/validation/py_test.npy",
+      "sha256": "2bf0333c1b2e0479efbd9fca21b52a47b7ecd7bcd726cfe36097d537f38bf567",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split4/validation/py_test_error.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/validation/py_test_error.npy",
+      "sha256": "d7b71e5b439e4345f43e6b6b902dd569da0d90a66ae60c7f44463f28c2187d05",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split4/validation/py_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/validation/py_train.npy",
+      "sha256": "a619d42fc9f6fc74cba19d2a6cbc4997dfba9878f99dfb55430d5450d33220d5",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/data/split4/validation/y_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/validation/y_test.npy",
+      "sha256": "a5ea0a2b3e4a136754abb3467292fff9173071ddef8c766fb41f1b92cdaad5a0",
+      "bytes": 888
+    },
+    {
+      "path": "raw/bkpred/data/split4/y0_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y0_test.npy",
+      "sha256": "2867d737defc2e4e015e36af54ccc38a63b20e71efc042b1484f6240b45a5ccd",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/y0_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y0_train.npy",
+      "sha256": "3b75bbb5e9826086a36391185d5d22d05a8c48e4054577555911ecb09804cf2e",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/y1_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y1_test.npy",
+      "sha256": "f48d2bf9c45ddc695a65a596b3e6068e6bd1bb69bef7d08568df13dc1d17aec0",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/y1_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y1_train.npy",
+      "sha256": "7c0bf9e3f209420a6db9968e9bd84e9dc0cf9280391654b06870e61ddeba4d90",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/y2_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y2_test.npy",
+      "sha256": "1f319643c90abd4ceb807723b8d446cf37458a6c276bd6599c35bfe7db7af164",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/y2_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y2_train.npy",
+      "sha256": "2fadf07ffe5be00cef034908096f50a7e0f81263ed3dd34d6015e9e1ea559c76",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/y3_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y3_test.npy",
+      "sha256": "7f6a8403126881128206315b95d2f4f97dfe9bfe6b493f516cb434d0d24e0301",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/y3_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y3_train.npy",
+      "sha256": "3f942ba39b159041f75f52867a914ee1fd178d9cccd8e33ba71a8188ddd773bf",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/y4_test.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y4_test.npy",
+      "sha256": "bacb54ae3147591ca9fd68fd425feab7787853bb88177c12d299797bf7c89e0e",
+      "bytes": 736
+    },
+    {
+      "path": "raw/bkpred/data/split4/y4_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y4_train.npy",
+      "sha256": "709e0715c3bd2cec0219441e8e23179450215fcaaf044f1076a1ca2d520b02e1",
+      "bytes": 2544
+    },
+    {
+      "path": "raw/bkpred/data/split4/y5_train.npy",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/split4/y5_train.npy",
+      "sha256": "54173fa8826233640c8da394f875c95338443b6d2d08593ffe0844b5831cb7e8",
+      "bytes": 3152
+    },
+    {
+      "path": "raw/bkpred/predictions.xlsx",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/predictions.xlsx",
+      "sha256": "747fe4b1dc255804ded83d948dc006f8377d8f9ac7d151b2d140963b5921d62c",
+      "bytes": 755755
+    },
+    {
+      "path": "raw/bkpred/preds/predictionsCI.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/preds/predictionsCI.csv",
+      "sha256": "736700cb379a6c1bcc6abacc65cc13f6cf5f38e74ebfaad03bb69b045e443c34",
+      "bytes": 433538
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "training": "90% of measured GB1 single variants only; remaining singles for validation",
+  "test": "Label-blind deterministic50000 eligible double variants; both component single labels must be in training",
+  "partition_sha256": "be5b55907bd42846dc102db4e529b7c9532083e2e4a629df4143d63463597d75",
+  "train_n": 940,
+  "validation_n": 105,
+  "test_n": 50000,
+  "WT_gain": "Double enrichment >=1.2*WT",
+  "beyond_parent_gain": "Double enrichment >=1.2*max(WT,best measured constituent)",
+  "correction": "Measured single additive sum + f(phi_AB)-f(phi_A)-f(phi_B)+f(phi_WT); coefficients/hyperparameters fit/selected using singles only",
+  "scope": "Existing public binding-enrichment data; retrospective combinations, not prospective membrane engineering; no double labels for tuning"
+}

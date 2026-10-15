@@ -1,0 +1,354 @@
+{
+  "repository": "SBarethiya/VEP",
+  "revision": "bdd02ad997b866cc7585144d14a00a804f092854",
+  "resources": [
+    {
+      "path": "raw/VEP/LICENSE",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/LICENSE",
+      "sha256": "95b1dc1afc17a1f2625297d3fa6c4b5827f8f39e282d71aab24a6261b26ad4e0",
+      "bytes": 1075
+    },
+    {
+      "path": "raw/VEP/README.md",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/README.md",
+      "sha256": "8043e0704d0b4253d87f31e05e5f2891fae6e21aeb6b305b449498514b5727c1",
+      "bytes": 3690
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/Combine_outputs.sh",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/Combine_outputs.sh",
+      "sha256": "90c4ae219eb0278068f7bb2e8cdde2ed0b7a3a9dbfbc87b26e11488b5be1e283",
+      "bytes": 999
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/README.md",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/README.md",
+      "sha256": "6006e58fe544f9e45bec78e9d891319c04c8cd7d7a30cdabbf3d636c5b4ba42e",
+      "bytes": 1759
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/combine_substract.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/combine_substract.py",
+      "sha256": "67244ab72405b5001dc60b7f5072996909897e586ed8dea8331d93eb76bd17a6",
+      "bytes": 2457
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/ddG_calculation.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/ddG_calculation.py",
+      "sha256": "03554df4f63b666a31bf83285c686989a87ad1ba98c066e62e83b0715f6b1e89",
+      "bytes": 4473
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/gen_rosetta_args.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/gen_rosetta_args.py",
+      "sha256": "86145d8da594ebcc549b09e1040eaad7b9a3cbe48f06c6ecd76c90b15d0c2f6b",
+      "bytes": 4188
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/relax.sh",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/relax.sh",
+      "sha256": "aee3354357a774b28db85a7f2148223102b69130748c1325d6251b7ea7a690bf",
+      "bytes": 643
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/rosetta_working_dir/flags_mutate",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/rosetta_working_dir/flags_mutate",
+      "sha256": "6159811542bcbc5e707d840cac00ace3988996578b7c824e0a519fec6f45a1cb",
+      "bytes": 209
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/rosetta_working_dir/flags_score",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/rosetta_working_dir/flags_score",
+      "sha256": "ca8c45749f1a78652a105d8ead548d8d2f77043344b4bb7d08e7192a56a2775a",
+      "bytes": 167
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/rosetta_working_dir/list.txt",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/rosetta_working_dir/list.txt",
+      "sha256": "67861e50ee3be3c63a3f5c886b3598958bf9cc8eebb050ad285bd4c5cd762979",
+      "bytes": 18
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/rosetta_working_dir/templates/mutate_template.xml",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/rosetta_working_dir/templates/mutate_template.xml",
+      "sha256": "16b06c764e72ada77b701421e4b681e5cda560bf026544e55be1a91d898a96cb",
+      "bytes": 897
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/rosetta_working_dir/templates/mutation_template.resfile",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/rosetta_working_dir/templates/mutation_template.resfile",
+      "sha256": "f37aa57f37a9bfd0354ac5e1fa94c03b8287ce42839e6488df3f43ea06cb21a9",
+      "bytes": 15
+    },
+    {
+      "path": "raw/VEP/Rosetta/FastRelax/variant_file.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/FastRelax/variant_file.py",
+      "sha256": "cdf63c33ee6fb2bf942bd0f59a63800befda359f353bfa000f62dd0555bfb3f0",
+      "bytes": 2022
+    },
+    {
+      "path": "raw/VEP/Rosetta/PackRotamerMover/README.md",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/PackRotamerMover/README.md",
+      "sha256": "cdc9680b9658f95d8e8e1d22ed11eb6b827be6e1b416ceb3a2390fef21493172",
+      "bytes": 1533
+    },
+    {
+      "path": "raw/VEP/Rosetta/PackRotamerMover/convert_ros2pdb.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/PackRotamerMover/convert_ros2pdb.py",
+      "sha256": "123951d28bdce18a44b3f9673d65df41b8003107ad8b71f2393fcf9cba1b218f",
+      "bytes": 1609
+    },
+    {
+      "path": "raw/VEP/Rosetta/PackRotamerMover/ddG_calculation.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/PackRotamerMover/ddG_calculation.py",
+      "sha256": "0770d877a07d5962236e5adea12720c3651f69ce261aa0572f8f0bc2469f978c",
+      "bytes": 9322
+    },
+    {
+      "path": "raw/VEP/Rosetta/PackRotamerMover/predict_ddG.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/PackRotamerMover/predict_ddG.py",
+      "sha256": "15039531cc10305db400c91d0fd9399057b8ee9d23b0c7694eee55fbbea1eea5",
+      "bytes": 12202
+    },
+    {
+      "path": "raw/VEP/Rosetta/PackRotamerMover/relax.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/PackRotamerMover/relax.py",
+      "sha256": "861797a306b1fe52972218c512ba9c95e59e3ed568e216bdb377f1b28c63b172",
+      "bytes": 2694
+    },
+    {
+      "path": "raw/VEP/Rosetta/PackRotamerMover/run.sh",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/Rosetta/PackRotamerMover/run.sh",
+      "sha256": "dea7e1c20b222bbaf91477f8ea91b6fc270412a6640c6886514bfad0a10d4520",
+      "bytes": 489
+    },
+    {
+      "path": "raw/VEP/code/build_tf_model.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/build_tf_model.py",
+      "sha256": "e79264d4704e67db95fadcdbe6315c167df31cccb15d7b5c0667e5160acc7f3e",
+      "bytes": 12484
+    },
+    {
+      "path": "raw/VEP/code/constants.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/constants.py",
+      "sha256": "795b45a92d382b3ca2887d48fe2618512c7dd62de8870a6e446bd3fc844ee507",
+      "bytes": 3071
+    },
+    {
+      "path": "raw/VEP/code/encode.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/encode.py",
+      "sha256": "ad364ecb75c6e7c738ff9a2a048c0b5d8f7536951c3849dd50b52a8d0aabf77c",
+      "bytes": 10579
+    },
+    {
+      "path": "raw/VEP/code/enrich.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/enrich.py",
+      "sha256": "36332d3b644deaf25ae4d3d9c1663f2536797aa25a135a9f58984120401020f0",
+      "bytes": 4127
+    },
+    {
+      "path": "raw/VEP/code/gen_structure_graph.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/gen_structure_graph.py",
+      "sha256": "e9a8236d4c87313cc2bcbabbcb8970447e57263916c3095987e88c8a187e7050",
+      "bytes": 7959
+    },
+    {
+      "path": "raw/VEP/code/llr.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/llr.py",
+      "sha256": "4ee738d77cd93328a229a280d9c4fa6d971de8bc6d175f114d668171f7b01e4a",
+      "bytes": 4179
+    },
+    {
+      "path": "raw/VEP/code/parse_reg_args.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/parse_reg_args.py",
+      "sha256": "c0adf84cbb05c75e6748e478b272232e66ae0d8d5aeb77934f1028f4bb497ecc",
+      "bytes": 8200
+    },
+    {
+      "path": "raw/VEP/code/regression.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/regression.py",
+      "sha256": "065b696f4c3308e8c72eb9fc71f644bc4e87ebd0b80b49872f83e67ff61c409b",
+      "bytes": 30176
+    },
+    {
+      "path": "raw/VEP/code/split_dataset.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/split_dataset.py",
+      "sha256": "75bffb884d4598f2dc0e703e9e3639313287f84887a026a8047b34532d15b323",
+      "bytes": 21061
+    },
+    {
+      "path": "raw/VEP/code/train_test_split.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/train_test_split.py",
+      "sha256": "3e62c1c86eb6102fd6bf3e62370164f7b9937255b464c9fd06c14b68afd17eec",
+      "bytes": 6196
+    },
+    {
+      "path": "raw/VEP/code/utils.py",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/code/utils.py",
+      "sha256": "63f7f49ed91c3cad3318c7dfc8a71a18232ebf06d5748787a1f222d12897b254",
+      "bytes": 4739
+    },
+    {
+      "path": "raw/VEP/data/aaindex/pca-19.npy",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/aaindex/pca-19.npy",
+      "sha256": "d275ac4ae994960b87e2dc925999596befe6fd5480f6c6090ed1b90c042f5e65",
+      "bytes": 1648
+    },
+    {
+      "path": "raw/VEP/data/aaindex/pca-19_norm.npy",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/aaindex/pca-19_norm.npy",
+      "sha256": "3ea85a4393be4aacf2f232a4a74b8dc3db7cbdf2617a9c45601f3bf3a316866d",
+      "bytes": 1648
+    },
+    {
+      "path": "raw/VEP/data/avgfp/avgfp.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/avgfp/avgfp.tsv",
+      "sha256": "a7a7a44935d32aedd3b7606941e264f0b1e6e1fc4e1428758db0de50b9850cd2",
+      "bytes": 2891593
+    },
+    {
+      "path": "raw/VEP/data/avgfp/avgfp_rosetta_model.pdb",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/avgfp/avgfp_rosetta_model.pdb",
+      "sha256": "9a4483233e81cf93b80bc7473fc87def69161b93992e88754cffd7db8bc2ee0c",
+      "bytes": 345752
+    },
+    {
+      "path": "raw/VEP/data/avgfp/ddG.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/avgfp/ddG.tsv",
+      "sha256": "9741d77105a35459e187900c16b818d8b6969940c95f8feee3a6e380bdb86170",
+      "bytes": 290632
+    },
+    {
+      "path": "raw/VEP/data/avgfp/rmsf.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/avgfp/rmsf.tsv",
+      "sha256": "1253c3d4b01ce80e3af3e9f2ca133bca9bfbdbcd310ed64a169b9fa8b2fe7871",
+      "bytes": 6377
+    },
+    {
+      "path": "raw/VEP/data/bgl3/bgl3.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/bgl3/bgl3.tsv",
+      "sha256": "7b757a4bd03360f718fae55968963f377b2112135d7c739772f9bdcec3268125",
+      "bytes": 1054549
+    },
+    {
+      "path": "raw/VEP/data/bgl3/bgl3_rosetta_model.pdb",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/bgl3/bgl3_rosetta_model.pdb",
+      "sha256": "6d8de70d9610e72bcdb9ccd5434e2a8d6205f3091b66a871bdb2ac90ed497c5f",
+      "bytes": 306484
+    },
+    {
+      "path": "raw/VEP/data/bgl3/ddG.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/bgl3/ddG.tsv",
+      "sha256": "f71c569dc2dac7085bf97ae06f02927f5ec3953a593be733e1e625478050578c",
+      "bytes": 533085
+    },
+    {
+      "path": "raw/VEP/data/bgl3/rmsf.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/bgl3/rmsf.tsv",
+      "sha256": "4fb7be8b3f10a54101a28f54b4cfdf9b8de8874cb1761cf7c4d0d418018f20e8",
+      "bytes": 13831
+    },
+    {
+      "path": "raw/VEP/data/gb1/2qmt.pdb",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/gb1/2qmt.pdb",
+      "sha256": "b2496802e78c36545e1c3b4a136e90c0b9864b382d62d1ce3c3a02340ae2e1d6",
+      "bytes": 76059
+    },
+    {
+      "path": "raw/VEP/data/gb1/ddG.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/gb1/ddG.tsv",
+      "sha256": "71dd9a456cb6658ec587e14f83e62329e38ea4058ac9c5a5cf029e0fd777361f",
+      "bytes": 151097
+    },
+    {
+      "path": "raw/VEP/data/gb1/gb1.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/gb1/gb1.tsv",
+      "sha256": "d873a4be7e4b60a4beae21effca3308ba8fd8ac7886cf32457f447dbe5137afb",
+      "bytes": 22631969
+    },
+    {
+      "path": "raw/VEP/data/gb1/rmsf.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/gb1/rmsf.tsv",
+      "sha256": "b02e8d856336c1bece519de13a979ce5c4807ed9e1198be47f3f6e4ac395ca8f",
+      "bytes": 1395
+    },
+    {
+      "path": "raw/VEP/data/pab1/ddG.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/pab1/ddG.tsv",
+      "sha256": "79fe29b35aa70d884ad183a090bde87804383c0bebaaafd4ca3ab8655b93af35",
+      "bytes": 195938
+    },
+    {
+      "path": "raw/VEP/data/pab1/pab1.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/pab1/pab1.tsv",
+      "sha256": "dcd8bb7a23c37528bc6c584a19c9bf937a5a753557c1d0acf21f907c6771aa62",
+      "bytes": 1255305
+    },
+    {
+      "path": "raw/VEP/data/pab1/pab1_rosetta_model.pdb",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/pab1/pab1_rosetta_model.pdb",
+      "sha256": "45d6a591b050e4e42da357a086273879877ed3be2b22a78cf10fc5b235974843",
+      "bytes": 46655
+    },
+    {
+      "path": "raw/VEP/data/pab1/rmsf.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/pab1/rmsf.tsv",
+      "sha256": "787b3567b2749ff2bc0452e11d56e9bfc95ef544dec8f91d48722a604fddff71",
+      "bytes": 1904
+    },
+    {
+      "path": "raw/VEP/data/ube4b/ddG.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/ube4b/ddG.tsv",
+      "sha256": "585c6627e3777667f7397f20afc50530c1734e67805ad6b60990f55a26b27cb6",
+      "bytes": 190587
+    },
+    {
+      "path": "raw/VEP/data/ube4b/rmsf.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/ube4b/rmsf.tsv",
+      "sha256": "79c3d42decc29deb8173e3baa25d445e59e81fdfb70311f32a0c836d84dfabbe",
+      "bytes": 2615
+    },
+    {
+      "path": "raw/VEP/data/ube4b/ube4b.tsv",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/ube4b/ube4b.tsv",
+      "sha256": "f165c1a1dcd05228c4fb70d2656d6bcb3d1d8067ce322cd125f95123989ce0e2",
+      "bytes": 2694096
+    },
+    {
+      "path": "raw/VEP/data/ube4b/ube4b_rosetta_model.pdb",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/data/ube4b/ube4b_rosetta_model.pdb",
+      "sha256": "d2245f6d7cef3e57ab4646e714295fe92fa208ff6e543b16e7a3912555c387e3",
+      "bytes": 153734
+    },
+    {
+      "path": "raw/VEP/network_specs/cnn-3xk7f128.yml",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/network_specs/cnn-3xk7f128.yml",
+      "sha256": "0f755f3850961baae424cbf8fcd77d68564e7acefce00e7008b7e4108d837fba",
+      "bytes": 1183
+    },
+    {
+      "path": "raw/VEP/network_specs/fc-3xh100.yml",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/network_specs/fc-3xh100.yml",
+      "sha256": "74f0f5ab6ed1cf4df1e1e967fedf00c6b2555bf91aa3e973d43a8a573953b3c6",
+      "bytes": 937
+    },
+    {
+      "path": "raw/VEP/network_specs/gc-5xf128.yml",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/network_specs/gc-5xf128.yml",
+      "sha256": "c14c959209973bf5bba306a141ecaa9652aeacec0c53cfa956c79f29f1990572",
+      "bytes": 1139
+    },
+    {
+      "path": "raw/VEP/network_specs/lr.yml",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/network_specs/lr.yml",
+      "sha256": "58eb8a8c0428407c23d7a95073c11a662c3ade61e78b6b8ad0359c7b5453476a",
+      "bytes": 85
+    },
+    {
+      "path": "raw/VEP/requirements.txt",
+      "url": "https://raw.githubusercontent.com/SBarethiya/VEP/bdd02ad997b866cc7585144d14a00a804f092854/requirements.txt",
+      "sha256": "ff68469e20ccbba503b3d23eb94ff9aa108bd917a88542885442ba8ff9a51b71",
+      "bytes": 142
+    }
+  ]
+}

@@ -27,3 +27,12 @@ latex/render/
 /sources/accelerated/raw/
 /notes/accelerated/*
 !/notes/accelerated/*.md
+
+# Six-hour predictive physics sprint: generated/downloaded artifacts.
+/sources/sprint/raw/
+/sources/sprint/features/
+/notes/sprint/*
+!/notes/sprint/*.md
+
+# Partitions regenerate deterministically; track compact expected hashes.
+/sources/sprint/*partitions.csv

@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    10,
+    24,
+    36,
+    42,
+    56
+  ],
+  "vep_group_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "mixed_group_variants": "purged entirely",
+  "bk": "5 outer GroupKFold; inner grouped 20% validation; censor flags excluded from primary regression",
+  "benefit": "avGFP target >0.1 log10 fluorescence above WT; BK signed shifts <=-50 or >=50 mV are direction objectives, not therapeutic benefits; other VEP targets ranked by training-only 90th percentile, not asserted WT gains",
+  "model_selection": "validation only; outer test never selects features, hyperparameters, stopping or score sign",
+  "scope": "New retrospective comparison partitions, not published split reproduction or prospective validation"
+}

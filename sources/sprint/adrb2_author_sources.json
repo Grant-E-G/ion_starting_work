@@ -1,0 +1,72 @@
+{
+  "repository": "KosuriLab/b2-dms",
+  "revision": "0480bfdadd7f4ddaffd00078437292ca0193f948",
+  "resources": [
+    {
+      "path": "raw/adrb2/repo/output/class-norm-int.csv.gz",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/output/class-norm-int.csv.gz",
+      "sha256": "c9dd492b3c956fa5ad04151de7f881ea1c0ae08fc4c586b44c3f54b8caa56077",
+      "bytes": 350712
+    },
+    {
+      "path": "raw/adrb2/repo/output/lib-med.csv.gz",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/output/lib-med.csv.gz",
+      "sha256": "6dab1bdb6562e64c67f50c49d43543b5d28d09a1fad8a3316e81316b98b03406",
+      "bytes": 3029024
+    },
+    {
+      "path": "raw/adrb2/repo/output/negs-med.csv.gz",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/output/negs-med.csv.gz",
+      "sha256": "e949c0fdf80ae5f6d9e4c0f3d58b6670722db7e54bfb01070d10dad6a780afbf",
+      "bytes": 164569
+    },
+    {
+      "path": "raw/adrb2/repo/output/scalars.csv",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/output/scalars.csv",
+      "sha256": "a2750944333582457d72b4b04a77090730ed9fd329056acce6e8cbc435912c6f",
+      "bytes": 1225
+    },
+    {
+      "path": "raw/adrb2/repo/paper.Rmd",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/paper.Rmd",
+      "sha256": "7b97b08f2cf254344bb3c12b140ee494c00fb757db9d713a88d4776571bcc4d5",
+      "bytes": 70743
+    },
+    {
+      "path": "raw/adrb2/repo/ancillary/wt-key.txt",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/ancillary/wt-key.txt",
+      "sha256": "cbd8d095b968db9d284501f35ca2a6e05c9c5d39f5a7d8a7c6885b3d359ebdb2",
+      "bytes": 217
+    },
+    {
+      "path": "raw/adrb2/repo/data/ADRB2_prot.fasta",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/data/ADRB2_prot.fasta",
+      "sha256": "a66d2421e5feeeffc60afd8e24781cb72e6f3b68d7963de32a9d94c06c06b5c4",
+      "bytes": 421
+    },
+    {
+      "path": "raw/adrb2/repo/ancillary/known-mutants.txt",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/ancillary/known-mutants.txt",
+      "sha256": "4561a80b6f353f39e71105f4f7997764c2c130d5a9a6432eec73172008d407e0",
+      "bytes": 792
+    },
+    {
+      "path": "raw/adrb2/repo/ancillary/pdb/3sn6.opm.pdb",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/ancillary/pdb/3sn6.opm.pdb",
+      "sha256": "99454a50a0e8f4d2dfc7aa55c49fba5d0e9415d14dd2386def829998e1ff71fe",
+      "bytes": 1115856
+    },
+    {
+      "path": "raw/adrb2/repo/ancillary/cons/species_js.tsv",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/ancillary/cons/species_js.tsv",
+      "sha256": "8ba6af8fda2bdea43511d871cbf79d7cd3d951c84b6763841fea9ce658284320",
+      "bytes": 4130
+    },
+    {
+      "path": "raw/adrb2/repo/ancillary/EV-Mut_PLM_b08.csv",
+      "url": "https://raw.githubusercontent.com/KosuriLab/b2-dms/0480bfdadd7f4ddaffd00078437292ca0193f948/ancillary/EV-Mut_PLM_b08.csv",
+      "sha256": "648a45f833a9200bd1de65596aba642e48ac711fc347ab0c1cdb60a0ce35fbb7",
+      "bytes": 504010
+    }
+  ]
+}

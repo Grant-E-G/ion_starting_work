@@ -19,10 +19,12 @@ published measurements; it requests no new experimental training data.
 
 ## Actual local execution
 
-`nvidia-smi` could not communicate with the driver. This is an access/environment
-limitation, not evidence that the founder's RTX 3080 16GB does not exist or is
-too small. No CUDA repair campaign was attempted. The installed OpenMM build
-listed CPU/Reference platforms. **All measured work below used CPU.**
+The original sandboxed `nvidia-smi` check could not communicate with the driver.
+The subsequent [GPU verification](gpu_access.md) established that the sandbox
+hides NVIDIA devices: execution outside it works. An isolated CUDA environment
+now runs ESM-1v 650M successfully. No driver changes were needed. The original
+OpenMM build listed CPU/Reference platforms. **All measurements in the table
+below remain CPU measurements; the GPU follow-up is reported separately.**
 
 | Component | Actual measured execution | Observable and limits |
 |---|---|---|

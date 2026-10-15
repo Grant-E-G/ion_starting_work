@@ -1,0 +1,126 @@
+{
+  "repository": "enordquist/bkpred",
+  "revision": "2a176386ac4658e10c42d8cd234c710950b288fb",
+  "resources": [
+    {
+      "path": "raw/bkpred/data/scans/A.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/A.csv",
+      "sha256": "97319e87424749e35d0edc924cb8a3a944f33cb06b739402b91136dfc670b48d",
+      "bytes": 208828
+    },
+    {
+      "path": "raw/bkpred/data/scans/C.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/C.csv",
+      "sha256": "47a11d9df725802ce54eaa4c6171ccf4bb7f36b659263ccdb57a8f73430d5e5e",
+      "bytes": 207722
+    },
+    {
+      "path": "raw/bkpred/data/scans/D.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/D.csv",
+      "sha256": "455debf96505ff7a39008c7ea1e60d9d72c931cd6215e23789b482e08dd6b99c",
+      "bytes": 207738
+    },
+    {
+      "path": "raw/bkpred/data/scans/E.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/E.csv",
+      "sha256": "07b54ad2d828fb5ebfd9b947d244f5244ee7868967ccf30e24a415879623dcc3",
+      "bytes": 207939
+    },
+    {
+      "path": "raw/bkpred/data/scans/F.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/F.csv",
+      "sha256": "a15826adb8566d60f2ff24c8ed42a60d7702ce8f262779d96b679df7a14ff4db",
+      "bytes": 208686
+    },
+    {
+      "path": "raw/bkpred/data/scans/G.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/G.csv",
+      "sha256": "625a2431b7c5db604587c4c096b21657e438bf1b104f0d9d00ffb89133ccc892",
+      "bytes": 207412
+    },
+    {
+      "path": "raw/bkpred/data/scans/H.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/H.csv",
+      "sha256": "793564796935fab840ae989609eba7dda81620f4826042cc5989c7de0582bc1e",
+      "bytes": 208329
+    },
+    {
+      "path": "raw/bkpred/data/scans/I.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/I.csv",
+      "sha256": "bc6e46657ab87da91e2bf3a6ac49f0ec9d154f86cbc82b4f4e908403d796ea04",
+      "bytes": 209090
+    },
+    {
+      "path": "raw/bkpred/data/scans/K.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/K.csv",
+      "sha256": "f0b4cd0ceebc9b9e9fcfcc7b56ab2e25b87f3ad6ca6bb6cbab1f3cba7b13f71d",
+      "bytes": 208207
+    },
+    {
+      "path": "raw/bkpred/data/scans/L.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/L.csv",
+      "sha256": "3462a96a504a879e4e2b30dabe71aa13c14a70654b15d21e4f4dcf22d6755b37",
+      "bytes": 208677
+    },
+    {
+      "path": "raw/bkpred/data/scans/M.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/M.csv",
+      "sha256": "7e1ca60b2af3329621315afa7d687e7c4bdb5a94e1a688e67e8d52296511b60d",
+      "bytes": 208156
+    },
+    {
+      "path": "raw/bkpred/data/scans/N.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/N.csv",
+      "sha256": "df3d53ca28fbefb23f687682f26a543ba1055cc5d85f7f03aa85c67741ee980d",
+      "bytes": 207476
+    },
+    {
+      "path": "raw/bkpred/data/scans/P.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/P.csv",
+      "sha256": "e86de46cd7d8c25cfabe0778f0738c2fa5e2af20953f8dbf91835dadb3ec36f0",
+      "bytes": 209341
+    },
+    {
+      "path": "raw/bkpred/data/scans/Q.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/Q.csv",
+      "sha256": "2e3a0626471ff707b42a8bfa2dc105f8b9dc82f51f0e451f41c3ace6fbadfdff",
+      "bytes": 207973
+    },
+    {
+      "path": "raw/bkpred/data/scans/R.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/R.csv",
+      "sha256": "0c0da922b847a5fa6e7fd304eba25330d2c970fec4b9d8453722a6822ef5f800",
+      "bytes": 209803
+    },
+    {
+      "path": "raw/bkpred/data/scans/S.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/S.csv",
+      "sha256": "a1f2e5a3453dc7b31eac1f382e30b320d707ede5e64428e1445d567a20085c28",
+      "bytes": 206817
+    },
+    {
+      "path": "raw/bkpred/data/scans/T.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/T.csv",
+      "sha256": "5bf4dda737d733da06f88ce94948581d3e8b7fc236409679bc58ead8814a4dc9",
+      "bytes": 207498
+    },
+    {
+      "path": "raw/bkpred/data/scans/V.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/V.csv",
+      "sha256": "ae09b3ff467c1cd3c3e027b9a8bb5ef1598c4a2e6b0c266d9b3c7119784003ba",
+      "bytes": 208603
+    },
+    {
+      "path": "raw/bkpred/data/scans/W.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/W.csv",
+      "sha256": "889f8443546b4db0eaec1b6532d7fc546c30f6d47abaecf0c62f953397793618",
+      "bytes": 209520
+    },
+    {
+      "path": "raw/bkpred/data/scans/Y.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scans/Y.csv",
+      "sha256": "482555442ef69583d3c9912448611fe9c31fd37e44ba3f68df06324d5606bfde",
+      "bytes": 208744
+    }
+  ]
+}

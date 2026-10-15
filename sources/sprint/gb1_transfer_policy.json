@@ -1,0 +1,14 @@
+{
+  "primary_doi": "10.7554/eLife.16965",
+  "raw": "Original authors Mutfit I20fitRaw, input count>=10, canonical AA only; never regression_missing",
+  "important_leakage": "I20fit overwrites singles with Olson measurements times1.15868; use independently measured I20fitRaw",
+  "WT": "VDGV; raw medium-IgG enrichment relative to WT counts92735input/338346selected",
+  "observable": "mRNA-display IgG binding enrichment; not purified affinity, neuronal membrane function or direct energy",
+  "test": "Measured Hamming3/4 only; exact zero-based sites38/39/40/53 withheld from all supervised training and validation",
+  "training": "1000Olson constructs excluding all four sites;256validation constructs from same eligible old corpus, fixed hash order. No Wu labels used for fitting or model/hyperparameter selection.",
+  "selection": "Ridge alpha1/10/100/1000 or ExtraTrees300 leaf2/8 selected by old-label validation MSE; WT-zero anchor; log floor0.01 fixed",
+  "benefit": "Raw measured fitness>=1.2WT, P20/P50 and fraction of predicted gains confirmed; secondary compared to known old constituent effects",
+  "test_partition_sha256": "69a5db41affd118dc96be3b8ec4c77912973daed7b9971af121ba8524703b953",
+  "test_n": 147193,
+  "scope": "New assay and high-order combinations, same protein; not independent protein-family validation. Original Wu display construct differs from model full-length context; alignment verified only at four mutated sites and stated assay scaffold."
+}

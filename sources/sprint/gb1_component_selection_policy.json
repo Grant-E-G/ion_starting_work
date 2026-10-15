@@ -1,0 +1,8 @@
+{
+  "purpose": "Posthoc audit of whether oldvalidation can choose useful fixed physical readouts, not choosing maximumWu testP20",
+  "selection": "Existing per-family MSE-selected hyperparameters unchanged; choose family member by oldvalidationMSE or conditionalgainAP, tied byMSE",
+  "labels": "OldOlsondoubles relative to76measuredOlsonsingleparents; noWu outcome used forselection. Secondary testincrement ranking explicitly uses76Wu raw single controls",
+  "validation_positives": 6,
+  "validation_n": 433,
+  "scope": "Exploratory selection-rule audit after seeing independenttestresults; chosen rule needs another untouched experiment, no confirmatory significance claim"
+}

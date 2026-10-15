@@ -1,0 +1,6 @@
+{
+  "tag": "3b",
+  "features": "ESM3B_.*",
+  "definition": "3BWTcontext+AAembeddingdelta+maskedLLR; source3BFP16, actual650autocastFP16. Different representation protocols, not a causal puremodelsizecomparison",
+  "physical": "Same55global3DATtributes appended; no new experimental labels or partitions"
+}

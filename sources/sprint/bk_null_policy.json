@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Exact zero-effect WT invariance may remove nuisance site offsets and improve physical mutation-to-function mapping",
+  "learner": "Fixed released RF, seed1729, no hyperparameter tuning",
+  "augmentation": "One native self-mutation zero-label row per unique development site; no held-out mutant labels",
+  "anchoring": "prediction(mutant)-prediction(self-mutation at the same site), no fitted calibration",
+  "primary": "Uncensored rawmV, train+validation joined, same immutable site/publication/random test partitions",
+  "source_audit": "All473 original30-feature inputs equal published full scans exactly; native energy and hydropathy changes exactlyzero",
+  "status": "Exploratory mechanistic follow-up after initial split comparisons; not a new independent test corpus"
+}

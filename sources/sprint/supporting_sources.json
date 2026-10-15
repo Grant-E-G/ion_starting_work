@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "path": "raw/metl/finetune_avgfp_local.txt",
+      "url": "https://raw.githubusercontent.com/gitter-lab/metl/f9bfca5c6853c03adfdd2d699e297cd35693a13e/args/finetune_avgfp_local.txt",
+      "sha256": "4f0608a03e83824f3cacc9d5834596b7563387bd9b8a3cbc87890d9bc362742a",
+      "bytes": 902
+    },
+    {
+      "path": "raw/gb1_wild_type.csv",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/source_data/gb1/wild_type.csv",
+      "sha256": "9b773b415f66f62c80831b09a09da793b800b55af1de19f926ab3d15ef053a55",
+      "bytes": 46
+    },
+    {
+      "path": "raw/gb1_README.md",
+      "url": "https://raw.githubusercontent.com/gitter-lab/nn4dms/434e354828f306cbb6796033ef1169cbe5207350/source_data/gb1/README.md",
+      "sha256": "2e052c50034d8a70714937ef03f5740b7c9bb4270916cf83dbaf3536a0c2e9ed",
+      "bytes": 300
+    },
+    {
+      "path": "raw/bk_paper.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10529646/fullTextXML",
+      "sha256": "4ed9767bdfd8c6bf03eee03de9bfe568bb14c5a6d9035c0baa131704ed36ebb1",
+      "bytes": 288682
+    },
+    {
+      "path": "../accelerated/raw/bk_data_scores.csv",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/scores.csv",
+      "sha256": "f4894a989f0abe5a27c553dd5f137e632452b8a8a5bf16a37f1ad3b150f7a8fb",
+      "bytes": 122098
+    },
+    {
+      "path": "../accelerated/raw/bk_data_BK_mutations.xlsx",
+      "url": "https://raw.githubusercontent.com/enordquist/bkpred/2a176386ac4658e10c42d8cd234c710950b288fb/data/BK_mutations.xlsx",
+      "sha256": "e06e05d469f282712b0e4986bfd0f8266a50ff47a612d6805da1c485475d4488",
+      "bytes": 98793
+    },
+    {
+      "path": "raw/bk_V236A_primary.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3813383/fullTextXML",
+      "sha256": "ad21166bcd604b2a21f725c1092672cc2ed12b114fc07e571e2d2045307d052d",
+      "bytes": 147851
+    }
+  ]
+}

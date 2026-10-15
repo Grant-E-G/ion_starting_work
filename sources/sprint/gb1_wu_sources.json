@@ -1,0 +1,36 @@
+{
+  "revision": "dbdd7639187e0b8f22359f404ce4d1d950fcc8a9",
+  "resources": [
+    {
+      "path": "raw/gb1_wu2016/result/Mutfit",
+      "url": "https://raw.githubusercontent.com/wchnicholas/ProteinGFourMutants/dbdd7639187e0b8f22359f404ce4d1d950fcc8a9/result/Mutfit",
+      "sha256": "fef5c2267d72a2a4520a444aa68ce358492b49fcbeaf222f42a9a3f2a21a4552",
+      "bytes": 13837211
+    },
+    {
+      "path": "raw/gb1_wu2016/result/WTcount",
+      "url": "https://raw.githubusercontent.com/wchnicholas/ProteinGFourMutants/dbdd7639187e0b8f22359f404ce4d1d950fcc8a9/result/WTcount",
+      "sha256": "95e9e3cfcac9b34fd3da35b13412915d2c12af884d33355ef21273e1b006abbd",
+      "bytes": 65
+    },
+    {
+      "path": "raw/gb1_wu2016/script/Mapper5_NW.py",
+      "url": "https://raw.githubusercontent.com/wchnicholas/ProteinGFourMutants/dbdd7639187e0b8f22359f404ce4d1d950fcc8a9/script/Mapper5_NW.py",
+      "sha256": "7823ecff912d835bbee02648ca10451f4c742bbb4ed44bd8ffe684e4cb3dfc4a",
+      "bytes": 3569
+    },
+    {
+      "path": "raw/gb1_wu2016/Fasta/SeqInfo.fa",
+      "url": "https://raw.githubusercontent.com/wchnicholas/ProteinGFourMutants/dbdd7639187e0b8f22359f404ce4d1d950fcc8a9/Fasta/SeqInfo.fa",
+      "sha256": "aef8464c3a2c51cf5fca0b6f87fae76d1b4c1fa0457ef255267a98c59cbf9ca8",
+      "bytes": 145
+    },
+    {
+      "path": "raw/gb1_wu2016/README.md",
+      "url": "https://raw.githubusercontent.com/wchnicholas/ProteinGFourMutants/dbdd7639187e0b8f22359f404ce4d1d950fcc8a9/README.md",
+      "sha256": "4a225a76291129e48850c941ddf53fce501aa81ab4791ea86ea36edaf0ff4093",
+      "bytes": 13814
+    }
+  ],
+  "primary_doi": "10.7554/eLife.16965"
+}

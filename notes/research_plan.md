@@ -38,3 +38,8 @@ Limited-data prediction of a specified functional phenotype, demonstrated prospe
 6. Advance to candidate hypotheses only if data quality and retrospective signal justify them; preserve negative findings.
 
 No models were run or optimized variants proposed during the feasibility phase.
+
+
+## 2026-10-14 six-hour predictive-physics sprint
+
+Preserve OmpF. Reproduce Barethiya et al. 2026 and BKpred using published data, then compare mutation-specific physical features against GPU pretrained sequence features on frozen grouped holdouts. Test cheap local energy generation only with a falsifiable accuracy/cost hypothesis. No experimental target commitment, purchases or new C5R requests. Produce executable comparisons and distinguish implementation, approximation and evidence failures.

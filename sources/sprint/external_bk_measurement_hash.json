@@ -1,0 +1,25 @@
+{
+  "sha256": "0e856795819a152ad767ddca5a02469675111694ec1460f62b47ba6e8141a717",
+  "constructs_zeroCa": 12,
+  "new_genotypes_zeroCa": 10,
+  "new_gating_shifts": 4,
+  "new_shifts_slope_retained": 3,
+  "mutations": [
+    "I233V",
+    "V236S",
+    "N237K",
+    "L247F",
+    "I253L",
+    "L302A",
+    "L302I",
+    "M304A",
+    "M304I",
+    "I308T",
+    "G311S",
+    "L312A",
+    "S317N",
+    "V319I",
+    "I322M",
+    "I323V"
+  ]
+}

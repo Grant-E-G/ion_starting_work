@@ -1,0 +1,135 @@
+{
+  "session": "2026-10-14 six-hour sprint",
+  "datasets": [
+    {
+      "dataset": "avgfp",
+      "labels": "raw/VEP/data/avgfp/avgfp.tsv",
+      "label_sha256": "a7a7a44935d32aedd3b7606941e264f0b1e6e1fc4e1428758db0de50b9850cd2",
+      "sequence": "SKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+      "sequence_length": 237,
+      "mutation_index_offset": 0,
+      "structure": "raw/VEP/data/avgfp/avgfp_rosetta_model.pdb",
+      "structure_sha256": "9a4483233e81cf93b80bc7473fc87def69161b93992e88754cffd7db8bc2ee0c",
+      "physical_features": "Released mutant-minus-WT Rosetta8terms and WT RMSF; EvoEF2 newly generated matched-repacking deltas where present",
+      "functional_scope": "log10fluorescence relative to supplied WT; gain>=0.1log10"
+    },
+    {
+      "dataset": "bgl3",
+      "labels": "raw/VEP/data/bgl3/bgl3.tsv",
+      "label_sha256": "7b757a4bd03360f718fae55968963f377b2112135d7c739772f9bdcec3268125",
+      "sequence": "MVPAAQQTAMAPDAALTFPEGFLWGSATASYQIEGAAAEDGRTPSIWDTYARTPGRVRNGDTGDVATDHYHRWREDVALMAELGLGAYRFSLAWPRIQPTGRGPALQKGLDFYRRLADELLAKGIQPVATLYHWDLPQELENAGGWPERATAERFAEYAAIAADALGDRVKTWTTLNEPWCSAFLGYGSGVHAPGRTDPVAALRAAHHLNLGHGLAVQALRDRLPADAQCSVTLNIHHVRPLTDSDADADAVRRIDALANRVFTGPMLQGAYPEDLVKDTAGLTDWSFVRDGDLRLAHQKLDFLGVNYYSPTLVSEADGSGTHNSDGHGRSAHSPWPGADRVAFHQPPGETTAMGWAVDPSGLYELLRRLSSDFPALPLVITENGAAFHDYADPEGNVNDPERIAYVRDHLAAVHRAIKDGSDVRGYFLWSLLDNFEWAHGYSKRFGAVYVDYPTGTRIPKASARWYAEVARTGVLPTAGDPNSSSVDKLAAALEHHHHHH",
+      "sequence_length": 501,
+      "mutation_index_offset": 0,
+      "structure": "raw/VEP/data/bgl3/bgl3_rosetta_model.pdb",
+      "structure_sha256": "6d8de70d9610e72bcdb9ccd5434e2a8d6205f3091b66a871bdb2ac90ed497c5f",
+      "physical_features": "Released mutant-minus-WT Rosetta8terms and WT RMSF; EvoEF2 newly generated matched-repacking deltas where present",
+      "functional_scope": "Published functional fitness proxy; WT improvement reference unverified here"
+    },
+    {
+      "dataset": "gb1",
+      "labels": "raw/VEP/data/gb1/gb1.tsv",
+      "label_sha256": "d873a4be7e4b60a4beae21effca3308ba8fd8ac7886cf32457f447dbe5137afb",
+      "sequence": "MQYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+      "sequence_length": 56,
+      "mutation_index_offset": 0,
+      "structure": "raw/VEP/data/gb1/2qmt.pdb",
+      "structure_sha256": "b2496802e78c36545e1c3b4a136e90c0b9864b382d62d1ce3c3a02340ae2e1d6",
+      "physical_features": "Released mutant-minus-WT Rosetta8terms and WT RMSF; EvoEF2 newly generated matched-repacking deltas where present",
+      "functional_scope": "mRNA-display IgG binding enrichment; WT counts independently reconstructed; gain>=1.2WT"
+    },
+    {
+      "dataset": "pab1",
+      "labels": "raw/VEP/data/pab1/pab1.tsv",
+      "label_sha256": "dcd8bb7a23c37528bc6c584a19c9bf937a5a753557c1d0acf21f907c6771aa62",
+      "sequence": "GNIFIKNLHPDIDNKALYDTFSVFGDILSSKIATDENGKSKGFGFVHFEEEGAAKEAIDALNGMLLNGQEIYVAP",
+      "sequence_length": 75,
+      "mutation_index_offset": 126,
+      "structure": "raw/VEP/data/pab1/pab1_rosetta_model.pdb",
+      "structure_sha256": "45d6a591b050e4e42da357a086273879877ed3be2b22a78cf10fc5b235974843",
+      "physical_features": "Released mutant-minus-WT Rosetta8terms and WT RMSF; EvoEF2 newly generated matched-repacking deltas where present",
+      "functional_scope": "Published functional fitness proxy; WT improvement reference unverified here"
+    },
+    {
+      "dataset": "ube4b",
+      "labels": "raw/VEP/data/ube4b/ube4b.tsv",
+      "label_sha256": "f165c1a1dcd05228c4fb70d2656d6bcb3d1d8067ce322cd125f95123989ce0e2",
+      "sequence": "IEKFKLLAEKVEEIVAKNARAEIDYSDAPDEFRDPLMDTLMTDPVRLPSGTVMDRSIILRHLLNSPTDPFNRQMLTESMLEPVPELKEQIQAWMREKQSSDH",
+      "sequence_length": 102,
+      "mutation_index_offset": 0,
+      "structure": "raw/VEP/data/ube4b/ube4b_rosetta_model.pdb",
+      "structure_sha256": "d2245f6d7cef3e57ab4646e714295fe92fa208ff6e543b16e7a3912555c387e3",
+      "physical_features": "Released mutant-minus-WT Rosetta8terms and WT RMSF; EvoEF2 newly generated matched-repacking deltas where present",
+      "functional_scope": "Published functional fitness proxy; WT improvement reference unverified here"
+    },
+    {
+      "dataset": "BKpred",
+      "mutants": 473,
+      "unique_sites": 247,
+      "numeric_records": 445,
+      "censor_flags": 28,
+      "phenotype": "Published deltaVhalf mV at nominal zeroCa, voltage-fit endpoints partly extrapolated; not channel conductance",
+      "WT": "Human structural reference, mixed source species339mouse/133human/1rat; auxiliary/isoform context incompletely resolved",
+      "structure_states": {
+        "closed": "6V3G chainA",
+        "open": "6V38 chainA"
+      },
+      "structure_hashes": {
+        "6V3G": "7aa5bcd2e02955cdc42d9cad68dfc25829596733f1a2440829a1ec8eb9f052c9",
+        "6V38": "064e947b824902ff1efff358183a599a94a8869d9656bb0eaa57e0ab98518bc5"
+      },
+      "normalization": "RawmV for new numeric regression; original published target200tanh(mV/200) reproduced separately",
+      "numbering": "All473WT residue identities aligned to common human reference; full source isoform/background equivalence not established",
+      "controls": "WT-zero anchoring; known-source/site means;13verifiedbeta1measurements; matchedWTrepacking; source-connected publication groups",
+      "detail": "notes/sprint/bk_published_data_audit.json and bk_condition_audit.json"
+    },
+    {
+      "dataset": "ADRB2",
+      "measurements": "notes/sprint/adrb2_measurements.csv",
+      "measurement_sha256": "a0ea608e70205e03580740f70d3bb2d2ac033dfcf962a1d62e9622ef5ffacd7b",
+      "rows": 7799,
+      "phenotype": "CRE/cAMPwhole-cell signaling proxy at0/.15/.625/5uMisoproterenol, two biological repeats; includes expression effects",
+      "WT": "Percondition/perrepeat synonymouscontrolmean; Norm1isnotWT",
+      "numbering": "CanonicalP07550; authorFASTAomitsinitialM/endsstop; native positions verified",
+      "structures": "2RH1chainA and3SN6chainR common272native residues, fusion/engineered/missingresidues excluded",
+      "quality": "Atleast3barcodes per repeat/condition plus published finitePCV<1",
+      "benefit": "Bothrepeat>=1.2WTactivity; jointbasal<=1.2WTandsaturated>=.8WT",
+      "independence": "Independent new membrane observable; five training subsamples share ONE fixed testsitepartition, not five independent test sets"
+    },
+    {
+      "dataset": "BKexternal2024",
+      "measurements": "notes/sprint/external_bk_measurements.csv",
+      "measurement_sha256": "0e856795819a152ad767ddca5a02469675111694ec1460f62b47ba6e8141a717",
+      "rows": 15,
+      "phenotype": "InsideoutHEK293humanSlo1voltagegating at0/25uMCa, apparentBoltzmannslope",
+      "WT": "AAB65837 first1056residuesidenticalto1065structuralreference; allmutationwindowsidentical, divergentCterminaltailunmodeled",
+      "primary": "10novel0Ca genotypes;2oldsinglecontrols andhighCaexcluded",
+      "benefit": "Fourleftgain>=50allinheritL312A;3retainslope>=.8WT; compareincrementtomatchedL312A, notWTalone",
+      "provenance": "PMC11309983Table1, sources/sprint/external_bk_sources.json"
+    },
+    {
+      "dataset": "GB1Wu2016",
+      "measurements": "notes/sprint/gb1_transfer_measurements.csv",
+      "measurement_sha256": "f1b707ff83a7826cab06a90c2baa5f2656c08a5f3ff6c013a1b1cec0e4d848a5",
+      "rows": 149361,
+      "phenotype": "mRNA-displaymediumIgGenrichment; experimentalconditiontransferfromOlsonnotexactlyequivalent",
+      "WT": "VDGV counts92735input/338346selected",
+      "data": "OriginalauthorsMutfitI20fitRaw, canonicalAAandinput>=10; neverimputedregression_missing; processedI20fitsinglesreuseOlsonsoexcluded",
+      "test": "Hamming3/4only, fourzero-basedsites38/39/40/53excludedfromalltrainandval",
+      "uncertainty": "ReadcountPoissonsecondarysupportonly, no biologicalreplication/multiplicitycertificate"
+    },
+    {
+      "dataset": "Kir2.1 paired function/surface",
+      "measurements": "notes/sprint/kir_transfer_measurements.csv",
+      "measurement_sha256": "adf03c80aad736a961e36aa12e3ae844760c2ae1586cf53373d57adb9855ae4a",
+      "rows": 6789,
+      "phenotype": "HEK voltage-dye function and surface-expression proxies, WT-reference median normalized; not direct conductance",
+      "structure": "AF-P35561-F1-model_v6 exact native sequence, predicted WT monomer",
+      "structure_sha256": "e8325e0ef66249f39a085f9492713b90647ddfb368b8b7dea30f1195f43ba92b",
+      "partition": "Unchanged sources/predictive/partitions.csv; same construct/site assignment for both endpoints",
+      "unfinished": "Six architecture-matched random feature caches generated; functional readouts not evaluated"
+    }
+  ],
+  "source_manifests": "sources/sprint/*sources.json and model/weight manifests",
+  "frozen_OmpF": "NoOmpFcode,dataorresultchanges; existing accelerated/audit.py checks frozen hashes",
+  "interpretation": "All results retrospective. Newly explored model families on inspected corpora are exploratory; no target selected or new biological experiments."
+}

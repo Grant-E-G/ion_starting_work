@@ -1,0 +1,10 @@
+{
+  "hypothesis": "Earlier extrapolation withheld all four mutation sites. Calibrating function on existing component singles/doubles may allow physical readouts to predict higher-order interactions; must beat empirical/additive/pairwise/kernel controls",
+  "data": "All2242existingOlsonsingle/doubleconstructs atfour sites; no Wu function label used in fit/selection",
+  "partition_sha256": "6b2aca96f246b047e0ab02974a1f03b3536d18113b9870dc770f7f6433e532fe",
+  "validation": "Label-blind hash20%old doubles; all76singles training; settings chosen only using oldvalidationMSE, then refitall2242",
+  "test": "Previously frozen147193measuredWuI20fitRawtriple/quadruples, noimputed scores",
+  "models": "WT-zero anchoredRidgealpha1/10/100/1000; ExtraTrees300leaf2/8 whenfeatures<=500; Hammingexpkernelbeta.25/.5/1/2 andRidgealpha.01/.1/1/10",
+  "controls": "Siteonehotadditive; pairwiseonehot; kernel has no physical terms; measured oldsingle/pairexpansions preserved separately",
+  "scope": "Exploratory followup after inspecting zero-site-calibration transfer failure; not an additional blind test or free-label prospective result. Uses2242existingexperimental labels."
+}

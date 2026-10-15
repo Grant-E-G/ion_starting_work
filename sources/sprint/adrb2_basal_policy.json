@@ -1,0 +1,8 @@
+{
+  "scope": "Secondary mechanistic experiment, predeclared before basal ranking; primary potency/quiet-basal objective unchanged",
+  "hypothesis": "A ligand-free state-energy surrogate should be better matched to basal activation than to ligand sensitivity",
+  "basal_gain": "Both biological repeat basal activity >=1.5 times their matched synonymous WT reference",
+  "constraint": "Both repeat 5uM saturated activity >=0.8 times reference",
+  "partition": "Reuse fixed native-site train/validation/test; no threshold tuning to observed positive counts",
+  "interpretation": "Reporter gain, not proven intrinsic receptor efficacy; expression remains a confounder"
+}

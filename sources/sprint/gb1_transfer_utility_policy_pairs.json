@@ -1,0 +1,9 @@
+{
+  "hypothesis": "WT-gain enrichment can inherit known beneficial parents; test higher-order improvements beyond the best independently measured single parent and rescue of nonbeneficial singles",
+  "parents": "All measuredRAW Wu single/double proper parents; require every constituent measurement; processedI20fit ignored",
+  "model_training": "Existing transfer models unchanged; rawWu single controls were not used to fit model coefficients/hyperparameters",
+  "rankings": "Plain predictedfunction and secondary predictedincrement using allmeasuredsingle/doublecontrols; existingpublished data, notfreeprospectiveinputs",
+  "utility": "Actualfitness>=1.2*max(1,componentrawsinglefitness); rescue subset allcomponentrawsingle<=1 and combinedfitness>=1.2",
+  "scope": "Posthoc fixed-threshold failure analysis of inspected independent dataset; not a new blind test or biological significance certificate. Single-controls are experimental information, not free prospective labels.",
+  "parent_order": 2
+}

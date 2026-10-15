@@ -1,0 +1,60 @@
+{
+  "source": "Barethiya2026 S2Table, primary supplemental workbook s018; base values with positional/mutational overrides",
+  "configurations": {
+    "avgfp:site:cnn": {
+      "layers": 5,
+      "filters": 128,
+      "kernel": 17,
+      "batch_size": 64,
+      "learning_rate": 0.001
+    },
+    "avgfp:mutation:cnn": {
+      "layers": 5,
+      "filters": 128,
+      "kernel": 17,
+      "batch_size": 128,
+      "learning_rate": 0.001
+    },
+    "avgfp:site:gcn": {
+      "layers": 1,
+      "filters": 128,
+      "batch_size": 1024,
+      "learning_rate": 0.001
+    },
+    "avgfp:mutation:gcn": {
+      "layers": 2,
+      "filters": 128,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "pab1:site:cnn": {
+      "layers": 1,
+      "filters": 32,
+      "kernel": 7,
+      "batch_size": 1024,
+      "learning_rate": 0.0001
+    },
+    "pab1:mutation:cnn": {
+      "layers": 1,
+      "filters": 128,
+      "kernel": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001
+    },
+    "pab1:site:gcn": {
+      "layers": 1,
+      "filters": 256,
+      "batch_size": 1024,
+      "learning_rate": 0.0001
+    },
+    "pab1:mutation:gcn": {
+      "layers": 3,
+      "filters": 32,
+      "batch_size": 64,
+      "learning_rate": 0.001
+    }
+  },
+  "initialization": "TF layers Glorot uniform/zero biases; GCN literal released initializer uniform +/-1/sqrt(product(shape)), which is NOT standard He",
+  "target": "Released raw scores; GFP converted back to WT-relative units for reporting",
+  "limits": "New strict partitions, epoch cap/patience; no exact published held-out metrics claim"
+}

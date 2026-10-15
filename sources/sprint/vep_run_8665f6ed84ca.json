@@ -1,0 +1,26 @@
+{
+  "datasets": [
+    "pab1",
+    "avgfp"
+  ],
+  "architectures": [
+    "cnn",
+    "gcn"
+  ],
+  "features": [
+    "sequence",
+    "rosetta_rmsf",
+    "esm2_35m",
+    "esm2_35m_rosetta_rmsf"
+  ],
+  "protocols": [
+    "site",
+    "mutation"
+  ],
+  "seeds": [
+    42
+  ],
+  "train_limit": 1000,
+  "epochs": 60,
+  "batch_size": 128
+}

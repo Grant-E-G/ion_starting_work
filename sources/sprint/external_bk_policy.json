@@ -1,0 +1,26 @@
+{
+  "publication": "Transmembrane determinants of voltage-gating differences between BK(Slo1) and Slo3 channels,2024,PMC11309983,Table1",
+  "experimental_construct": "Human Slo1 GenBankAAB65837 in pcDNA6, HEK293 cells, inside-out patches; point variants only, chimeras excluded",
+  "primary": "Zero intracellularCa, subtract matched WT169+/-3mV; exclude exact genotype overlap with473trainingmutants",
+  "test_genotypes": [
+    "I233V,L312A",
+    "V236S,N237K,L312A",
+    "L247F,L312A",
+    "I253L,L312A",
+    "L302I",
+    "M304I",
+    "L302A",
+    "I308T",
+    "S317N,V319I",
+    "I322M,I323V"
+  ],
+  "overlap_controls": [
+    "L312A",
+    "M304A"
+  ],
+  "other_conditions": "25uM calcium multi-mutants retained in manifest, never graded as zeroCa functional predictions",
+  "utility": "Leftward shift>=50mV, secondary apparent Boltzmann slope>=80%matchedWT; no clinical benefit claim and apparentz is not totalgatingcharge",
+  "strong_baseline": "Known-parent-only prediction uses only pre2023trainingconstituents; unknown constituents are not treated as measured neutral singles",
+  "limitation": "Small targeted panel: four gain combinations share L312A. Success recognizing that parent is insufficient to show prediction of new improvements; no combo improves matched L312A by>=10mV.",
+  "status": "Independent-publication retrospective evaluation; source labels read during curation, no external labels used for fitting/model tuning"
+}

@@ -1,0 +1,15 @@
+{
+  "hypothesis": "Does physical pretraining improve joint-gain selection beyond the same architecture with random weights?",
+  "initialization": "Fresh officialMETLconstructor from exact sourcecheckpoint hyperparameters; never genericrecursive reset_parameters",
+  "seeds": [
+    1729,
+    2718,
+    3141
+  ],
+  "architectures": [
+    "global1d",
+    "global3d"
+  ],
+  "readout": "Same frozen native-site/region partitions, label budgets and validation-selected Ridge/logistic; report all random seeds rather than best testseed",
+  "scope": "Matched architecture control, no new foundation training or experimental labels; inspected benchmark, exploratory attribution test"
+}

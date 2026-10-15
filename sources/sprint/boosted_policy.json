@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Energy information may be nonlinear and obscured by large sequence dimensionality",
+  "sequence_projection": "Training-only StandardScaler plus randomizedPCA32, randomseed=fold, retaining cheap AA/hydropathy/conservation features separately",
+  "classifier": "Histogram gradient boosting, lr.05,150iterations,minleaf10,classbalanced,no internal early stopping",
+  "grid": "7/15 leaf nodes x L2=1/10, validation AP then logloss",
+  "data": "Same strict site/publication-component partitions and uncensored445 source mutants; validation is not joined to training",
+  "utility": "Signed shifts>=50mV, not established therapeutic benefit",
+  "status": "Exploratory learner-family test on an already inspected corpus; no new independent validation"
+}
