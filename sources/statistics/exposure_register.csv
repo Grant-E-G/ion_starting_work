@@ -1,0 +1,9 @@
+corpus,current_tier,evidence,exposure_note,protected_available,historical_run_coverage
+OmpF,E0/E1,notes/ompf/decision_report.md,Numerical feasibility and inspected conductance benchmark; preserve freeze.,no,incomplete; do not reconstruct invented run records
+ChR recombinations,E1,notes/predictive/decision_report.md,Inspected parent-library and generation comparisons; not prospective point-mutant transfer.,no,incomplete; do not reconstruct invented run records
+MscL,E1,notes/predictive/decision_report.md,Tiny inspected site-transfer dataset; no survival prediction validation.,no,incomplete; do not reconstruct invented run records
+BK/BK2024,E1,notes/sprint/decision_report.md,"Inspected sites/publications, multiple methods and known-parent analyses.",no,incomplete; do not reconstruct invented run records
+Kir2.1,E1,notes/sprint/external_review.md,Repeated inspected function/surface tests; random-architecture readout controls unrun.,no,incomplete; do not reconstruct invented run records
+GB1/METL,E1,notes/sprint/external_review.md,Repeated models/ranking rules; higher-order utility audit followed test inspection.,no,incomplete; do not reconstruct invented run records
+GFP/other VEP,E1,notes/sprint/decision_report.md,Repeated adaptation/feature comparisons; percentile endpoints not automatically WT gains.,no,incomplete; do not reconstruct invented run records
+ADRB2,E1,notes/sprint/decision_report.md,Inspected single test partition with few gain events.,no,incomplete; do not reconstruct invented run records

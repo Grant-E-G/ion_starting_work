@@ -1,5 +1,14 @@
 # Ion-channel optimization proof of concept
 
+## Current priority — October 20, 2026
+
+Integrate [statistical controls](statistics/workflow.md) before further model
+selection or experimental design. Existing inspected benchmark results remain
+exploratory. Freeze primary utility, grouping, baselines, stopping and complete
+analysis before protected evaluation or prospective outcomes. The statistical
+workflow states implemented controls and unfinished milestones. No target or
+biological panel is selected. Earlier phase recommendations below are historical.
+
 Updated October 13, 2026. Current phase: modeling feasibility before revisiting target/readout choice.
 
 The [local protein-model benchmark](protein_model_benchmark.md) compares ESM-2 650M, ESM C 600M and AMPLIFY 350M on the user's RTX 3080 16 GB. All pass local inference and adapter optimization. None provides convincing direct likelihood-to-transport ranking on the six-mutant diagnostic. Next determine whether compatible phenotype data supports directional prediction and fine-tuning; model choice and GtACR2 selection remain open. The original feasibility-first statement below describes the prior phase.

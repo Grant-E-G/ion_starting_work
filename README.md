@@ -57,3 +57,10 @@ The interrupted predictive-physics sprint is frozen for external review. See the
 [quantitative appendix](notes/sprint/quantitative_results.md), and
 [execution instructions](code/experiments/sprint/README.md).
 Downloaded weights, raw caches and generated predictions remain ignored by Git.
+
+## Statistical controls for new work
+
+Use the [statistical workflow](notes/statistics/workflow.md) and
+[claim/audit instructions](code/checks/statistics/README.md) for new analyses.
+Existing inspected benchmarks remain development evidence; see the
+[exposure register](sources/statistics/exposure_register.csv).

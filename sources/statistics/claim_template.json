@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "hypothesis_id": "REPLACE",
+  "evidence_tier": "E1",
+  "purpose": "development",
+  "exposure": "previously_inspected",
+  "evaluator": "REPLACE",
+  "claim": "REPLACE",
+  "endpoint": "REPLACE",
+  "assay_conditions": "REPLACE",
+  "reference_parent": "REPLACE",
+  "target_population": "REPLACE",
+  "generalization": "REPLACE",
+  "primary_metric": "REPLACE",
+  "minimum_useful_effect": "REPLACE",
+  "effect_rationale": "REPLACE",
+  "constraints": [
+    "REPLACE"
+  ],
+  "baselines": [
+    "unchanged measured parent",
+    "REPLACE"
+  ],
+  "selection_procedure": "REPLACE",
+  "candidate_pool": "REPLACE",
+  "grouping_columns": [
+    "site"
+  ],
+  "resampling_unit": "REPLACE",
+  "minimum_positive_groups": "REPLACE",
+  "uncertainty_method": "REPLACE",
+  "multiplicity_family": "REPLACE",
+  "multiplicity_method": "REPLACE",
+  "stopping_rule": "fixed sample size; REPLACE",
+  "missing_censored_policy": "REPLACE",
+  "success_rule": "REPLACE",
+  "failure_rule": "REPLACE",
+  "budget": "REPLACE",
+  "preprocessing_fit_scope": "training_only",
+  "protected_access": "not_isolated",
+  "artifacts": {
+    "predictions": "REPLACE",
+    "partitions": "REPLACE",
+    "analysis": "REPLACE",
+    "data_provenance": "REPLACE",
+    "weights_provenance": "REPLACE"
+  },
+  "partition_columns": {
+    "id": "construct_id",
+    "split": "split",
+    "allowed": [
+      "train",
+      "validation",
+      "test"
+    ]
+  }
+}
